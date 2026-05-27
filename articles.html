@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Articles | RWAToday.news</title>
+<meta name="description" content="Every article published by RWAToday.news — the insider publication for real-world asset tokenization. Markets, institutional, regulation, protocols, and utility coverage.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rwatoday.news/articles.html">
+<meta property="og:title" content="All Articles | RWAToday.news">
+<meta property="og:description" content="Every article published by RWAToday.news — real-world asset tokenization coverage.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rwatoday.news/articles.html">
+<meta property="og:site_name" content="RWAToday.news">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@RWAToday">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Archivo+Narrow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --black:#080E0A; --ink:#0D1A10; --surface:#112418; --surface2:#163020;
+  --border:#1E4028; --border2:#265235; --gold:#3DAA6E; --gold-light:#5DC48A;
+  --text:#E8F2EC; --text2:#A8C4B2; --muted:#5A8068; --white:#F0F4FA; --red:#E8384A; --green:#00C896;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--black); color:var(--text); font-family:'Archivo',sans-serif; font-size:14px; line-height:1.6; overflow-x:hidden; }
+
+/* NAV */
+.top-nav { background:rgba(8,14,10,0.97); border-bottom:1px solid var(--border); padding:0 40px; display:flex; align-items:center; justify-content:space-between; height:60px; position:sticky; top:0; z-index:50; backdrop-filter:blur(10px); }
+.nav-logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+.nav-logo-mark { width:32px; height:32px; background:#1F6B3E; border-radius:50%; display:flex; align-items:center; justify-content:center; border:1.5px solid #3DAA6E; font-family:'Bebas Neue',sans-serif; font-size:14px; color:#fff; }
+.nav-subscribe { background:#3DAA6E; color:#fff; border:none; padding:7px 18px; font-family:'Bebas Neue',sans-serif; font-size:14px; letter-spacing:1.5px; cursor:pointer; text-decoration:none; display:inline-block; }
+
+/* PAGE HEADER */
+.page-header { max-width:900px; margin:0 auto; padding:48px 32px 32px; border-bottom:1px solid var(--border); }
+.page-header .kicker { font-family:'Archivo Narrow',sans-serif; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#3DAA6E; margin-bottom:10px; }
+.page-header h1 { font-family:'Bebas Neue',sans-serif; font-size:40px; letter-spacing:1px; color:var(--white); margin-bottom:8px; }
+.page-header p { font-size:14px; color:var(--muted); }
+
+/* FILTER TABS */
+.filter-bar { max-width:900px; margin:0 auto; padding:20px 32px 0; display:flex; gap:8px; flex-wrap:wrap; }
+.filter-btn { font-family:'Archivo Narrow',sans-serif; font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; padding:6px 14px; border:1px solid var(--border); background:none; color:var(--muted); cursor:pointer; transition:all 0.2s; border-radius:2px; }
+.filter-btn:hover { border-color:#3DAA6E; color:#3DAA6E; }
+.filter-btn.active { background:rgba(61,170,110,0.12); border-color:#3DAA6E; color:#3DAA6E; }
+
+/* ARTICLE LIST */
+.article-list { max-width:900px; margin:0 auto; padding:24px 32px 80px; }
+
+.article-group { margin-bottom:40px; }
+.group-label { font-family:'Bebas Neue',sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--muted); padding-bottom:10px; border-bottom:1px solid var(--border); margin-bottom:0; display:flex; align-items:center; gap:10px; }
+.group-label::after { content:''; flex:1; height:1px; background:var(--border); }
+
+.article-row { display:flex; align-items:flex-start; gap:20px; padding:20px 0; border-bottom:1px solid rgba(30,64,40,0.5); text-decoration:none; transition:background 0.2s; }
+.article-row:hover { background:rgba(61,170,110,0.04); }
+.article-row:last-child { border-bottom:none; }
+
+.ar-num { font-family:'Bebas Neue',sans-serif; font-size:28px; color:var(--border2); line-height:1; flex-shrink:0; width:36px; padding-top:2px; }
+.article-row:hover .ar-num { color:#3DAA6E; }
+
+.ar-content { flex:1; }
+.ar-cat { font-family:'Archivo Narrow',sans-serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#3DAA6E; margin-bottom:5px; }
+.ar-title { font-family:'Archivo',sans-serif; font-size:16px; font-weight:700; color:var(--text); line-height:1.35; margin-bottom:6px; }
+.article-row:hover .ar-title { color:#3DAA6E; }
+.ar-excerpt { font-size:13px; color:var(--text2); line-height:1.6; margin-bottom:8px; }
+.ar-meta { font-family:'Archivo Narrow',sans-serif; font-size:11px; color:var(--muted); display:flex; gap:12px; flex-wrap:wrap; }
+
+.ar-arrow { font-size:20px; color:var(--border2); flex-shrink:0; padding-top:4px; transition:color 0.2s; }
+.article-row:hover .ar-arrow { color:#3DAA6E; }
+
+/* NEWSLETTER BAND */
+.newsletter-band { background:var(--surface2); border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:32px 40px; margin-top:20px; }
+.nb-inner { max-width:900px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+.nb-heading { font-family:'Bebas Neue',sans-serif; font-size:22px; letter-spacing:2px; color:#3DAA6E; margin-bottom:6px; }
+.nb-sub { font-size:13px; color:var(--text2); }
+.nb-form { display:flex; gap:10px; }
+.nb-input { flex:1; background:var(--ink); border:1px solid var(--border2); color:var(--text); padding:11px 16px; font-family:'Archivo',sans-serif; font-size:13px; outline:none; }
+.nb-input:focus { border-color:#3DAA6E; }
+.nb-input::placeholder { color:var(--muted); }
+.nb-btn { background:#3DAA6E; color:#fff; border:none; padding:11px 22px; font-family:'Bebas Neue',sans-serif; font-size:15px; letter-spacing:1.5px; cursor:pointer; white-space:nowrap; }
+
+/* FOOTER */
+.page-footer { background:var(--ink); border-top:1px solid var(--border); padding:32px 40px 20px; }
+.pf-inner { max-width:900px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+.pf-logo { font-family:'Bebas Neue',sans-serif; font-size:18px; }
+.pf-links { display:flex; gap:20px; flex-wrap:wrap; }
+.pf-links a { font-family:'Archivo Narrow',sans-serif; font-size:12px; color:var(--muted); text-decoration:none; letter-spacing:0.5px; }
+.pf-links a:hover { color:#3DAA6E; }
+.pf-copy { max-width:900px; margin:16px auto 0; padding-top:16px; border-top:1px solid var(--border); font-family:'Archivo Narrow',sans-serif; font-size:11px; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+
+/* MOBILE BOTTOM NAV */
+.mobile-bottom-nav { display:none; position:fixed; bottom:0; left:0; right:0; background:rgba(10,20,12,0.97); border-top:1px solid var(--border); backdrop-filter:blur(10px); padding:10px 20px; z-index:200; justify-content:space-between; align-items:center; gap:12px; }
+.mbn-back { display:flex; align-items:center; gap:6px; background:rgba(61,170,110,0.12); border:1px solid rgba(61,170,110,0.3); color:#3DAA6E; padding:8px 14px; font-family:'Bebas Neue',sans-serif; font-size:13px; letter-spacing:1px; border-radius:2px; text-decoration:none; }
+.mbn-logo { font-family:'Bebas Neue',sans-serif; font-size:16px; color:#fff; text-decoration:none; }
+.mbn-subscribe { background:#3DAA6E; color:#fff; padding:8px 14px; font-family:'Bebas Neue',sans-serif; font-size:13px; letter-spacing:1px; border-radius:2px; text-decoration:none; }
+
+@media (max-width:768px) {
+  .top-nav { padding:0 16px; height:52px; }
+  .page-header { padding:28px 16px 20px; }
+  .page-header h1 { font-size:28px; }
+  .filter-bar { padding:16px 16px 0; }
+  .article-list { padding:16px 16px 100px; }
+  .ar-title { font-size:14px; }
+  .ar-excerpt { display:none; }
+  .ar-arrow { display:none; }
+  .newsletter-band { padding:24px 16px; }
+  .nb-inner { grid-template-columns:1fr; gap:16px; }
+  .nb-form { flex-direction:column; }
+  .nb-btn { width:100%; }
+  .page-footer { padding:24px 16px 16px; }
+  .pf-inner { flex-direction:column; align-items:flex-start; gap:12px; }
+  .mobile-bottom-nav { display:flex; }
+}
+@media (max-width:480px) {
+  .filter-btn { font-size:10px; padding:5px 10px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">R</div>
+    <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;color:#fff;letter-spacing:1px;">
+      <span style="color:#3DAA6E;">RWA</span><span style="font-family:'Georgia',serif;font-weight:400;">Today</span><span style="font-size:12px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span>
+    </div>
+  </a>
+  <a href="https://rwatoday.beehiiv.com/subscribe" target="_blank" class="nav-subscribe">Subscribe</a>
+</nav>
+
+<div class="page-header">
+  <div class="kicker">RWAToday.news</div>
+  <h2>All Articles</h2>
+  <p>Every piece published by the RWAToday editorial team — markets, regulation, institutional, protocols, and real-world utility coverage.</p>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterArticles('all', this)">All</button>
+  <button class="filter-btn" onclick="filterArticles('markets', this)">Markets</button>
+  <button class="filter-btn" onclick="filterArticles('institutional', this)">Institutional</button>
+  <button class="filter-btn" onclick="filterArticles('regulation', this)">Regulation</button>
+  <button class="filter-btn" onclick="filterArticles('utility', this)">Utility</button>
+  <button class="filter-btn" onclick="filterArticles('infrastructure', this)">Infrastructure</button>
+</div>
+
+<div class="article-list" id="article-list">
+
+  <!-- May 2026 -->
+    <!-- May 2026 -->
+  <div class="article-group">
+    <div class="group-label">May 2026</div>
+
+            <a class="article-row" href="tokenized-real-estate-us-2026.html" data-cat="rwa" style="text-decoration:none;">
+      <div class="ar-num">24</div>
+      <div class="ar-content">
+        <div class="ar-cat">Real Estate · RWA</div>
+        <div class="ar-title">Tokenized Real Estate Is Coming to Main Street America — Here's What You Need to Know</div>
+        <div class="ar-excerpt">Arrived, RealT, and Lofty are letting everyday investors own fractional shares of US rental properties from $50.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+    <a class="article-row" href="stablecoins-rwa-infrastructure-genius-act.html" data-cat="rwa" style="text-decoration:none;">
+      <div class="ar-num">23</div>
+      <div class="ar-content">
+        <div class="ar-cat">Stablecoins · Regulation · RWA</div>
+        <div class="ar-title">Stablecoins Are the On-Ramp to RWA — And the GENIUS Act Just Made Them Official Infrastructure</div>
+        <div class="ar-excerpt">USDC, USDT, USDY and JPMorgan's JLTXX are the settlement rails the entire tokenized asset sector runs on.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+    <a class="article-row" href="private-credit-tokenization-2026.html" data-cat="rwa" style="text-decoration:none;">
+      <div class="ar-num">22</div>
+      <div class="ar-content">
+        <div class="ar-cat">Private Credit · RWA</div>
+        <div class="ar-title">Private Credit Is the Largest RWA Category — And Almost Nobody Is Talking About It</div>
+        <div class="ar-excerpt">Figure, Maple, and Goldfinch are tokenizing the asset class institutions have hoarded for decades.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+    <a class="article-row" href="how-to-invest-in-rwa-beginner-guide.html" data-cat="rwa" style="text-decoration:none;">
+      <div class="ar-num">21</div>
+      <div class="ar-content">
+        <div class="ar-cat">Education · How-To · RWA</div>
+        <div class="ar-title">How a Normal Person Actually Participates in RWA Tokenization Today</div>
+        <div class="ar-excerpt">Five concrete entry points — from tokenized Treasuries to fractional real estate to tokenized gold.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+    <a class="article-row" href="rally-blockchain-rlink-communication-commerce.html" data-cat="rwa" style="text-decoration:none;">
+      <div class="ar-num">20</div>
+      <div class="ar-content">
+        <div class="ar-cat">Utility Tokens · Communication</div>
+        <div class="ar-title">Rally and R-Link: The Blockchain Built for the Moment Conversation Becomes Commerce</div>
+        <div class="ar-excerpt">R-Link embeds commerce into live conversations — and Rally is the decentralized network powering it.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+<a class="article-row" href="connect-win-blockchain-education-mainstream-adoption.html" data-cat="education" style="text-decoration:none;">
+      <div class="ar-num">19</div>
+      <div class="ar-content">
+        <div class="ar-cat">Education · Adoption</div>
+        <div class="ar-title">The Education Gap Is the Real Barrier to Crypto Adoption — And Connect Is Closing It</div>
+        <div class="ar-excerpt">Mainstream adoption of blockchain, RWA, and tokenization isn't held back by technology — it's held back by understanding. Connect and the Win Blockchain are building the model the industry has been missing.</div>
+        <div class="ar-date">May 27, 2026</div>
+      </div>
+    </a>
+
+    <a class="article-row" href="rwa-glossary-terms-explained.html" data-cat="utility">
+      <div class="ar-num">18</div>
+      <div class="ar-content">
+        <div class="ar-cat">Education · Learning Center</div>
+        <div class="ar-title">The RWA Glossary: Every Term You Need to Know, Explained in Plain English</div>
+        <div class="ar-excerpt">Tokenization, RWA, DeFi, smart contracts, carbon credits, greenwashing, DYOR — every term in the real-world asset space, defined simply with real examples. The page to bookmark.</div>
+        <div class="ar-date">May 25, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="carbon-credit-fraud-blockchain-grow.html" data-cat="utility">
+      <div class="ar-num">17</div>
+      <div class="ar-content">
+        <div class="ar-cat">Carbon Markets · Environmental RWA · Case Study</div>
+        <div class="ar-title">Decades of Fraud, One Solution: How Blockchain Is Fixing the Broken Carbon Credit Market</div>
+        <div class="ar-excerpt">The voluntary carbon market has been riddled with decades of misrepresentation and fraud. The CFTC launched its first enforcement actions in 2024. Blockchain is the structural fix the market has been missing — and GROW is building it.</div>
+        <div class="ar-date">May 25, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="top-3-rwa-projects-to-participate-in-2026.html" data-cat="markets">
+      <div class="ar-num">16</div>
+      <div class="ar-content">
+        <div class="ar-cat">Markets · How To Participate · RWA 2026</div>
+        <div class="ar-title">Three RWA Projects You Can Actually Participate In Today</div>
+        <div class="ar-excerpt">Not just watch — actually participate. Ondo Finance, GROW, and Element United offer different entry points at different risk profiles. All live, all accessible today.</div>
+        <div class="ar-date">May 25, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="ondo-finance-rwa-darling-2026.html" data-cat="markets">
+      <div class="ar-num">15</div>
+      <div class="ar-content">
+        <div class="ar-cat">Markets · Ondo Finance · RWA Protocol</div>
+        <div class="ar-title">Ondo Finance: How ONDO Became the Darling of the RWA Sector</div>
+        <div class="ar-excerpt">$40M to $3.8B TVL in under two years. 24% single-day gain. Franklin Templeton partnership. Here's what Ondo actually built, why institutional capital keeps coming, and what the open questions are.</div>
+        <div class="ar-date">May 25, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="iran-crypto-markets-rwa-2026.html" data-cat="markets">
+      <div class="ar-num">14</div>
+      <div class="ar-content">
+        <div class="ar-cat">Markets · Geopolitics · Current Events</div>
+        <div class="ar-title">The US-Iran Standoff: What It Means for Crypto, Commodities, and On-Chain Markets Right Now</div>
+        <div class="ar-excerpt">$344M in crypto frozen. 20% of global oil at risk. Bitcoin swinging on peace signals. The Iran standoff is moving on-chain markets through channels every RWA investor needs to understand.</div>
+        <div class="ar-date">May 24, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="geopolitics-crypto-rwa-markets.html" data-cat="markets">
+      <div class="ar-num">13</div>
+      <div class="ar-content">
+        <div class="ar-cat">Markets · Macro · Education</div>
+        <div class="ar-title">How Geopolitical Events Move Crypto Markets — And Why RWA Investors Should Pay Closer Attention</div>
+        <div class="ar-excerpt">War, sanctions, trade deals, and central bank decisions flow through commodity prices, risk sentiment, and capital allocation directly into RWA assets. Here's the four-channel framework with Iran as the live example.</div>
+        <div class="ar-date">May 24, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="element-united-scott-lomu-rwa-mining.html" data-cat="utility">
+      <div class="ar-num">12</div>
+      <div class="ar-content">
+        <div class="ar-cat">Natural Resources · RWA · Element United</div>
+        <div class="ar-title">Element United: Tokenizing the Earth's Resources — From Mine to Market, On-Chain</div>
+        <div class="ar-excerpt">Scott Lomu co-founded Element United to build verified, on-chain markets for natural resources and carbon offsets. ELMT, the Element Blockchain, and four verification products are building the infrastructure for ethical resource markets.</div>
+        <div class="ar-date">May 20, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="jpmorgan-jltxx-stablecoin-tokenized-fund.html" data-cat="institutional">
+      <div class="ar-num">11</div>
+      <div class="ar-content">
+        <div class="ar-cat">Institutional · Stablecoins</div>
+        <div class="ar-title">JPMorgan's JLTXX: The Tokenized Fund Built for the Stablecoin Era — And What It Signals for RWA</div>
+        <div class="ar-excerpt">JPMorgan's new JLTXX fund is explicitly designed as GENIUS Act-compliant reserve collateral for stablecoin issuers. It's the clearest signal yet that tokenized RWAs and stablecoins are converging into a single infrastructure layer.</div>
+        <div class="ar-date">May 20, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="dtcc-tokenization-july-2026.html" data-cat="markets">
+      <div class="ar-num">10</div>
+      <div class="ar-content">
+        <div class="ar-cat">Infrastructure · Wall Street · DTCC</div>
+        <div class="ar-title">DTCC Sets July 2026 for Tokenized Securities Launch — $114 Trillion in Assets Could Go On-Chain</div>
+        <div class="ar-excerpt">The institution that processes $4.7 quadrillion in annual transactions set July 2026 for initial tokenized asset trades. Goldman Sachs, BlackRock, JPMorgan, Nasdaq, NYSE — all in the working group. This is Wall Street's clearest move yet.</div>
+        <div class="ar-date">May 20, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="dubai-real-estate-tokenization-xrp.html" data-cat="markets">
+      <div class="ar-num">09</div>
+      <div class="ar-content">
+        <div class="ar-cat">Real Estate · Case Study · Global RWA</div>
+        <div class="ar-title">Dubai Just Opened Secondary Trading for Tokenized Real Estate — And It's a Blueprint for the World</div>
+        <div class="ar-excerpt">The Dubai Land Department and Ctrl Alt launched $5M in tokenized real estate on the XRP Ledger, backed by title deeds and synced to Dubai's official land registry. This is sovereign-grade real estate tokenization.</div>
+        <div class="ar-date">May 19, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="clarity-act-stand-with-crypto.html" data-cat="regulation">
+      <div class="ar-num">08</div>
+      <div class="ar-content">
+        <div class="ar-cat">Regulation · Advocacy · U.S. Legislation</div>
+        <div class="ar-title">The CLARITY Act, Stand With Crypto, and the Grassroots Movement That Helped Move a Historic Bill</div>
+        <div class="ar-excerpt">Behind the 15-9 Senate Banking Committee vote was a 2.9-million-strong advocacy network, 1.5 million congressional contacts, and a grassroots campaign that changed what's politically possible in crypto.</div>
+        <div class="ar-date">May 19, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="bitcoin-pizza-day-rwa-utility.html" data-cat="utility">
+      <div class="ar-num">07</div>
+      <div class="ar-content">
+        <div class="ar-cat">Bitcoin Pizza Day · 16th Anniversary</div>
+        <div class="ar-title">Bitcoin Pizza Day at 16: How a $1B Pizza Order Laid the Groundwork for RWA and Utility Tokens</div>
+        <div class="ar-excerpt">On May 22, 2010, Laszlo Hanyecz paid 10,000 BTC for two pizzas — the first real-world commercial Bitcoin transaction. Sixteen years on, it reads as the proof-of-concept for the entire RWA sector.</div>
+        <div class="ar-date">May 19, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+
+    <a class="article-row" href="grow-token-agricultural-blockchain-food-supply.html" data-cat="utility">
+      <div class="ar-num">06</div>
+      <div class="ar-content">
+        <div class="ar-cat">Agricultural RWA · Utility</div>
+        <div class="ar-title">GROW: The Agricultural Blockchain Bringing the Food Supply On-Chain</div>
+        <div class="ar-excerpt">The global food supply chain loses $1 trillion annually to fraud, inefficiency, and opacity. GROW is building the on-chain infrastructure to fix it — one verified farm transaction at a time.</div>
+        <div class="ar-date">May 18, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="blackrock-tokenized-funds-rwa.html" data-cat="institutional">
+      <div class="ar-num">05</div>
+      <div class="ar-content">
+        <div class="ar-cat">Institutional</div>
+        <div class="ar-title">BlackRock Filed for Two New Tokenized Funds. Here's What That Signals for the RWA Sector.</div>
+        <div class="ar-excerpt">When the world's largest asset manager files for its second and third tokenized funds within 18 months, it's no longer an experiment. It's a product line — and it changes what every other institution has to do next.</div>
+        <div class="ar-date">May 17, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="rwa-market-37-billion-2026.html" data-cat="markets">
+      <div class="ar-num">04</div>
+      <div class="ar-content">
+        <div class="ar-cat">Markets · Data</div>
+        <div class="ar-title">The RWA Market Just Hit $37.5B — And the Numbers Behind the Number Tell a Bigger Story</div>
+        <div class="ar-excerpt">100% year-on-year growth. 775,000 on-chain holders. $524.8B in perps volume in a single quarter. The structural shifts underneath the headline define the next phase of tokenization.</div>
+        <div class="ar-date">May 17, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="clarity-act-rwa-regulation.html" data-cat="regulation">
+      <div class="ar-num">03</div>
+      <div class="ar-content">
+        <div class="ar-cat">Regulation · U.S. Legislation</div>
+        <div class="ar-title">The CLARITY Act Just Cleared the Senate Banking Committee. Here's What It Means for RWA.</div>
+        <div class="ar-excerpt">A 15-9 bipartisan vote sent the Digital Asset Market Clarity Act to the full Senate floor. For real-world asset tokenization, it's the most consequential piece of legislation in the industry's history.</div>
+        <div class="ar-date">May 17, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="adventurewurld-guld-onchain.html" data-cat="infrastructure">
+      <div class="ar-num">02</div>
+      <div class="ar-content">
+        <div class="ar-cat">On-Chain Infrastructure</div>
+        <div class="ar-title">Web3 Gaming That's Actually On-Chain: AdventureWurld Distributes 1,000,000 GULD to Players in Real Time</div>
+        <div class="ar-excerpt">1,074 games. 31 countries. 1,000,000 GULD paid directly to player wallets with zero intermediary. The KillTheBoss Tech Test proved that fully on-chain game rewards at scale are live.</div>
+        <div class="ar-date">May 17, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    <a class="article-row" href="five-utility-tokens-2026.html" data-cat="utility">
+      <div class="ar-num">01</div>
+      <div class="ar-content">
+        <div class="ar-cat">Real-World Utility · 2026 Watchlist</div>
+        <div class="ar-title">Five Under-the-Radar Tokens With Real-World Utility You Should Be Watching in 2026</div>
+        <div class="ar-excerpt">Agriculture, energy, payments, education, collaboration — five projects with live products, real users, and on-chain revenue today. Real Products. Real Users. Real Revenue. OnChain.</div>
+        <div class="ar-date">May 17, 2026</div>
+      </div>
+      <div class="ar-arrow">→</div>
+    </a>
+
+    
+
+  </div>
+</div>
+
+<!-- NEWSLETTER -->
+<div class="newsletter-band">
+  <div class="nb-inner">
+    <div>
+      <div class="nb-heading">The RWA Brief</div>
+      <div class="nb-sub">Daily intelligence on real-world asset tokenization. No hype. No noise. Free.</div>
+    </div>
+    <form class="nb-form" action="https://rwatoday.beehiiv.com/subscribe" method="GET" target="_blank">
+      <input type="email" name="email" placeholder="your@email.com" class="nb-input" required>
+      <button type="submit" class="nb-btn">Subscribe Free</button>
+    </form>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="page-footer">
+  <div class="pf-inner">
+    <div class="pf-logo">
+      <span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;letter-spacing:2px;">RWA</span><span style="font-family:'Georgia',serif;color:#fff;">Today</span><span style="font-family:'Archivo Narrow',sans-serif;font-size:12px;color:#7CC49A;">.news</span>
+    </div>
+    <div class="pf-links">
+      <a href="index.html">Home</a>
+      <a href="https://x.com/RWAToday" target="_blank">X / Twitter</a>
+      <a href="https://www.linkedin.com/company/rwatoday/" target="_blank">LinkedIn</a>
+      <a href="https://coinmarketcap.com/community/profile/RWAToday/" target="_blank">CoinMarketCap</a>
+      <a href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Newsletter</a>
+    </div>
+  </div>
+  <div class="pf-copy">
+    <span>© 2026 RWAToday.news · All Rights Reserved · Not financial advice. Always DYOR.</span>
+    <span><a href="index.html" style="color:var(--muted);">Privacy</a> · <a href="index.html" style="color:var(--muted);">Terms</a> · <a href="index.html" style="color:var(--muted);">Editorial Policy</a></span>
+  </div>
+</footer>
+
+<!-- MOBILE BOTTOM NAV -->
+<div class="mobile-bottom-nav">
+  <a class="mbn-back" href="index.html">← Home</a>
+  <a class="mbn-logo" href="index.html"><span style="color:#3DAA6E;">RWA</span>Today</a>
+  <a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a>
+</div>
+
+</body>
+</html>
