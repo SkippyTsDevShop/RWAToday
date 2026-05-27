@@ -307,4 +307,16 @@
     </news:news>
   </url>
 
+  <url>
+    <loc>https://rwatoday.news/rwa-for-the-rest-of-us-tokenization.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27</news:publication_date>
+      <news:title>What Is Tokenization? (Explained Like You're in 5th Grade)</news:title>
+      <news:keywords>what is tokenization, RWA explained, real world assets beginner, tokenization analogy, blockchain for beginners</news:keywords>
+    </news:news>
+  </url>
+
 </urlset>
