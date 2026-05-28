@@ -364,4 +364,28 @@
       <news:keywords>Siemens digital bond, tokenized bond case study, blockchain bond Polygon, corporate bond tokenization, eWpG Germany</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://rwatoday.news/about.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/editorial-policy.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/privacy-policy.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/terms.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
