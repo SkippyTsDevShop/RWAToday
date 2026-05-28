@@ -94,7 +94,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .brand-card .bc-name { font-family:'Bebas Neue',sans-serif; font-size:20px; letter-spacing:1px; color:#3DAA6E; }
 .status-live { display:inline-flex; align-items:center; gap:4px; background:rgba(0,200,150,0.1); border:1px solid rgba(0,200,150,0.25); color:var(--green); font-family:'Archivo Narrow',sans-serif; font-size:10px; letter-spacing:1.5px; text-transform:uppercase; padding:2px 8px; border-radius:2px; }
 .status-live::before { content:'●'; font-size:7px; }
-.brand-card .bc-tag { font-family:'Archivo Narrow',sans-serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); margin-bottom:12px; }
+.brand-card .bc-tag { font-family:'Archivo Narrow'
+,sans-serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); margin-bottom:12px; }
 .brand-card p { font-size:13px; color:var(--text2); line-height:1.75; margin-bottom:10px; }
 .brand-card .bc-links { display:flex; gap:16px; flex-wrap:wrap; margin-top:4px; }
 .brand-card .bc-link { font-family:'Archivo Narrow',sans-serif; font-size:11px; color:#3DAA6E; letter-spacing:1px; text-transform:uppercase; text-decoration:none; }
@@ -163,8 +164,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   .article-footer-inner { grid-template-columns:1fr; }
 }
 </style>
+<meta property="og:image" content="https://rwatoday.news/og-image.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
 </head>
 <body>
+<a href="index.html" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted,#7a9a88);text-decoration:none;margin:24px 40px 12px;transition:color 0.2s;">&#8592; Back to RWAToday.news</a>
 
 <nav class="article-top-nav">
   <a href="index.html" class="nav-logo">
@@ -199,7 +204,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   <div class="article-body">
 
-    <p>When the RWA conversation turns to agriculture, it almost always focuses on the financialization layer — tokenized farmland, agricultural commodity derivatives, carbon credit markets. These are real and growing segments of the tokenized asset ecosystem. But there is a more fundamental problem in the global food system that blockchain is uniquely positioned to solve, and it has nothing to do with derivatives trading.</p>
+    <p>When the RWA conversation turns to agriculture, it almost always focuses on the financialization layer — tokenized farmland, agricultural commodity derivatives, carbon credit markets. These are real and growing segments of the tokenized asset ecosystem. But there is a mo
+re fundamental problem in the global food system that blockchain is uniquely positioned to solve, and it has nothing to do with derivatives trading.</p>
 
     <p>The problem is this: the global food supply chain is opaque, inefficient, and deeply unfair. A coffee farmer in Ethiopia receives approximately $0.10 of the $4.50 you pay at a coffee shop. A tomato grower in Mexico has no visibility into where their produce ends up, who bought it, or what markup was applied at each step. A consumer in New York buying "organic" lettuce has no way to verify that claim beyond a sticker applied at a distribution center. The system works for intermediaries. It fails for farmers and consumers alike.</p>
 
@@ -261,7 +267,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
     <p>The challenge that has historically made agricultural RWA difficult is the same challenge that plagues all physical asset tokenization: bridging the gap between the physical world and the on-chain record. A gold bar sitting in a vault is easy to tokenize because its key characteristics (weight, purity, custody location) are static and easily verified. A head of lettuce grown on a farm in California and consumed three days later in Chicago is harder — its provenance, handling, and quality are dynamic and require continuous recording.</p>
 
-    <p>This is where the convergence of blockchain with IoT sensors, QR codes, and digital certification is doing the most meaningful work. Nearly 30% of food retailers have already launched pilot programs allowing consumers to scan QR codes and verify product origin and sustainability data in real time. The infrastructure for agricultural RWA is being built not by financial institutions but by the food industry itself, driven by consumer demand for transparency and regulatory requirements around food safety and sustainability.</p>
+    <p>This is where the convergence of blockchain with IoT sensors, QR codes, and digital certification is doing the most mea
+ningful work. Nearly 30% of food retailers have already launched pilot programs allowing consumers to scan QR codes and verify product origin and sustainability data in real time. The infrastructure for agricultural RWA is being built not by financial institutions but by the food industry itself, driven by consumer demand for transparency and regulatory requirements around food safety and sustainability.</p>
 
     <p>GROW is positioned at the intersection of these trends — not as a financial instrument layered on top of agricultural commerce, but as the native settlement and verification layer for an already-digitizing food system.</p>
 
@@ -340,7 +347,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 <div class="article-newsletter">
   <div class="an-text">
     <div class="an-heading">The RWA Brief</div>
-    <p>Daily intelligence on real-world asset tokenization. No hype. No noise. Free.</p>
+    <p>Daily intelligence o
+n real-world asset tokenization. No hype. No noise. Free.</p>
   </div>
   <a href="https://rwatoday.beehiiv.com/subscribe" target="_blank" class="an-btn">Subscribe Free →</a>
 </div>
@@ -353,6 +361,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 </div>
 
 <!-- FOOTER -->
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 40px;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;">&#8594; The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a></div>
+
 <footer class="article-footer">
   <div class="article-footer-inner">
     <div class="article-footer-brand">
@@ -406,3 +416,4 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
 </body>
 </html>
+

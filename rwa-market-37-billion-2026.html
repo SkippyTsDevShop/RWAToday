@@ -91,19 +91,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .site-nav-links li a:hover, .site-nav-links li a.active { color:#3DAA6E; }
 .btn-subscribe { background:#3DAA6E; color:#fff; border:none; padding:7px 18px; font-family:'Bebas Neue',sans-serif; font-size:14px; letter-spacing:1.5px; cursor:pointer; }
 
-/* TICKER — scrolling */
-.ticker-wrap { background:var(--surface); border-bottom:1px solid var(--border); overflow:hidden; width:100%; }
-.ticker-track { display:flex; align-items:center; gap:0; white-space:nowrap; animation:ticker-scroll 45s linear infinite; width:max-content; padding:6px 0; }
-.ticker-track:hover { animation-play-state:paused; }
-@keyframes ticker-scroll { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
-.ticker-item { display:inline-flex; align-items:center; gap:8px; font-family:'Archivo Narrow',sans-serif; font-size:11px; color:var(--text2); text-decoration:none; padding:0 20px; transition:opacity 0.2s; }
-.ticker-item:hover { opacity:0.7; }
-.ticker-item .asset { color:var(--text); font-weight:600; }
-.ticker-sep { color:var(--border2); font-size:14px; flex-shrink:0; }
-.up { color:var(--green); }
-.down { color:var(--red); }
-.neutral { color:var(--muted); }
-
 /* HERO GRID */
 .site-hero { padding:40px; display:grid; grid-template-columns:1fr 380px; gap:32px; max-width:1280px; margin:0 auto; }
 
@@ -121,7 +108,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .hero-glow-purple { position:absolute; inset:0; background:radial-gradient(circle at 30% 30%,rgba(31,107,62,0.3) 0%,transparent 55%),radial-gradient(circle at 80% 70%,rgba(61,170,110,0.15) 0%,transparent 50%); }
 
 .hero-stat-block { position:absolute; top:24px; right:24px; text-align:right; }
-.hero-stat-block .big-num { font-family:'Bebas Neue',sans-serif; font-size:52px; line-height:1; }
+.hero-stat-blo
+ck .big-num { font-family:'Bebas Neue',sans-serif; font-size:52px; line-height:1; }
 .hero-stat-block .big-label { font-family:'Archivo Narrow',sans-serif; font-size:10px; color:var(--muted); letter-spacing:2px; text-transform:uppercase; }
 .color-gold { color:#3DAA6E; }
 .color-purple { color:var(--purple-light); }
@@ -204,7 +192,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
 /* ─── ARTICLE VIEWS ───────────────────────────── */
 .article-wrap { max-width:800px; margin:0 auto; padding:48px 32px; }
-.article-kicker { font-family:'Archivo Narrow',sans-serif; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#3DAA6E; margin-bottom:12px; }
+.article-kicker { font-family:'Archivo Narrow',sans-serif
+; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#3DAA6E; margin-bottom:12px; }
 .article-kicker.purple { color:#3DAA6E; }
 .article-h1 { font-family:'Bebas Neue',sans-serif; font-size:44px; line-height:1.02; letter-spacing:1px; color:var(--white); margin-bottom:16px; }
 .article-deck { font-size:17px; color:var(--text2); line-height:1.75; font-style:italic; margin-bottom:20px; border-left:3px solid var(--gold); padding-left:16px; }
@@ -292,7 +281,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .fn-btn { background:#3DAA6E; color:#fff; border:none; padding:11px 22px; font-family:'Bebas Neue',sans-serif; font-size:15px; letter-spacing:1.5px; cursor:pointer; white-space:nowrap; }
 .fn-btn:hover { background:#5DC48A; }
 .fn-success { color:var(--green); font-size:14px; font-weight:600; display:flex; align-items:center; gap:8px; }
-.fn-success span { font-size:20px; }
+.
+fn-success span { font-size:20px; }
 
 /* Footer link styles */
 .footer-col a { color:var(--muted); text-decoration:none; transition:color 0.2s; }
@@ -434,7 +424,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   padding:11px 14px; font-family:'Archivo',sans-serif; font-size:13px; outline:none;
 }
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus { border-color:#3DAA6E; }
-.form-row input::placeholder, .form-row textarea::placeholder { color:var(--muted); }
+.form-row input::placeholder, .form-row textarea::placehold
+er { color:var(--muted); }
 .form-row select { appearance:none; cursor:pointer; }
 .form-row select option { background:var(--ink); }
 .form-row textarea { resize:vertical; min-height:120px; }
@@ -469,11 +460,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   .site-nav { padding:0 16px; height:52px; }
   .site-nav-links { gap:16px; }
   .site-nav-links li a { font-size:11px; }
-
-  /* TICKER */
-  .ticker-wrap { overflow:hidden; }
-  .ticker-track { animation-duration:30s; }
-  .ticker-item { padding:0 14px; font-size:10px; }
 
   /* HERO — stack vertically, sidebar below hero */
   .site-hero { grid-template-columns:1fr; padding:20px 16px; gap:0; }
@@ -586,7 +572,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
-  .ticker-item .asset { font-size:10px; }
 
   .fn-heading { font-size:18px; }
 
@@ -662,7 +647,8 @@ body { overflow-x:hidden; }
   font-family:'Archivo Narrow',sans-serif;
   font-size:12px;
   font-weight:600;
-  letter-spacing:1px;
+ 
+ letter-spacing:1px;
   text-transform:uppercase;
   text-decoration:none;
   transition:color 0.2s;
@@ -868,8 +854,12 @@ body { overflow-x:hidden; }
   .data-grid { grid-template-columns:1fr 1fr; }
 }
 </style>
+<meta property="og:image" content="https://rwatoday.news/og-image.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
 </head>
 <body>
+<a href="index.html" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted,#7a9a88);text-decoration:none;margin:24px 40px 12px;transition:color 0.2s;">&#8592; Back to RWAToday.news</a>
 
 <!-- TOP NAV -->
 <nav class="article-top-nav">
@@ -918,7 +908,8 @@ body { overflow-x:hidden; }
           <div class="data-stat"><div class="ds-num" style="color:#3DAA6E;">$37.5B</div><div class="ds-label">Total market cap · May 2026</div></div>
           <div class="data-stat"><div class="ds-num" style="color:#3DAA6E;">100%</div><div class="ds-label">Year-on-year growth</div></div>
           <div class="data-stat"><div class="ds-num" style="color:#3DAA6E;">775K+</div><div class="ds-label">On-chain RWA holders</div></div>
-          <div class="data-stat"><div class="ds-num" style="color:#3DAA6E;">$524B</div><div class="ds-label">RWA perps volume Q1 2026</div></div>
+          <div class="data-stat"><div class="ds-num" style="color:#3DAA6E;">$524B</div><div class="ds-la
+bel">RWA perps volume Q1 2026</div></div>
         </div>
       </div>
 
@@ -994,10 +985,13 @@ body { overflow-x:hidden; }
 </div>
 
 <!-- FOOTER -->
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 40px;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;">&#8594; The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a></div>
+
 <footer class="article-footer">
   <div class="article-footer-inner">
     <div class="article-footer-brand">
-      <div class="af-logo"><span style="font-family:'Bebas Neue',sans-serif;color:#3DAA6E;letter-spacing:2px;">RWA</span><span style="font-family:'Georgia',serif;color:#fff;">Today</span><span style="font-family:'Archivo Narrow',sans-serif;font-size:12px;color:#7CC49A;">.news</span></div>
+      <div class="af-logo"><span sty
+le="font-family:'Bebas Neue',sans-serif;color:#3DAA6E;letter-spacing:2px;">RWA</span><span style="font-family:'Georgia',serif;color:#fff;">Today</span><span style="font-family:'Archivo Narrow',sans-serif;font-size:12px;color:#7CC49A;">.news</span></div>
       <p>The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy.</p>
       <p style="margin-top:8px;">Not financial advice. Always DYOR.</p>
     </div>

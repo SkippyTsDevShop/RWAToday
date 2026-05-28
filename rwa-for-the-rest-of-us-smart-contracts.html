@@ -61,19 +61,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .site-nav-links li a:hover, .site-nav-links li a.active { color:#3DAA6E; }
 .btn-subscribe { background:#3DAA6E; color:#fff; border:none; padding:7px 18px; font-family:'Bebas Neue',sans-serif; font-size:14px; letter-spacing:1.5px; cursor:pointer; }
 
-/* TICKER — scrolling */
-.ticker-wrap { background:var(--surface); border-bottom:1px solid var(--border); overflow:hidden; width:100%; }
-.ticker-track { display:flex; align-items:center; gap:0; white-space:nowrap; animation:ticker-scroll 45s linear infinite; width:max-content; padding:6px 0; }
-.ticker-track:hover { animation-play-state:paused; }
-@keyframes ticker-scroll { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
-.ticker-item { display:inline-flex; align-items:center; gap:8px; font-family:'Archivo Narrow',sans-serif; font-size:11px; color:var(--text2); text-decoration:none; padding:0 20px; transition:opacity 0.2s; }
-.ticker-item:hover { opacity:0.7; }
-.ticker-item .asset { color:var(--text); font-weight:600; }
-.ticker-sep { color:var(--border2); font-size:14px; flex-shrink:0; }
-.up { color:var(--green); }
-.down { color:var(--red); }
-.neutral { color:var(--muted); }
-
 /* HERO GRID */
 /* HOMEPAGE TWO-COLUMN LAYOUT */
 .homepage-grid { display:grid; grid-template-columns:1fr 360px; gap:0; max-width:1280px; margin:0 auto; padding:32px 40px 40px; align-items:start; }
@@ -143,7 +130,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 /* SIDEBAR */
 .hero-sidebar { display:none; }
 .sidebar-heading { font-family:'Bebas Neue',sans-serif; font-size:11px; letter-spacing:3px; color:var(--muted); text-transform:uppercase; padding-bottom:12px; border-bottom:1px solid var(--border); }
-
 
 .sidebar-article { display:flex; align-items:flex-start; gap:14px; padding:14px 0; border-bottom:1px solid var(--border); transition:opacity 0.2s; color:var(--text); }
 .sidebar-article:hover { opacity:0.8; }
@@ -463,11 +449,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   .site-nav-links { gap:16px; }
   .site-nav-links li a { font-size:11px; }
 
-  /* TICKER */
-  .ticker-wrap { overflow:hidden; }
-  .ticker-track { animation-duration:30s; }
-  .ticker-item { padding:0 14px; font-size:10px; }
-
   /* HERO — stack vertically, sidebar below hero */
   .site-hero { grid-template-columns:1fr; padding:20px 16px; gap:0; }
 
@@ -585,8 +566,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   .data-grid { grid-template-columns:1fr 1fr; }
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
-
-  .ticker-item .asset { font-size:10px; }
 
   .fn-heading { font-size:18px; }
 
@@ -776,6 +755,11 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 </div></aside>
 </div>
 </div>
+<div style="background:var(--surface2);border:1px solid var(--border2);border-radius:6px;padding:16px 20px;margin:2.5rem 0 0;">
+  <div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Go Deeper</div>
+  <a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold);text-decoration:none;font-size:14px;line-height:1.6;">→ The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a>
+</div>
+
 <footer class="site-footer">
 
     <!-- Newsletter Band -->
