@@ -319,4 +319,49 @@
     </news:news>
   </url>
 
+  <url>
+    <loc>https://rwatoday.news/rwa-for-the-rest-of-us-smart-contracts.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27</news:publication_date>
+      <news:title>What Is a Smart Contract? (Explained Like You're in 5th Grade)</news:title>
+      <news:keywords>smart contracts explained, blockchain for beginners, what is a smart contract, RWA smart contracts, vending machine analogy</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://rwatoday.news/ultimate-guide-rwa-tokenization-2026.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27</news:publication_date>
+      <news:title>The Ultimate Guide to RWA Tokenization in 2026</news:title>
+      <news:keywords>ultimate guide RWA tokenization 2026, real world assets explained, RWA investing, tokenized assets, RWA protocols</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/top-voices-rwa-nathan-allman-ondo.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27</news:publication_date>
+      <news:title>Nathan Allman Built the Infrastructure the RWA Sector Runs On</news:title>
+      <news:keywords>Nathan Allman Ondo Finance, RWA top voices, tokenized treasuries, OUSG USDY, Ondo Finance founder tribute</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-case-study-siemens-digital-bond.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27</news:publication_date>
+      <news:title>How Siemens Issued a €60M Bond on a Public Blockchain — And What It Proved</news:title>
+      <news:keywords>Siemens digital bond, tokenized bond case study, blockchain bond Polygon, corporate bond tokenization, eWpG Germany</news:keywords>
+    </news:news>
+  </url>
 </urlset>
