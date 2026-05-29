@@ -388,4 +388,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-for-the-rest-of-us-liquidity.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29</news:publication_date>
+      <news:title>What Is Liquidity? (Explained Like You're in 5th Grade)</news:title>
+      <news:keywords>liquidity explained, RWA liquidity, tokenized assets beginner, illiquid assets blockchain, RWA for the rest of us</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29</news:publication_date>
+      <news:title>Carlos Domingo Built the Compliance Layer the Entire RWA Sector Runs On</news:title>
+      <news:keywords>Carlos Domingo Securitize, BUIDL BlackRock transfer agent, tokenized securities compliance, DS Protocol, RWA infrastructure</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-defi-composability-gap-2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29</news:publication_date>
+      <news:title>$30 Billion On-Chain. Less Than 10% Is Actually Usable in DeFi.</news:title>
+      <news:keywords>RWA DeFi composability, tokenized assets DeFi gap, permissioned DeFi, Chainlink CCIP RWA, compliant DeFi 2026</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/adventurewurld-kill-the-boss-tech-test-2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29</news:publication_date>
+      <news:title>AdventureWurld Just Ran 1,929 On-Chain Games in Real Time. Here's What That Proves.</news:title>
+      <news:keywords>AdventureWurld Kill The Boss, on-chain gaming, GULD token, blockchain game mechanics, Web3 gaming 2026</news:keywords>
+    </news:news>
+  </url>
 </urlset>

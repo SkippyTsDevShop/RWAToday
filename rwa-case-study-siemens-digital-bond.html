@@ -567,6 +567,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
+  .ticker-item .asset { font-size:10px; }
+
   .fn-heading { font-size:18px; }
 
   .inner-page h1 { font-size:24px; }
@@ -647,7 +649,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <div></div>
   </nav>
 <div class="article-wrap">
-<a href="index.html" class="back-link">← Back to RWAToday.news</a>
+<a href="index.html" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#3DAA6E;text-decoration:none;margin:24px 40px 12px;transition:color 0.2s;">&#8592; Back to RWAToday.news</a>
 <div class="article-hero">
   <div>
     <span class="article-cat-tag">Case Study · Institutional RWA</span>
@@ -756,11 +758,6 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 </div></aside>
 </div>
 </div>
-<div style="background:var(--surface2);border:1px solid var(--border2);border-radius:6px;padding:16px 20px;margin:2.5rem 0 0;">
-  <div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Go Deeper</div>
-  <a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold);text-decoration:none;font-size:14px;line-height:1.6;">→ The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a>
-</div>
-
 <footer class="site-footer">
 
     <!-- Newsletter Band -->
@@ -779,10 +776,10 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="site-logo" style="margin-bottom:12px;">
+        <a href="index.html" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
           <div class="site-logo-mark"><span>R</span></div>
           <div class="site-logo-text" style="font-size:18px;"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span></div>
-        </div>
+        </div></a>
         <div class="tagline">The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy — from tokenized treasuries to utility infrastructure.</div>
         <div class="footer-disclaimer">Content on RWAToday.news is for informational purposes only and does not constitute financial, investment, or legal advice. Always conduct your own research.</div>
       </div>
@@ -790,12 +787,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         <h4>Company</h4>
         <ul>
           <li><a href="articles.html">All Articles</a></li>
-          <li><a href="about.html" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about.html" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained.html" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="#" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Advertise</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
+          <li><a href="#" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -809,15 +806,15 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy.html" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms.html" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms.html" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="#" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
   </footer>
 </body>
