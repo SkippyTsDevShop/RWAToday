@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>What Is a Smart Contract? (Explained Like You're in 5th Grade) | RWAToday.news</title>
-<meta name="description" content="Smart contracts sound intimidating. They're not. Think of a vending machine that executes any financial agreement automatically, with no manager, no lunch break, and no human error."/>
-<meta name="keywords" content="what is a smart contract, smart contracts explained simply, blockchain for beginners, RWA smart contracts, smart contract analogy, RWA for the rest of us"/>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>How to Read a Block Explorer: The On-Chain Verification Tool Most Investors Never Use | RWAToday.news</title>
+<meta name="description" content="A block explorer is a search engine for a blockchain — every transaction, every wallet, every contract. Public, permanent, can't be faked. Here's how to use one to verify what an RWA project is actually doing."/>
+<meta name="keywords" content="block explorer RWA, how to read etherscan, on-chain verification crypto, blockchain explorer tutorial, DYOR blockchain, token holder distribution, smart contract verification"/>
 <meta name="robots" content="index, follow"/>
-<meta property="og:title" content="What Is a Smart Contract? (Explained Like You're in 5th Grade)"/>
-<meta property="og:description" content="Think of a vending machine that executes any financial agreement automatically, with no manager, no lunch break, and no human error."/>
+<meta property="og:title" content="How to Read a Block Explorer: The On-Chain Verification Tool Most Investors Never Use"/>
+<meta property="og:description" content="A block explorer is a search engine for a blockchain — every transaction, every wallet, every contract. Public, permanent, can't be faked. Here's how to use one to verify what an RWA project is actually doing."/>
 <meta property="og:type" content="article"/>
-<meta property="og:url" content="https://rwatoday.news/rwa-for-the-rest-of-us-smart-contracts.html"/>
+<meta property="og:url" content="https://rwatoday.news/dyor-rwa-on-chain-explorer.html"/>
 <meta property="og:image" content="https://rwatoday.news/og-image.png"/>
-<meta property="article:published_time" content="2026-05-27"/>
-<link rel="canonical" href="https://rwatoday.news/rwa-for-the-rest-of-us-smart-contracts.html"/>
+<meta property="article:published_time" content="2026-06-09"/>
+<link rel="canonical" href="https://rwatoday.news/dyor-rwa-on-chain-explorer.html"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
@@ -567,6 +564,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
+  .ticker-item .asset { font-size:10px; }
+
   .fn-heading { font-size:18px; }
 
   .inner-page h1 { font-size:24px; }
@@ -577,71 +576,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   p[style*="display:flex"] a { width:100%; justify-content:center; }
 
 }
-</style>
-<style>
-  .article-hero{width:100%;max-width:900px;margin:0 auto 2rem;background:linear-gradient(135deg,var(--surface) 0%,var(--surface2) 100%);border:1px solid var(--border);border-radius:8px;padding:48px 48px 40px;position:relative;overflow:hidden}
-  .article-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--green),var(--gold))}
-  .article-cat-tag{display:inline-block;font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);border:1px solid var(--border2);border-radius:3px;padding:4px 10px;margin-bottom:12px}
-  .series-tag{display:inline-block;font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);border:1px solid var(--cyan);border-radius:3px;padding:4px 10px;margin-bottom:12px;margin-left:8px}
-  .article-headline{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,5vw,52px);line-height:1.05;letter-spacing:1px;color:var(--white);margin-bottom:16px}
-  .article-deck{font-size:16px;line-height:1.7;color:var(--text2);max-width:680px;margin-bottom:28px}
-  .article-meta{display:flex;align-items:center;gap:20px;font-size:11px;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;text-transform:uppercase;color:var(--muted);flex-wrap:wrap}
-  .article-body{width:100%;max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 280px;gap:40px;align-items:start}
-  .article-content{min-width:0}
-  .article-content p{font-size:15px;line-height:1.85;color:var(--text);margin-bottom:1.4rem}
-  .article-content h2{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:1px;color:var(--white);margin:2.5rem 0 1rem;padding-top:1rem;border-top:1px solid var(--border)}
-  .article-content h3{font-family:'Archivo',sans-serif;font-size:15px;font-weight:700;color:var(--gold-light);margin:1.8rem 0 0.8rem;text-transform:uppercase;letter-spacing:0.5px}
-  .article-content a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--border2);transition:border-color 0.2s}
-  .article-content a:hover{border-bottom-color:var(--gold)}
-  .article-content strong{color:var(--white);font-weight:600}
-  .analogy-box{border:2px solid var(--gold);border-radius:8px;padding:24px 28px;margin:2rem 0;background:var(--gold-dim);position:relative}
-  .analogy-label{position:absolute;top:-12px;left:20px;background:var(--ink);padding:2px 10px;font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
-  .analogy-box p{font-size:15px;line-height:1.8;color:var(--text);margin:0}
-  .rwa-box{border:2px solid var(--cyan);border-radius:8px;padding:24px 28px;margin:2rem 0;background:rgba(124,196,154,0.08);position:relative}
-  .rwa-label{position:absolute;top:-12px;left:20px;background:var(--ink);padding:2px 10px;font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--cyan)}
-  .rwa-box p{font-size:15px;line-height:1.8;color:var(--text);margin:0}
-  .pull-quote{border-left:3px solid var(--gold);padding:16px 20px;background:var(--gold-dim);border-radius:0 6px 6px 0;margin:2rem 0;font-size:16px;line-height:1.7;color:var(--text2);font-style:italic}
-  .key-box{background:var(--surface2);border:1px solid var(--border2);border-radius:6px;padding:20px 24px;margin:2rem 0}
-  .key-box-title{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
-  .key-box ul{list-style:none;padding:0}
-  .key-box ul li{padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;color:var(--text2);display:flex;gap:10px}
-  .key-box ul li:last-child{border-bottom:none}
-  .key-box ul li::before{content:'→';color:var(--gold);flex-shrink:0}
-  .series-nav{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:18px 20px;margin:2rem 0}
-  .series-nav-title{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
-  .series-nav a{display:block !important;clear:both;padding:8px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text2);font-size:13px;transition:color 0.2s}
-  .series-nav a:last-child{border-bottom:none}
-  .series-nav a:hover{color:var(--gold)}
-  .series-nav a.current{color:var(--white);font-weight:600}
-  .series-nav .sn-num{color:var(--muted);margin-right:8px;font-family:'Archivo Narrow',sans-serif}
-  .article-sidebar{position:sticky;top:80px}
-  .sidebar-card{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:20px;margin-bottom:20px}
-  .sidebar-card-title{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border)}
-  .sidebar-related-item{display:block;padding:12px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text2);font-size:13px;line-height:1.4;transition:color 0.2s}
-  .sidebar-related-item:last-child{border-bottom:none}
-  .sidebar-related-item:hover{color:var(--gold)}
-  .sidebar-related-cat{font-family:'Archivo Narrow',sans-serif;font-size:9px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:4px}
-  .article-wrap{padding:40px 40px 60px;max-width:1200px;margin:0 auto}
-  .back-link{display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:28px;transition:color 0.2s}
-  .back-link:hover{color:var(--gold)}
-  @media(max-width:768px){.article-body{grid-template-columns:1fr}.article-hero{padding:28px 24px}.article-wrap{padding:20px 16px 40px}.article-sidebar{position:static}}
-</style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "What Is a Smart Contract? (Explained Like You\'re in 5th Grade)",
-  "datePublished": "2026-05-27",
-  "dateModified": "2026-05-27",
-  "author": {"@type": "Organization","name": "RWAToday.news","url": "https://rwatoday.news"},
-  "publisher": {"@type": "NewsMediaOrganization","name": "RWAToday.news","url": "https://rwatoday.news","logo": {"@type": "ImageObject","url": "https://rwatoday.news/logo.png","width": 512,"height": 512}},
-  "image": {"@type": "ImageObject","url": "https://rwatoday.news/og-image.png","width": 1200,"height": 630},
-  "url": "https://rwatoday.news/rwa-for-the-rest-of-us-smart-contracts.html"
-}
-</script>
-</head>
-<body>
-<nav class="site-nav">
+</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"How to Read a Block Explorer: The On-Chain Verification Tool Most Investors Never Use","datePublished":"2026-06-09","dateModified":"2026-06-09","author":{"@type":"Organization","name":"RWAToday.news","url":"https://rwatoday.news"},"publisher":{"@type":"NewsMediaOrganization","name":"RWAToday.news","url":"https://rwatoday.news","logo":{"@type":"ImageObject","url":"https://rwatoday.news/logo.png","width":512,"height":512}},"image":{"@type":"ImageObject","url":"https://rwatoday.news/og-image.png","width":1200,"height":630},"url":"https://rwatoday.news/dyor-rwa-on-chain-explorer.html"}</script></head>
+<body><nav class="site-nav">
     <div class="site-logo">
       <div class="site-logo-mark"><span>R</span></div>
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
@@ -652,18 +588,10 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   </nav>
 <div class="article-wrap">
 <a href="index.html" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#3DAA6E;text-decoration:none;margin:24px 40px 12px;transition:color 0.2s;">&#8592; Back to RWAToday.news</a>
-<div class="article-hero">
-  <div>
-    <span class="article-cat-tag">Education · Beginner</span>
-    <span class="series-tag">RWA For the Rest of Us · Part 02</span>
-  </div>
-  <h1 class="article-headline">What Is a Smart Contract? (Explained Like You're in 5th Grade)</h1>
-  <p class="article-deck">Smart contracts sound intimidating. They're not. Think of a vending machine that executes any financial agreement automatically — no manager, no lunch break, no human error. Here's how they power every tokenized asset on the planet.</p>
-  <div class="article-meta"><span>📅 May 27, 2026</span><span>⏱ 5 min read</span><span>🏷 Beginner · Education</span></div>
-</div>
-<div class="article-body">
-  <div class="article-content">
-    <style>
+<div class="article-hero"><div><span class="article-cat-tag">Research · DYOR</span><span class="series-tag">DYOR in RWA · Part 02</span></div>
+<h1 class="article-headline">How to Read a Block Explorer: The On-Chain Verification Tool Most Investors Never Use</h1><p class="article-deck">A block explorer is a search engine for a blockchain — every transaction, every wallet, every contract. Public, permanent, can't be faked. Here's how to use one to verify what an RWA project is actually doing.</p>
+<div class="article-meta"><span>📅 2026-06-09</span><span>⏱ 8 min read</span><span>🏷 Research · DYOR</span></div></div>
+<div class="article-body"><div class="article-content"><style>
 .series-nav{background:var(--surface,#0D1810);border:1px solid var(--border,#1E3020);border-radius:6px;padding:18px 22px;margin:1.5rem 0;}
 .series-nav-title{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border,#1E3020);}
 .series-nav ul{list-style:none;padding:0;margin:0;}
@@ -675,107 +603,123 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 .series-nav ul li a .sn-num{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;color:var(--gold,#3DAA6E);background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:3px;padding:2px 6px;flex-shrink:0;margin-top:1px;}
 </style>
 <div class="series-nav">
-<div class="series-nav-title">RWA For the Rest of Us — Series</div>
+<div class="series-nav-title">DYOR in RWA — Research Series</div>
 <ul>
 </ul>
-</div><a href="rwa-for-the-rest-of-us-tokenization.html"><span class="sn-num">01</span>Tokenization — The Spotify Analogy</a><a href="rwa-for-the-rest-of-us-smart-contracts.html" class="current"><span class="sn-num">02</span>Smart Contracts — The Vending Machine  ← you are here</a><a href="rwa-for-the-rest-of-us-liquidity.html"><span class="sn-num">03</span>Liquidity — Coming Soon</a><a href="rwa-for-the-rest-of-us-yield.html"><span class="sn-num">04</span>Yield & Stablecoins — Coming Soon</a><a href="rwa-for-the-rest-of-us-nodes.html"><span class="sn-num">05</span>Nodes & Networks — Coming Soon</a></div>
-    
-<p>In Part 01 we used Spotify to explain tokenization — how turning a physical asset into a digital token is like turning a CD into a stream. If you haven't read it, <a href="rwa-for-the-rest-of-us-tokenization.html">start there</a>. It's short.</p>
-
-<p>Now we need to talk about the mechanism that makes tokenized assets actually work without a bank, a lawyer, or a notary standing in the middle of every transaction. That mechanism is the smart contract — and the best way to understand it is to think about a vending machine.</p>
-
-<h2>The Vending Machine Has No Manager</h2>
-
-<p>Picture a vending machine in a school hallway. You put in $1.50, press B7, and a bag of chips falls out. Nobody approves the transaction. Nobody checks your ID. Nobody verifies you actually want chips. The machine just executes the deal automatically based on a set of rules that were programmed into it: <em>if money received equals price of item, release item.</em></p>
-
-<p>That's a smart contract.</p>
-
-<p>A smart contract is a program stored on a blockchain that automatically executes when specific conditions are met — no middleman required, no approval needed, no business hours, no processing delay. The code is the contract. When the conditions are satisfied, it runs.</p>
-
-<div class="analogy-box">
-  <div class="analogy-label">The Web2 Analogy</div>
-  <p>A smart contract is a vending machine for any kind of agreement. You program the rules in advance — "if X happens, then do Y" — and the machine executes them automatically, every time, for anyone, forever. No manager. No lunch break. No human error.</p>
 </div>
-
-<h2>Why This Matters More Than It Sounds</h2>
-
-<p>Here's what a normal financial transaction looks like today. You want to buy a share of a real estate investment. You wire money to a broker. The broker sends it to a custodian. The custodian holds it while a settlement process runs in the background. Three to five business days later, your ownership is recorded somewhere in a database that you can't see, run by a company you've never heard of, that can freeze your account if something seems off.</p>
-
-<p>Every step in that chain involves a human institution making a decision, charging a fee, and introducing the possibility of error, fraud, or delay. The chain works most of the time — but "most of the time" is doing a lot of work in that sentence.</p>
-
-<p>Now here's the same transaction with a smart contract. You send the required amount to a contract address. The contract checks that the amount is correct, that the asset is available, and that you meet any eligibility requirements. All conditions met — the asset token transfers to your wallet and the payment transfers to the seller. Simultaneously. Instantly. No broker, no custodian, no settlement window.</p>
-
-<div class="rwa-box">
-  <div class="rwa-label">The RWA Version</div>
-  <p>When you buy USDY — Ondo Finance's yield-bearing token — a smart contract holds the underlying Treasury assets, calculates your daily yield, and accrues it to your token automatically. No fund manager decides whether to pay you today. The contract just runs. Every day. Without being asked.</p>
+<a href="dyor-rwa-linkedin-vs-twitter.html"><span class="sn-num">01</span>LinkedIn vs Twitter — Signal vs Noise</a>
+<a href="dyor-rwa-on-chain-explorer.html" class="current"><span class="sn-num">02</span>How to Read an On-Chain Explorer ← you are here</a>
+<a href="#"><span class="sn-num">03</span>How to Evaluate a Team — Coming Soon</a>
+<a href="#"><span class="sn-num">04</span>How to Read a Whitepaper — Coming Soon</a>
+<a href="#"><span class="sn-num">05</span>Red Flags Checklist — Coming Soon</a>
 </div>
+<p>In <a href="dyor-rwa-linkedin-vs-twitter.html">Part 01</a>, we covered how to verify the people behind a project. This time we're going to cover how to verify what a project is actually doing — not through their marketing materials, not through Twitter, but directly from the blockchain itself.</p>
 
-<h2>The "If This, Then That" Machine</h2>
+<p>A block explorer is a search engine for a blockchain. It lets you see every transaction ever recorded on that chain — every token transfer, every smart contract interaction, every wallet balance — without asking anyone's permission and without relying on anyone's claims. The data is there, it's public, and it doesn't lie.</p>
 
-<p>If you've ever used IFTTT (If This Then That) — the automation app that connects your apps together — you already understand the structure of a smart contract. "If I post on Instagram, then save it to Google Drive." "If it's Friday at 5pm, then turn on my living room lights."</p>
+<p>Most crypto investors have never opened one. That is a research gap worth closing.</p>
 
-<p>Smart contracts are the same logic, applied to financial agreements and running on a blockchain where they can't be changed, stopped, or tampered with once deployed.</p>
+<h2>What a Block Explorer Actually Shows You</h2>
 
-<p>Some examples of what "if this, then that" looks like in the RWA world:</p>
+<p>Every public blockchain has at least one explorer. Ethereum has Etherscan. Bitcoin has Mempool.space. Polygon has PolygonScan. Specific chains built for particular ecosystems have their own: the <a href="https://grow.elevatescan.com/" target="_blank" rel="noopener">GROW token has its own native explorer at grow.elevatescan.com</a>, where every on-chain transaction in the GROW ecosystem — token transfers, farming activity, supply chain records — is publicly visible and independently verifiable. Similarly, the <a href="https://adventurewurld.elevatescan.com/" target="_blank" rel="noopener">AdventureWurld Chain Explorer</a> shows every game match, reward distribution, and GULD transaction from the Kill The Boss tech test.</p>
+
+<p>What all explorers have in common is this: they are the primary source. Not a spokesperson. Not a press release. The actual ledger.
+
+<p><strong>One thing you'll need before you start:</strong> the token's contract address. This is a unique on-chain identifier — typically a string starting with <code>0x</code> on EVM chains — that tells the explorer exactly which token you want to examine. You'll find it on the project's official site, on CoinMarketCap or CoinGecko under "Contract," or in their documentation. Once you have it, paste it into the explorer's search bar and you'll see every wallet holding that token, every transfer ever made, and the full contract code. Without the contract address, the explorer can show you the chain — but not the specific token you're researching.</p></p>
 
 <div class="key-box">
-  <div class="key-box-title">Smart Contracts in Action</div>
+  <div class="key-box-title">What You Can Verify on Any Block Explorer</div>
   <ul>
-    <li><strong>Rental income distribution</strong> — If rent is received, then distribute proportionally to all token holders within 24 hours</li>
-    <li><strong>Loan repayment</strong> — If borrower misses a payment, then automatically trigger the collateral liquidation process</li>
-    <li><strong>Token redemption</strong> — If holder requests redemption and holds valid tokens, then release the underlying asset value in stablecoins</li>
-    <li><strong>Yield accrual</strong> — If one day has passed, then add today's Treasury yield to every USDY holder's balance</li>
-    <li><strong>Compliance check</strong> — If buyer has not completed KYC, then reject the transfer</li>
+    <li><strong>Token supply:</strong> How many tokens exist, how many are circulating, and whether the number matches what the project claims</li>
+    <li><strong>Wallet distribution:</strong> Who holds the tokens and in what concentration — is 80% held by 3 wallets?</li>
+    <li><strong>Transaction volume:</strong> Is the chain actually being used, or is the TVL number propped up by circular activity?</li>
+    <li><strong>Smart contract code:</strong> Is the contract verified and readable? Unverified contracts are a red flag</li>
+    <li><strong>Team wallet activity:</strong> Are founders selling? Are tokens being moved to exchanges?</li>
+    <li><strong>Reserve wallets:</strong> Does the platform's reserve match what they claim? (e.g. a Conservator Wallet holding the game reward pool)</li>
   </ul>
 </div>
 
-<h2>The Part That Makes People Nervous</h2>
+<h2>The Three Numbers to Check First</h2>
 
-<p>"The code just runs automatically with no human oversight" — that's either extremely reassuring or extremely alarming depending on your perspective, and both reactions are reasonable.</p>
+<h3>1. Token Concentration (The Whale Check)</h3>
 
-<p>The reassuring part: the rules are visible and verifiable. Unlike a bank's terms of service — which can change, have carve-outs, and are enforced by people with discretion — a smart contract's rules are public, permanent, and mathematical. You can read exactly what will happen before you agree to anything.</p>
+<p>Go to the token's page on its explorer and look at the list of top holders. A healthy token distribution has no single wallet holding more than 10–15% of supply outside of known locked contracts (team vesting, treasury, liquidity pools). What you're looking for:</p>
 
-<p>The alarming part: if there's a bug in the code, it executes the bug. There's no manager to call. There's no dispute resolution department. Several high-profile DeFi hacks have exploited smart contract vulnerabilities to drain funds — not by breaking encryption, but by finding edge cases the programmers didn't anticipate and running them through the machine until it paid out incorrectly.</p>
+<p>If the top 5 wallets hold 70%+ of supply and none are labeled as exchange or contract addresses, you have a concentration risk. If one of those wallets starts moving tokens to a centralized exchange, that's a sell signal the project won't put in their newsletter.</p>
 
-<p>This is why the most serious RWA platforms spend significant resources on smart contract audits — independent security reviews that try to find every possible edge case before the contract goes live. It's the equivalent of stress-testing a vending machine before putting it in a hallway full of hungry kids.</p>
-
-<div class="pull-quote">"A smart contract doesn't care if it's 3am, if markets are closed, or if you forgot to call your broker. If the conditions are met, it runs. That's the whole point."</div>
-
-<h2>What Smart Contracts Can't Do</h2>
-
-<p>A smart contract can execute anything that can be expressed in code. What it can't do is verify things that exist in the physical world.</p>
-
-<p>If a tokenized property claims to be worth $2 million, the smart contract has no way to check whether that valuation is accurate. It can distribute rental income, but it can't verify that the tenant actually paid — that information has to come in from outside the blockchain via something called an oracle (covered in a future part of this series).</p>
-
-<p>This is the fundamental challenge of real-world asset tokenization: the physical world and the blockchain world are separate, and bridging them requires trust at the seam. Smart contracts handle everything on-chain with perfect reliability. Everything off-chain still requires humans — appraisers, auditors, regulators — to vouch for the data coming in.</p>
-
-<p>The vending machine executes perfectly. What goes into it is still up to you.</p>
-
-<p>Next up: <a href="rwa-for-the-rest-of-us-liquidity.html">Part 03 — Liquidity. Why turning an asset into a token is like turning a parking lot into a highway.</a></p>
-
-  </div>
-  <aside class="article-sidebar"><div class="sidebar-card">
-  <div class="sidebar-card-title">In This Series</div>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-tokenization.html"><span class="sidebar-related-cat">Part 01</span>What Is Tokenization? The Spotify Analogy</a>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-smart-contracts.html"><span class="sidebar-related-cat">Part 02</span>Smart Contracts — You Are Here</a>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-liquidity.html"><span class="sidebar-related-cat">Part 03</span>Liquidity — Coming Soon</a>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-yield.html"><span class="sidebar-related-cat">Part 04</span>Yield & Stablecoins — Coming Soon</a>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-nodes.html"><span class="sidebar-related-cat">Part 05</span>Nodes & Networks — Coming Soon</a>
-</div>
-<div class="sidebar-card">
-  <div class="sidebar-card-title">Go Deeper</div>
-  <a class="sidebar-related-item" href="rwa-for-the-rest-of-us-tokenization.html"><span class="sidebar-related-cat">Series Part 01</span>What Is Tokenization? Start Here</a>
-  <a class="sidebar-related-item" href="rwa-glossary-terms-explained.html"><span class="sidebar-related-cat">Glossary</span>Every RWA Term in Plain English</a>
-  <a class="sidebar-related-item" href="how-to-invest-in-rwa-beginner-guide.html"><span class="sidebar-related-cat">How-To</span>How a Normal Person Participates in RWA Today</a>
-</div></aside>
-</div>
-</div>
-<div style="background:var(--surface2);border:1px solid var(--border2);border-radius:6px;padding:16px 20px;margin:2.5rem 0 0;">
-  <div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Go Deeper</div>
-  <a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold);text-decoration:none;font-size:14px;line-height:1.6;">→ The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a>
+<div class="rwa-box">
+  <div class="rwa-label">Real Example</div>
+  <p>On <a href="https://grow.elevatescan.com/" target="_blank" rel="noopener">grow.elevatescan.com</a>, you can verify the GROW token's wallet distribution directly — who holds what, when transfers occurred, and whether the supply figures match the project's stated tokenomics. No trust required. The chain is the source of truth.</p>
 </div>
 
-<footer class="site-footer">
+<h3>2. Transaction Velocity (The Activity Check)</h3>
+
+<p>A project claims 50,000 active users. The explorer shows 200 unique addresses transacting per day. That gap is not a rounding error — it's a claim that needs explaining.</p>
+
+<p>Real activity leaves a pattern: diverse wallet addresses, varied transaction sizes, organic timing (not suspiciously even intervals that suggest automated bot activity), and transaction types that match the product's described use cases.</p>
+
+<p>Bot-inflated activity looks different: a small number of addresses transacting in tight loops, suspiciously round amounts, and transaction patterns that cluster around announcement dates before going quiet.</p>
+
+<h3>3. Contract Verification (The Code Check)</h3>
+
+<p>On Etherscan and most EVM explorers, you can view whether a smart contract's source code has been verified and published. A verified contract means the code is publicly readable. You — or any developer — can see exactly what the contract does before trusting it with funds.</p>
+
+<p>An unverified contract is a contract you cannot audit. It's a black box. For any RWA project where you're trusting a smart contract to hold value, distribute yield, or execute legal rights — unverified code is a disqualifying red flag unless the project provides a compelling explanation.</p>
+
+<h2>Reading a Specific Transaction</h2>
+
+<p>Every transaction on a blockchain has a hash — a unique identifier that looks like this: <code>0x4a7f...b92c</code>. You can paste any transaction hash into the relevant explorer and see exactly what happened: which wallets were involved, what tokens moved, how much gas was paid, and what smart contract functions were called.</p>
+
+<p>This is how you verify specific claims. A project says "we distributed $2.3 million in rewards to farmers last quarter." Find the transaction hashes. Paste them into the explorer. Verify the amounts, the receiving wallets, and the dates. Either the on-chain record confirms the claim or it doesn't.</p>
+
+<div class="analogy-box">
+  <div class="analogy-label">The Analogy</div>
+  <p>A block explorer is like a publicly accessible bank statement for every wallet on the network. You can see every deposit, withdrawal, and transfer — but only the outgoing and incoming amounts, not the identity behind the wallet. The record is permanent, public, and cannot be altered. When a project makes a financial claim, this is where you verify it.</p>
+</div>
+
+<h2>What You Cannot Verify On-Chain</h2>
+
+<p>The blockchain verifies what happened on-chain. It doesn't verify what happened in the physical world.</p>
+
+<p>A token representing a gold bar is only as real as the gold in the vault. A token representing a carbon credit is only as real as the underlying project's emissions reductions. A token representing a farm's supply chain is only as trustworthy as the people entering data at the farm level.</p>
+
+<p>On-chain verification is a necessary condition for RWA due diligence. It is not sufficient. The blockchain confirms that tokens exist, that they moved, and that contracts executed as written. It cannot confirm that the real-world assets those tokens represent actually exist in the form claimed.</p>
+
+<p>This is why the research stack combines on-chain verification with the LinkedIn team verification from Part 01, legal structure review, and the red flags checklist coming in Part 05. No single tool covers everything — each covers what the others can't.</p>
+
+<h2>Where to Start</h2>
+
+<div class="key-box">
+  <div class="key-box-title">Explorer Quick Reference</div>
+  <ul>
+    <li><strong>Ethereum / ERC-20 tokens:</strong> <a href="https://etherscan.io" target="_blank" rel="noopener">etherscan.io</a></li>
+    <li><strong>Polygon (MATIC chain):</strong> <a href="https://polygonscan.com" target="_blank" rel="noopener">polygonscan.com</a></li>
+    <li><strong>Solana:</strong> <a href="https://solscan.io" target="_blank" rel="noopener">solscan.io</a></li>
+    <li><strong>BNB Chain:</strong> <a href="https://bscscan.com" target="_blank" rel="noopener">bscscan.com</a></li>
+    <li><strong>GROW token (native):</strong> <a href="https://grow.elevatescan.com/" target="_blank" rel="noopener">grow.elevatescan.com</a></li>
+    <li><strong>AdventureWurld Chain:</strong> <a href="https://adventurewurld.elevatescan.com/" target="_blank" rel="noopener">adventurewurld.elevatescan.com</a></li>
+    <li><strong>Any chain:</strong> Search "[chain name] block explorer" — every serious chain has one</li>
+    <li><strong>Finding a specific token:</strong> You'll need the token's contract address — a unique identifier that looks like <code>0x1234...abcd</code>. Find it on the project's official website, their CoinMarketCap or CoinGecko page, or their documentation. Paste it into the explorer's search bar to see all holders, transfers, and activity for that specific token. Never use a contract address from an unofficial source — fake tokens with similar names are a common scam.</li>
+  </ul>
+</div>
+
+<p>Next in this series: <a href="#">Part 03 — How to Evaluate a Team. Beyond LinkedIn: GitHub commits, prior project history, who's missing from the team page, and the questions to ask when references check out.</a></p>
+</div>
+<aside class="article-sidebar"><div class="sidebar-card"><div class="sidebar-card-title">DYOR in RWA — Series</div>
+<a class="sidebar-related-item" href="dyor-rwa-linkedin-vs-twitter.html"><span class="sidebar-related-cat">Part 01</span>LinkedIn vs Twitter — Signal vs Noise</a>
+<a class="sidebar-related-item" href="dyor-rwa-on-chain-explorer.html"><span class="sidebar-related-cat">Part 02</span>How to Read an On-Chain Explorer ← You are here</a>
+<a class="sidebar-related-item" href="#"><span class="sidebar-related-cat">Part 03</span>How to Evaluate a Team — Coming Soon</a>
+<a class="sidebar-related-item" href="#"><span class="sidebar-related-cat">Part 04</span>How to Read a Whitepaper — Coming Soon</a>
+<a class="sidebar-related-item" href="#"><span class="sidebar-related-cat">Part 05</span>Red Flags Checklist — Coming Soon</a>
+</div>
+<div class="sidebar-card"><div class="sidebar-card-title">Explorers Referenced</div>
+<a class="sidebar-related-item" href="https://grow.elevatescan.com/" target="_blank"><span class="sidebar-related-cat">GROW</span>grow.elevatescan.com</a>
+<a class="sidebar-related-item" href="https://adventurewurld.elevatescan.com/" target="_blank"><span class="sidebar-related-cat">AdventureWurld</span>adventurewurld.elevatescan.com</a>
+<a class="sidebar-related-item" href="grow-token-agricultural-blockchain-food-supply.html"><span class="sidebar-related-cat">Foundry · GROW</span>GROW: Agricultural Blockchain</a>
+</div></aside></div>
+
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 0;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="ultimate-guide-rwa-tokenization-2026.html" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;line-height:1.6;">→ The Ultimate Guide to RWA Tokenization in 2026 — everything in one place</a></div>
+</div><footer class="site-footer">
 
     <!-- Newsletter Band -->
     <div class="footer-newsletter">
@@ -804,12 +748,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         <h4>Company</h4>
         <ul>
           <li><a href="articles.html">All Articles</a></li>
-          <li><a href="about.html" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about.html" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained.html" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="#" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Advertise</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
+          <li><a href="#" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -823,16 +767,18 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy.html" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms.html" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms.html" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="#" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
-  </footer>
-</body>
-</html>
+  </footer><div class="mobile-bottom-nav">
+  <a class="mbn-back" href="index.html">← Home</a>
+  <a class="mbn-logo" href="index.html"><span style="color:#3DAA6E;">RWA</span>Today</a>
+  <a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a>
+</div></body></html>

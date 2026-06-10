@@ -1168,8 +1168,22 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   <div class="article-meta"><span>📅 June 2, 2026</span><span>⏱ 8 min read</span><span>🏷 Research · Education</span></div>
 </div>
 <div class="article-body">
-  <div class="article-content"><div class="series-nav">
+  <div class="article-content"><style>
+.series-nav{background:var(--surface,#0D1810);border:1px solid var(--border,#1E3020);border-radius:6px;padding:18px 22px;margin:1.5rem 0;}
+.series-nav-title{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border,#1E3020);}
+.series-nav ul{list-style:none;padding:0;margin:0;}
+.series-nav ul li{padding:0;margin:0;}
+.series-nav ul li a{display:flex !important;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid var(--border,#1E3020);text-decoration:none;color:var(--text2,#A8C4B0);font-size:13px;line-height:1.4;transition:color 0.2s;}
+.series-nav ul li:last-child a{border-bottom:none;}
+.series-nav ul li a:hover{color:var(--gold,#3DAA6E);}
+.series-nav ul li a.current{color:var(--white,#F0F4FA);font-weight:600;}
+.series-nav ul li a .sn-num{font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;color:var(--gold,#3DAA6E);background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:3px;padding:2px 6px;flex-shrink:0;margin-top:1px;}
+</style>
+<div class="series-nav">
 <div class="series-nav-title">DYOR in RWA — Research Series</div>
+<ul>
+</ul>
+</div>
 <a href="dyor-rwa-linkedin-vs-twitter.html" class="current"><span class="sn-num">01</span>LinkedIn vs Twitter — Signal vs Noise  ← you are here</a>
 <a href="#"><span class="sn-num">02</span>How to Read an On-Chain Explorer — Coming Soon</a>
 <a href="#"><span class="sn-num">03</span>How to Evaluate a Team — Coming Soon</a>

@@ -520,4 +520,59 @@
       <news:keywords>Hong Kong green bonds tokenized, sovereign digital bond, HKMA, HSBC Orion, government blockchain bond</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-this-week-003.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>RWA This Week — Issue #003</news:title>
+      <news:keywords>RWA weekly June 2026, Binance Research RWA 589%, Securitize IPO, DTCC launch, Clearing House tokenized deposits</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-for-the-rest-of-us-dao.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>What Is a DAO? (Explained Like You're in 5th Grade)</news:title>
+      <news:keywords>DAO explained beginners, decentralized autonomous organization, token voting RWA, DAO governance crypto</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-case-study-kkr-avalanche.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>How KKR Tokenized a Private Equity Fund on Avalanche</news:title>
+      <news:keywords>KKR tokenized fund, private equity blockchain, Avalanche RWA, Securitize KKR, PE tokenization 2026</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/ones-to-watch-toucan-carbon.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>Toucan Protocol: Carbon Credits On-Chain</news:title>
+      <news:keywords>Toucan Protocol, BCT token, carbon credit tokenization, on-chain carbon, voluntary carbon market blockchain</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/dyor-rwa-on-chain-explorer.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>How to Read a Block Explorer: On-Chain Verification for RWA Investors</news:title>
+      <news:keywords>block explorer RWA, etherscan tutorial, on-chain verification, DYOR blockchain, token holder distribution</news:keywords>
+    </news:news>
+  </url>
 </urlset>
