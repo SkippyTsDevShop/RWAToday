@@ -12,7 +12,7 @@
 
   <!-- Articles Archive -->
   <url>
-    <loc>https://rwatoday.news/articles</loc>
+    <loc>https://rwatoday.news/articles.html</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -20,7 +20,7 @@
 
   <!-- Articles -->
   <url>
-    <loc>https://rwatoday.news/rwa-market-37-billion-2026</loc>
+    <loc>https://rwatoday.news/rwa-market-37-billion-2026.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -32,7 +32,7 @@
   </url>
 
   <url>
-    <loc>https://rwatoday.news/blackrock-tokenized-funds-rwa</loc>
+    <loc>https://rwatoday.news/blackrock-tokenized-funds-rwa.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -44,7 +44,7 @@
   </url>
 
   <url>
-    <loc>https://rwatoday.news/clarity-act-rwa-regulation</loc>
+    <loc>https://rwatoday.news/clarity-act-rwa-regulation.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -56,7 +56,7 @@
   </url>
 
   <url>
-    <loc>https://rwatoday.news/five-utility-tokens-2026</loc>
+    <loc>https://rwatoday.news/five-utility-tokens-2026.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -68,7 +68,7 @@
   </url>
 
   <url>
-    <loc>https://rwatoday.news/adventurewurld-guld-onchain</loc>
+    <loc>https://rwatoday.news/adventurewurld-guld-onchain.html</loc>
     <lastmod>2026-05-17</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -80,7 +80,7 @@
   </url>
 
   <url>
-    <loc>https://rwatoday.news/grow-token-agricultural-blockchain-food-supply</loc>
+    <loc>https://rwatoday.news/grow-token-agricultural-blockchain-food-supply.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.9</priority>
     <news:news>
@@ -342,7 +342,6 @@
       <news:keywords>ultimate guide RWA tokenization 2026, real world assets explained, RWA investing, tokenized assets, RWA protocols</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/top-voices-rwa-nathan-allman-ondo.html</loc>
     <lastmod>2026-05-27</lastmod>
@@ -354,7 +353,6 @@
       <news:keywords>Nathan Allman Ondo Finance, RWA top voices, tokenized treasuries, OUSG USDY, Ondo Finance founder tribute</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-case-study-siemens-digital-bond.html</loc>
     <lastmod>2026-05-27</lastmod>
@@ -366,35 +364,30 @@
       <news:keywords>Siemens digital bond, tokenized bond case study, blockchain bond Polygon, corporate bond tokenization, eWpG Germany</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/about.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://rwatoday.news/editorial-policy.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://rwatoday.news/privacy-policy.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://rwatoday.news/terms.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-for-the-rest-of-us-liquidity.html</loc>
     <lastmod>2026-05-29</lastmod>
@@ -406,7 +399,6 @@
       <news:keywords>liquidity explained, RWA liquidity, tokenized assets beginner, illiquid assets blockchain, RWA for the rest of us</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize.html</loc>
     <lastmod>2026-05-29</lastmod>
@@ -418,7 +410,6 @@
       <news:keywords>Carlos Domingo Securitize, BUIDL BlackRock transfer agent, tokenized securities compliance, DS Protocol, RWA infrastructure</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-defi-composability-gap-2026.html</loc>
     <lastmod>2026-05-29</lastmod>
@@ -430,7 +421,6 @@
       <news:keywords>RWA DeFi composability, tokenized assets DeFi gap, permissioned DeFi, Chainlink CCIP RWA, compliant DeFi 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/adventurewurld-kill-the-boss-tech-test-2026.html</loc>
     <lastmod>2026-05-29</lastmod>
@@ -442,7 +432,6 @@
       <news:keywords>AdventureWurld Kill The Boss, on-chain gaming, GULD token, blockchain game mechanics, Web3 gaming 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-this-week-001.html</loc>
     <lastmod>2026-05-30</lastmod>
@@ -454,7 +443,6 @@
       <news:keywords>RWA news weekly, RWA roundup, DTCC tokenization, Ondo Finance, GENIUS Act stablecoins May 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-for-the-rest-of-us-nodes.html</loc>
     <lastmod>2026-05-30</lastmod>
@@ -466,7 +454,6 @@
       <news:keywords>blockchain nodes explained, what is a node, node operator, Win Blockchain nodes, RWA beginner</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-for-the-rest-of-us-yield.html</loc>
     <lastmod>2026-05-30</lastmod>
@@ -478,7 +465,6 @@
       <news:keywords>what is yield, yield bearing stablecoin, USDY Ondo, RWA yield explained, stablecoin yield beginner</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-this-week-002.html</loc>
     <lastmod>2026-06-02</lastmod>
@@ -490,7 +476,6 @@
       <news:keywords>RWA weekly roundup June 2026, DTCC tokenization, SEC guidance, Polygon institutional RWA, Hong Kong bonds</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/ones-to-watch-origintrail-supply-chain.html</loc>
     <lastmod>2026-06-02</lastmod>
@@ -502,7 +487,6 @@
       <news:keywords>OriginTrail, TRAC token, supply chain blockchain, EU digital product passport, supply chain RWA 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/top-voices-rwa-colin-butler-polygon.html</loc>
     <lastmod>2026-06-02</lastmod>
@@ -514,7 +498,6 @@
       <news:keywords>Colin Butler Polygon, institutional RWA blockchain, Polygon institutional capital, public blockchain finance</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/dyor-rwa-linkedin-vs-twitter.html</loc>
     <lastmod>2026-06-02</lastmod>
@@ -526,7 +509,6 @@
       <news:keywords>RWA research LinkedIn, crypto Twitter vs LinkedIn, DYOR real world assets, how to research RWA, verify crypto team 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-case-study-hk-green-bonds.html</loc>
     <lastmod>2026-06-02</lastmod>
@@ -538,7 +520,6 @@
       <news:keywords>Hong Kong green bonds tokenized, sovereign digital bond, HKMA, HSBC Orion, government blockchain bond</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-this-week-003.html</loc>
     <lastmod>2026-06-09</lastmod>
@@ -550,7 +531,6 @@
       <news:keywords>RWA weekly June 2026, Binance Research RWA 589%, Securitize IPO, DTCC launch, Clearing House tokenized deposits</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-for-the-rest-of-us-dao.html</loc>
     <lastmod>2026-06-09</lastmod>
@@ -562,7 +542,17 @@
       <news:keywords>DAO explained beginners, decentralized autonomous organization, token voting RWA, DAO governance crypto</news:keywords>
     </news:news>
   </url>
-
+  <url>
+    <loc>https://rwatoday.news/rwa-case-study-kkr-avalanche.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09</news:publication_date>
+      <news:title>How KKR Tokenized a Private Equity Fund on Avalanche</news:title>
+      <news:keywords>KKR tokenized fund, private equity blockchain, Avalanche RWA, Securitize KKR, PE tokenization 2026</news:keywords>
+    </news:news>
+  </url>
   <url>
     <loc>https://rwatoday.news/ones-to-watch-toucan-carbon.html</loc>
     <lastmod>2026-06-09</lastmod>
@@ -574,7 +564,6 @@
       <news:keywords>Toucan Protocol, BCT token, carbon credit tokenization, on-chain carbon, voluntary carbon market blockchain</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/dyor-rwa-on-chain-explorer.html</loc>
     <lastmod>2026-06-09</lastmod>
@@ -586,7 +575,6 @@
       <news:keywords>block explorer RWA, etherscan tutorial, on-chain verification, DYOR blockchain, token holder distribution</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/rwa-tokenization-events-conferences-2026.html</loc>
     <lastmod>2026-06-10</lastmod>
@@ -598,7 +586,6 @@
       <news:keywords>RWA conferences 2026, tokenization events 2026, TokenizeThis, RWA Summit, Consensus Miami tokenization, TOKEN2049 RWA</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/what-is-rwa-crypto-explained.html</loc>
     <lastmod>2026-06-10</lastmod>
@@ -610,7 +597,6 @@
       <news:keywords>what is RWA crypto, real world assets explained, RWA meaning crypto 2026, RWA tokenization explained</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/tokenized-gold-vs-physical-gold-vs-etf.html</loc>
     <lastmod>2026-06-10</lastmod>
@@ -622,7 +608,6 @@
       <news:keywords>tokenized gold vs physical gold, PAXG vs GLD, gold ETF vs tokenized gold, PAXG XAUT comparison 2026</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/5-rwa-mistakes-beginners-make.html</loc>
     <lastmod>2026-06-10</lastmod>
@@ -634,7 +619,6 @@
       <news:keywords>RWA investing mistakes, tokenization mistakes beginners, RWA due diligence, how to research RWA</news:keywords>
     </news:news>
   </url>
-
   <url>
     <loc>https://rwatoday.news/stablecoins-and-rwa-connection-explained.html</loc>
     <lastmod>2026-06-10</lastmod>
@@ -646,5 +630,37 @@
       <news:keywords>stablecoins and RWA, USDY yield stablecoin, RWA stablecoin infrastructure, GENIUS Act stablecoins</news:keywords>
     </news:news>
   </url>
-
+  <url>
+    <loc>https://rwatoday.news/spacex-ipo-tokenized-spcx-rwa-equities.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-12</news:publication_date>
+      <news:title>SpaceX IPO Launches Tokenized on Solana Same Day as Nasdaq</news:title>
+      <news:keywords>SpaceX IPO tokenized, SPCX Solana token, tokenized SpaceX shares, RWA equities SpaceX 2026</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/grow-worlds-largest-agricultural-blockchain-2026.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-12</news:publication_date>
+      <news:title>GROW Is Driving Blockchain Adoption in Agriculture — and the Numbers Back It Up</news:title>
+      <news:keywords>GROW agricultural blockchain largest, GROW token holders comparison, AgriDex TE-FOOD GROW comparison</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/fortune-crypto-100-2026-rwa-analysis.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-12</news:publication_date>
+      <news:title>The Fortune Crypto 100 Is a Map of the RWA Sector</news:title>
+      <news:keywords>Fortune Crypto 100 2026, Ondo Fortune 100, Securitize Fortune crypto, institutional crypto ranking</news:keywords>
+    </news:news>
+  </url>
 </urlset>
