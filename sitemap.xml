@@ -663,4 +663,37 @@
       <news:keywords>Fortune Crypto 100 2026, Ondo Fortune 100, Securitize Fortune crypto, institutional crypto ranking</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-this-week-004.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>RWA This Week — Issue #004</news:title>
+      <news:keywords>RWA weekly June 2026, Goldman Sachs tokenized real estate, Japan DVP DCJPY, DTCC July 2026, SpaceX SPCX recap</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/connect-learn2earn-blockchain-education-program.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>One Year of Learn2Earn: How Connect United Built a Community That Gets Paid to Learn About Blockchain</news:title>
+      <news:keywords>Connect Learn2Earn, WIN blockchain rewards, blockchain education program 2026, Proof of Action WIN</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/royal-family-farms-austin-allred-grow-blockchain.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>From Royal City to the Blockchain: Austin Allred and Royal Family Farming</news:title>
+      <news:keywords>Royal Family Farming blockchain, Austin Allred GROW, regenerative agriculture blockchain, Nourish Marketplace</news:keywords>
+    </news:news>
+  </url>
 </urlset>
