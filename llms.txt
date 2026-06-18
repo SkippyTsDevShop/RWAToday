@@ -1,0 +1,47 @@
+# RWAToday.news
+> Independent editorial publication covering real-world asset (RWA) tokenization, on-chain finance infrastructure, and the protocols and institutions building the tokenized economy.
+
+## Key Pages
+- /: Homepage
+- /ultimate-guide-rwa-tokenization-2026: The definitive guide to RWA tokenization in 2026
+- /what-is-rwa-crypto-explained: What is RWA in crypto — complete answer
+- /rwa-glossary-terms-explained: RWA glossary — every term explained
+- /how-to-invest-in-rwa-beginner-guide: How to participate in RWA tokenization today
+
+## Series: RWA For the Rest of Us (Beginner)
+- /rwa-for-the-rest-of-us-tokenization: Part 01 — What is tokenization?
+- /rwa-for-the-rest-of-us-smart-contracts: Part 02 — What is a smart contract?
+- /rwa-for-the-rest-of-us-liquidity: Part 03 — What is liquidity?
+- /rwa-for-the-rest-of-us-yield: Part 04 — What is yield?
+- /rwa-for-the-rest-of-us-nodes: Part 05 — What are nodes?
+- /rwa-for-the-rest-of-us-dao: Part 06 — What is a DAO?
+
+## Series: DYOR in RWA (Research)
+- /dyor-rwa-linkedin-vs-twitter: Part 01 — LinkedIn vs Twitter for RWA research
+- /dyor-rwa-on-chain-explorer: Part 02 — How to read a block explorer
+
+## Series: RWA Case Studies
+- /rwa-case-study-siemens-digital-bond: Siemens €60M digital bond on Polygon
+- /rwa-case-study-hk-green-bonds: Hong Kong $1.77B tokenized green bonds
+- /rwa-case-study-kkr-avalanche: KKR tokenized private equity fund on Avalanche
+
+## Weekly Roundup
+- /rwa-this-week-004: Latest weekly roundup — June 17, 2026
+- /rwa-this-week-003: Issue 003 — June 9, 2026
+
+## Breaking News
+- /spacex-ipo-tokenized-spcx-rwa-equities: SpaceX IPO tokenized on Solana same day as Nasdaq
+- /fortune-crypto-100-2026-rwa-analysis: Fortune Crypto 100 2026 — RWA analysis
+
+## SEO Articles
+- /5-rwa-mistakes-beginners-make: 5 RWA mistakes beginners make
+- /tokenized-gold-vs-physical-gold-vs-etf: Tokenized gold vs physical gold vs ETF
+- /stablecoins-and-rwa-connection-explained: Stablecoins and RWA connection explained
+
+## Agricultural RWA
+- /grow-token-agricultural-blockchain-food-supply: GROW token — agricultural blockchain
+- /grow-worlds-largest-agricultural-blockchain-2026: GROW is the world's largest agricultural blockchain
+- /royal-family-farms-austin-allred-grow-blockchain: Royal Family Farms — blockchain in regenerative agriculture
+
+## Education
+- /connect-learn2earn-blockchain-education-program: Connect Learn2Earn — one year, 9000 participants, 300000 lessons
