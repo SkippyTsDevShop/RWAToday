@@ -695,18 +695,28 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
     </div>
     <ul class="site-nav-links">
-    </ul>
+    <li><a href="search.html" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
     <div></div>
   </nav>
 
   <!-- SINGLE HERO + SIDEBAR -->
   <!-- MAIN LAYOUT: left col = hero + recently featured, right col = top stories -->
-  <div class="homepage-grid">
+  
+<div style="background:var(--surface,#112418);border:1px solid var(--border2,#265235);border-radius:8px;padding:16px 20px;margin:0 40px 32px;display:flex;gap:12px;align-items:center;">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3DAA6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+  <input id="homeSearch" type="search" placeholder="Search 67 articles..." autocomplete="off"
+    style="flex:1;background:none;border:none;outline:none;font-family:'Archivo',sans-serif;font-size:15px;color:#F0F4FA;"
+    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='search.html?q='+encodeURIComponent(this.value.trim())"
+  />
+  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='search.html?q='+encodeURIComponent(v)"
+    style="background:#3DAA6E;border:none;border-radius:4px;padding:8px 16px;font-family:'Archivo Narrow',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#080E0A;cursor:pointer;">Search</button>
+</div>
+<div class="homepage-grid">
 
     <!-- LEFT COLUMN: Hero + Recently Featured -->
     <div class="homepage-left">
 
-      <a class="hero-main" href="rwa-this-week-005.html" style="text-decoration:none;display:block;">
+      <a class="hero-main" href="tether-fasset-gold-visa-card-xaut-rwa.html" style="text-decoration:none;display:block;">
       <div class="hero-img-utility" style="height:200px;background:linear-gradient(140deg,#060810 0%,#0A0F1A 35%,#0F1525 60%,#060810 100%);">
         <div class="hero-grid-overlay"></div>
         <div class="hero-glow-green"></div>
@@ -723,9 +733,9 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         </div>
       </div>
       <div class="hero-content">
-        <div class="hero-cat">Weekly Roundup · June 22, 2026</div>
-        <div class="hero-title">RWA This Week — Issue #005</div>
-        <div class="hero-excerpt">Securitize votes June 29. 930K RWA holders. Ondo 430+ stocks on MetaMask. BUIDL on Uniswap. DTCC this month.</div>
+        <div class="hero-cat">Markets · Tokenized Gold · June 23, 2026</div>
+        <div class="hero-title">Tether and Fasset Made Tokenized Gold Spendable</div>
+        <div class="hero-excerpt">The world's first gold-backed Visa card is live. Spend XAU₮ anywhere Visa is accepted, earn 6% cashback in tokenized gold. Here's how it works and what it means.</div>
         <div class="hero-meta">
           <div class="author-byline">
             <div class="author-avatar">RW</div>
@@ -746,19 +756,19 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <!-- RECENTLY FEATURED -->
       <div class="recently-featured">
         <div class="rf-heading">Recently Featured</div>
-        <div class="rf-grid"><a class="rf-card" href="rwa-mainstream-adoption-what-needs-to-happen.html">
-            <div class="rf-cat">Analysis · Adoption</div>
-            <div class="rf-title">RWA Mainstream Adoption: What Needs to Happen Before Everyone Else Shows Up</div>
-            <div class="rf-meta">June 22, 2026 · 9 min</div>
+        <div class="rf-grid"><a class="rf-card" href="top-voices-rwa-hadley-stern-fidelity.html">
+            <div class="rf-cat">Top Voices · #05</div>
+            <div class="rf-title">Hadley Stern — Fidelity's Digital Asset Infrastructure Since 2018</div>
+            <div class="rf-meta">June 23, 2026 · 8 min</div>
           </a>
-          <a class="rf-card" href="untapped-industries-rwa-tokenization-future.html">
-            <div class="rf-cat">Analysis · Future of RWA</div>
-            <div class="rf-title">Beyond Treasuries: 7 Industries That Tokenization Could Transform Next</div>
-            <div class="rf-meta">June 22, 2026 · 9 min</div>
+          <a class="rf-card" href="coingecko-rwa-report-2026-analysis.html">
+            <div class="rf-cat">Data · Markets</div>
+            <div class="rf-title">CoinGecko RWA 2026: Commodities +289%, Stocks +422%, Perps $524.8B</div>
+            <div class="rf-meta">June 23, 2026 · 7 min</div>
           </a>
           <a class="rf-card" href="securitize-nyse-secz-rwa-public-company-2026.html">
             <div class="rf-cat">Markets · Institutional</div>
-            <div class="rf-title">Securitize Is Going Public — What SECZ on NYSE Means for RWA</div>
+            <div class="rf-title">Securitize Is Going Public — Vote June 29</div>
             <div class="rf-meta">June 22, 2026 · 7 min</div>
           </a>
           </div>
@@ -792,30 +802,32 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <!-- RIGHT COLUMN: Top Stories -->
     <div class="homepage-right">
       <div class="rf-heading">More Top Stories</div>
-                                                                                                            <a class="sidebar-article" href="royal-family-farms-austin-allred-grow-blockchain.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+                                                                                                                        <a class="sidebar-article" href="rwa-for-the-rest-of-us-oracle.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">05</div>
-        <div><div class="sidebar-cat">Feature · Agricultural</div><div class="sidebar-title">From Royal City to the Blockchain: Royal Family Farming</div><div class="sidebar-time">June 17, 2026</div></div>
+        <div><div class="sidebar-cat">Education · Beginner</div><div class="sidebar-title">What Is an Oracle? The Bridge to the Real World</div><div class="sidebar-time">June 23, 2026</div></div>
       </a>
-      <a class="sidebar-article" href="rwa-this-week-004.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="ones-to-watch-helium-network-rwa.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">06</div>
-        <div><div class="sidebar-cat">Weekly Roundup</div><div class="sidebar-title">RWA This Week — Issue #004</div><div class="sidebar-time">June 17, 2026</div></div>
+        <div><div class="sidebar-cat">Ones to Watch · DePin</div><div class="sidebar-title">Helium: Decentralized Wireless as RWA</div><div class="sidebar-time">June 23, 2026</div></div>
       </a>
-      <a class="sidebar-article" href="grow-worlds-largest-agricultural-blockchain-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="rwa-this-week-005.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">07</div>
-        <div><div class="sidebar-cat">Analysis · Agricultural</div><div class="sidebar-title">GROW Is Driving Blockchain Adoption in Agriculture</div><div class="sidebar-time">June 12, 2026</div></div>
+        <div><div class="sidebar-cat">Weekly Roundup</div><div class="sidebar-title">RWA This Week — Issue #005</div><div class="sidebar-time">June 22, 2026</div></div>
       </a>
-      <a class="sidebar-article" href="spacex-ipo-tokenized-spcx-rwa-equities.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="rwa-mainstream-adoption-what-needs-to-happen.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">08</div>
-        <div><div class="sidebar-cat">Markets · Breaking</div><div class="sidebar-title">SpaceX IPO Launches Tokenized on Solana Same Day as Nasdaq</div><div class="sidebar-time">June 12, 2026</div></div>
+        <div><div class="sidebar-cat">Analysis</div><div class="sidebar-title">RWA Mainstream Adoption: What Needs to Happen</div><div class="sidebar-time">June 22, 2026</div></div>
       </a>
-      <a class="sidebar-article" href="fortune-crypto-100-2026-rwa-analysis.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="untapped-industries-rwa-tokenization-future.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">09</div>
-        <div><div class="sidebar-cat">Markets · Institutional</div><div class="sidebar-title">The Fortune Crypto 100 Is a Map of the RWA Sector</div><div class="sidebar-time">June 12, 2026</div></div>
+        <div><div class="sidebar-cat">Analysis</div><div class="sidebar-title">Beyond Treasuries: 7 Untapped RWA Industries</div><div class="sidebar-time">June 22, 2026</div></div>
       </a>
-      <a class="sidebar-article" href="rwa-tokenization-events-conferences-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="top-voices-rwa-sergey-nazarov-chainlink.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">10</div>
-        <div><div class="sidebar-cat">Events · Industry</div><div class="sidebar-title">Where the RWA Industry Is Meeting in 2026</div><div class="sidebar-time">June 10, 2026</div></div>
+        <div><div class="sidebar-cat">Top Voices · #04</div><div class="sidebar-title">Sergey Nazarov — Chainlink</div><div class="sidebar-time">June 22, 2026</div></div>
       </a>
+
+
 
 
 
