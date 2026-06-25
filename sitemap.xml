@@ -807,4 +807,59 @@
     </news:news>
   </url>
   <url><loc>https://rwatoday.news/search</loc><lastmod>2026-06-23</lastmod><priority>0.5</priority></url>
+  <url>
+    <loc>https://rwatoday.news/tokenizethis-2026-nyc-conference-summary</loc>
+    <lastmod>2026-06-23</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23</news:publication_date>
+      <news:title>TokenizeThis 2026 Opens in NYC Today</news:title>
+      <news:keywords>TokenizeThis 2026 NYC, tokenization conference June 2026, RedStone TokenizeThis, RWA conference New York</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-explained-airbnb-example-beginner</loc>
+    <lastmod>2026-06-23</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23</news:publication_date>
+      <news:title>You and Four Friends Buy an Airbnb and Tokenize It</news:title>
+      <news:keywords>RWA explained simply, tokenization for beginners, airbnb tokenization example, fractional ownership blockchain</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/clarity-act-stand-with-crypto-senate-vote-2026</loc>
+    <lastmod>2026-06-23</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23</news:publication_date>
+      <news:title>The CLARITY Act Needs a Senate Vote Before August Recess</news:title>
+      <news:keywords>CLARITY Act Senate vote 2026, Digital Asset Market Clarity Act, Stand with Crypto 2026, contact senator crypto</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/rwa-news-june-23-2026-etoro-tokenized-stocks-clarity-act</loc>
+    <lastmod>2026-06-23</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23</news:publication_date>
+      <news:title>RWA News June 23 2026 eToro Tokenized Stocks CLARITY Act</news:title>
+      <news:keywords>eToro tokenized stocks ERC-20, RWA holders 1 million, B2B stablecoin Juniper Research, CLARITY Act deadline</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://rwatoday.news/spacex-spcx-tokenized-shares-eleven-day-recap</loc>
+    <lastmod>2026-06-23</lastmod>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication><news:name>RWAToday.news</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23</news:publication_date>
+      <news:title>SpaceX SPCX: +67% Then −32%. How the Tokenized Shares Held Up Through It All.</news:title>
+      <news:keywords>SpaceX SPCX tokenized recap, SPCX price post-IPO, tokenized SPCX performance, Backpack Solana SPCX, Hyperliquid SPCX perpetuals</news:keywords>
+    </news:news>
+  </url>
 </urlset>
