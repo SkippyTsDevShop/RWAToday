@@ -4,13 +4,254 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 127,
-    "generated": "2026-09-09T01:37:29Z"
+    "total_articles": 137,
+    "generated": "2026-09-09T20:15:35Z"
   },
   "items": [
     {
-      "id": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
-      "url": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
+      "id": "https://rwatoday.news/country-of-origin-labeling-cool-beef-blockchain-grow-nourish-2026",
+      "url": "https://rwatoday.news/country-of-origin-labeling-cool-beef-blockchain-grow-nourish-2026",
+      "title": "You Think You're Buying American Beef. You Might Not Be. Here Is Why — and What Blockchain Does That Regulation Cannot.",
+      "content_text": "Trump signed an EO today reopening mandatory COOL for beef. COOL repealed 2015 (WTO). New voluntary USDA rule Jan 2026. Blockchain provenance at Nourish Marketplace (40+ vendors, GROW blockchain) is the WTO-proof alternative to mandated labeling.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Agriculture",
+        "Policy",
+        "GROW"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "country-of-origin-labeling-cool-beef-blockchain-grow-nourish-2026",
+        "category": "Analysis · Agriculture · Policy · GROW",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/cobalt-supply-chain-blockchain-ethical-sourcing-ev-batteries-2026",
+      "url": "https://rwatoday.news/cobalt-supply-chain-blockchain-ethical-sourcing-ev-batteries-2026",
+      "title": "Your EV Battery Contains Cobalt From the DRC. Nobody Can Tell You Exactly Where. Blockchain Is Starting to Change That.",
+      "content_text": "70% of global cobalt from the DRC. 40,000 children in artisanal mines. EU Battery Regulation mandates traceability. RCS Global/Circulor, Minespider, and Element United — each building a different part of the verification layer.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Supply Chain",
+        "Natural Capital"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "cobalt-supply-chain-blockchain-ethical-sourcing-ev-batteries-2026",
+        "category": "Analysis · Supply Chain · Natural Capital",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/history-charitable-fraud-blockchain-give-transparency-2026",
+      "url": "https://rwatoday.news/history-charitable-fraud-blockchain-give-transparency-2026",
+      "title": "From Medieval Indulgences to GoFundMe Scams: The 700-Year History of Charitable Fraud — and the First Architecture That Changes It",
+      "content_text": "Every era applied better administration to the same problem. 15th century indulgences, 1869 charity watchdogs, Form 990, Haiti $1.4B gap, effective altruism. Blockchain is the first structural change. Give Blockchain is building it.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Social Impact",
+        "History",
+        "Give"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "history-charitable-fraud-blockchain-give-transparency-2026",
+        "category": "Analysis · Social Impact · History · Give",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/token2049-singapore-october-2026-rwa-preview",
+      "url": "https://rwatoday.news/token2049-singapore-october-2026-rwa-preview",
+      "title": "TOKEN2049 Singapore Is October 7–8. Here Is What RWA Watchers Should Be Looking For.",
+      "content_text": "MAS Project Guardian, Chainlink CCIP, GCC sovereign wealth, Ondo and Securitize Asia expansions. The most consequential Q4 conference for institutional RWA — and what typically gets announced in the side-event week.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Events",
+        "Markets",
+        "Asia-Pacific"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "token2049-singapore-october-2026-rwa-preview",
+        "category": "Events · Markets · Asia-Pacific",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/stock-certificate-americas-first-token-dtcc-history",
+      "url": "https://rwatoday.news/stock-certificate-americas-first-token-dtcc-history",
+      "title": "The Stock Certificate Was America's First Token. The 1968 Paperwork Crisis Explains Why the DTCC Exists — and What It's Doing in October 2026.",
+      "content_text": "In 1968 the NYSE closed Wednesdays because paper certificate delivery overwhelmed Wall Street. That crisis built the DTCC. In October 2026 the DTCC launches blockchain-based tokenized securities for 4,000+ member institutions. The second dematerialization.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "History",
+        "Markets"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "stock-certificate-americas-first-token-dtcc-history",
+        "category": "Analysis · History · Markets",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/airline-miles-48-billion-counterparty-risk-blockchain",
+      "url": "https://rwatoday.news/airline-miles-48-billion-counterparty-risk-blockchain",
+      "title": "Your Airline Miles Are Worth $48 Billion. The Airline Can Change the Rules Tomorrow.",
+      "content_text": "Delta, United, and American hold $48B in unredeemed miles. Airlines can devalue, expire, or change redemption rates with 30 days notice. This is the counterparty control problem tokenized assets solve — explained through something 100 million Americans understand.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Consumer Finance"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "airline-miles-48-billion-counterparty-risk-blockchain",
+        "category": "Analysis · Consumer Finance",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/car-title-transfer-4-6-weeks-blockchain-real-world-asset",
+      "url": "https://rwatoday.news/car-title-transfer-4-6-weeks-blockchain-real-world-asset",
+      "title": "Your Car Title Takes 4-6 Weeks to Arrive. In Any Rational System, It Would Take Seconds.",
+      "content_text": "You drive it off the lot immediately. The legal proof it is yours takes six weeks to mail from the DMV. You cannot sell it or use it as collateral in the interim. Georgia solved this with blockchain in 2016. The US has not.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Consumer Finance",
+        "Infrastructure"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "car-title-transfer-4-6-weeks-blockchain-real-world-asset",
+        "category": "Analysis · Consumer Finance · Infrastructure",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/letter-of-credit-700-years-blockchain-trade-finance",
+      "url": "https://rwatoday.news/letter-of-credit-700-years-blockchain-trade-finance",
+      "title": "The Letter of Credit Is 700 Years Old. Your Cargo Ship Still Uses It. Here Is What Blockchain Does to Five to Seven Days of Paperwork.",
+      "content_text": "Invented in medieval Venice. Still governing $18T in annual global trade. 20 documents, 5+ institutions, 5-7 business days. Blockchain-based trade finance (Contour, Marco Polo) does it in under 24 hours. First infrastructure upgrade in 700 years.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Trade Finance",
+        "History"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "letter-of-credit-700-years-blockchain-trade-finance",
+        "category": "Analysis · Trade Finance · History",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/music-royalties-30-billion-tokenized-blockchain-investing",
+      "url": "https://rwatoday.news/music-royalties-30-billion-tokenized-blockchain-investing",
+      "title": "Music Royalties Are a $30 Billion Asset Class. You've Never Been Able to Own One. Blockchain Changes That.",
+      "content_text": "Bob Dylan: $400M. Bruce Springsteen: $500M. Music royalties are stable, uncorrelated cash flows — and were inaccessible below $1M minimum until Royal, AnotherBlock, and BAND Royalties tokenized fractions from $50.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Alternative Assets",
+        "Markets"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "music-royalties-30-billion-tokenized-blockchain-investing",
+        "category": "Analysis · Alternative Assets · Markets",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/diamond-gia-certificate-blockchain-provenance-tracr-everledger",
+      "url": "https://rwatoday.news/diamond-gia-certificate-blockchain-provenance-tracr-everledger",
+      "title": "Every Diamond Has a GIA Certificate. That Certificate Can Be Faked, Mismatched, or Transferred to a Different Stone. Blockchain Changes That.",
+      "content_text": "GIA certificates can be counterfeited, mismatched, fraudulently transferred. De Beers' Tracr platform and Everledger link a stone's physical fingerprint to an immutable chain of custody. Certificate fraud becomes detectable.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Natural Capital",
+        "Provenance"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "diamond-gia-certificate-blockchain-provenance-tracr-everledger",
+        "category": "Analysis · Natural Capital · Provenance",
+        "date_display": "2026-09-09"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/brief-what-is-an-rwa",
+      "url": "https://rwatoday.news/brief-what-is-an-rwa",
       "title": "The CLARITY Act Vote Is in 7 Days. Here Is Exactly What Happens at 2:15 PM ET on September 15.",
       "content_text": "60 votes needed. Three disputes unresolved: Trump ethics, DeFi liability, stablecoin yield. Polymarket 16%. House canceled 8 September sessions. Here is exactly what the vote decides.",
       "image": "https://rwatoday.news/og-image.png",
@@ -27,7 +268,7 @@
         }
       ],
       "_rwatoday": {
-        "slug": "clarity-act-senate-vote-final-10-days-august-2026",
+        "slug": "brief-what-is-an-rwa",
         "category": "Policy · Breaking · Calendar",
         "date_display": "2026-09-08"
       }
