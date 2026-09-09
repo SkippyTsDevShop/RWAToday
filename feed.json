@@ -4,10 +4,106 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 123,
-    "generated": "2026-09-03T15:22:29Z"
+    "total_articles": 127,
+    "generated": "2026-09-09T01:37:29Z"
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
+      "url": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
+      "title": "The CLARITY Act Vote Is in 7 Days. Here Is Exactly What Happens at 2:15 PM ET on September 15.",
+      "content_text": "60 votes needed. Three disputes unresolved: Trump ethics, DeFi liability, stablecoin yield. Polymarket 16%. House canceled 8 September sessions. Here is exactly what the vote decides.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Policy",
+        "Breaking",
+        "Calendar"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "clarity-act-senate-vote-final-10-days-august-2026",
+        "category": "Policy · Breaking · Calendar",
+        "date_display": "2026-09-08"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/tokenized-stocks-complete-guide-market-2026",
+      "url": "https://rwatoday.news/tokenized-stocks-complete-guide-market-2026",
+      "title": "Tokenized Stocks in 2026: The Market Is Real, Growing Fast, and Still 97% Blocked From Americans.",
+      "content_text": "3.5M RWA holders today. $376B perps vs $7.5B spot. 190+ US stocks tokenized in 120 countries — not the US. One platform collapsed 40% from a legal event. BUIDL is now collateral. DTCC launches October.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Markets",
+        "Tokenized Equities",
+        "Analysis"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "tokenized-stocks-complete-guide-market-2026",
+        "category": "Markets · Tokenized Equities · Analysis",
+        "date_display": "2026-09-08"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/statechain-summit-2026-lafayette-louisiana-blockchain-government",
+      "url": "https://rwatoday.news/statechain-summit-2026-lafayette-louisiana-blockchain-government",
+      "title": "StateChain Summit 2026: Where State Government Meets Blockchain — September 30, Lafayette, Louisiana",
+      "content_text": "2 days. 40+ speakers. 300+ attendees from 40+ states. LITE Center, UL Lafayette. Chainlink Labs, Blockchain Association. Critical Digital Infrastructure as a fourth revenue path for state governments.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Events",
+        "Policy",
+        "Infrastructure"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "statechain-summit-2026-lafayette-louisiana-blockchain-government",
+        "category": "Events · Policy · Infrastructure",
+        "date_display": "2026-09-08"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/henry-ford-energy-currency-1921-blockchain-rwa-green-power-sovereignty-2026",
+      "url": "https://rwatoday.news/henry-ford-energy-currency-1921-blockchain-rwa-green-power-sovereignty-2026",
+      "title": "Henry Ford Proposed This in 1921. The Technology to Build It Just Arrived.",
+      "content_text": "On December 4, 1921, Ford proposed replacing gold with energy currency backed by kilowatt-hours. He had the idea exactly right — immune to banking control, impossible to monopolize. He had no blockchain. Now we do. GREEN and Set Power Free: sovereignty, not price.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-01-01T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Energy",
+        "History"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "henry-ford-energy-currency-1921-blockchain-rwa-green-power-sovereignty-2026",
+        "category": "Analysis · Energy · History",
+        "date_display": "2026-08-27"
+      }
+    },
     {
       "id": "https://rwatoday.news/tokenized-equities-coingecko-report-spacex-pre-ipo-perpetuals-2026",
       "url": "https://rwatoday.news/tokenized-equities-coingecko-report-spacex-pre-ipo-perpetuals-2026",
