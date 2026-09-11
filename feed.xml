@@ -5,8 +5,88 @@
     <link>https://rwatoday.news</link>
     <description>Independent RWA tokenization news.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 20:15:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:11:37 +0000</lastBuildDate>
     <atom:link href="https://rwatoday.news/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Your Savings Account Pays 0.5%. Tokenized Treasuries Pay 4.8%. The Bank Is Keeping the Difference.</title>
+      <link>https://rwatoday.news/savings-account-tokenized-treasuries-yield-gap-blockchain-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/savings-account-tokenized-treasuries-yield-gap-blockchain-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>The Fed funds rate is 5.25%. T-bills yield 4.8%. Your savings account pays 0.5%. The bank captures the spread. Tokenized Treasury products pass the yield directly to the holder. Here is the math, the access barriers, and what changes.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>The Tuna in Your Sushi Traveled 8,000 Miles. Nobody Can Prove Where It Came From.</title>
+      <link>https://rwatoday.news/tuna-bluefin-provenance-blockchain-seafood-supply-chain-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/tuna-bluefin-provenance-blockchain-seafood-supply-chain-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>IUU fishing costs $23B annually. A 2019 DNA study found 59% mislabeling in tuna across nine countries. Blockchain provenance — the same infrastructure as tokenized Treasuries — creates tamper-proof chain of custody from vessel to plate.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>Solar Is Now the Cheapest Electricity in History. So Why Are Your Bills Still at Record Highs?</title>
+      <link>https://rwatoday.news/solar-cheapest-electricity-history-bills-record-high-blockchain-grid-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/solar-cheapest-electricity-history-bills-record-high-blockchain-grid-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Utility-scale solar LCOE: $33-40/MWh. Coal: $65-150. Your residential bill: all-time high. Generation costs fell 90%. Transmission costs rose faster. Blockchain peer-to-peer energy settlement is the architecture that closes the gap.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>What Happens to Your Netflix Account When You Die? Your Digital Library Disappears. Here Is What Blockchain Changes.</title>
+      <link>https://rwatoday.news/what-happens-netflix-spotify-digital-assets-when-you-die-blockchain</link>
+      <guid isPermaLink="true">https://rwatoday.news/what-happens-netflix-spotify-digital-assets-when-you-die-blockchain</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>You don't own your Netflix, Spotify, Kindle, or Steam libraries. You license them. Licenses are non-transferable and non-heritable. Your physical books can be inherited. Your 200-game Steam library cannot. Blockchain ownership is the fix.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>Water Rights Are Worth More Than Gold in the American West. Nobody Can Agree Who Owns Them.</title>
+      <link>https://rwatoday.news/water-rights-american-west-blockchain-rwa-colorado-river-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/water-rights-american-west-blockchain-rwa-colorado-river-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>First-ever Colorado River Tier 1 shortage declared 2021. Rights sell for $40,000-$80,000/acre-foot. CME launched water futures 2020. But the record-keeping is 1920s paper. Blockchain water rights registries are the most natural RWA application imaginable.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>The Creator Economy Is $250 Billion. Platforms Take 30-45%. Blockchain Gives It Back.</title>
+      <link>https://rwatoday.news/creator-economy-250-billion-blockchain-platform-30-percent-cut-rally</link>
+      <guid isPermaLink="true">https://rwatoday.news/creator-economy-250-billion-blockchain-platform-30-percent-cut-rally</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>YouTube: 45%. Spotify: $0.003/stream. Substack: 10%. Twitch: 50%. Blockchain-based creator monetization — Mirror.xyz, Royal, direct smart contracts — removes the intermediary. A newsletter at $1M annual revenue pays $100K in platform fees or $10K on blockchain.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>The Dutch East India Company Was Worth $8 Trillion. It Invented the Stock Market. Here Is What October 2026 Completes.</title>
+      <link>https://rwatoday.news/dutch-east-india-company-voc-first-ipo-dtcc-tokenized-securities-history</link>
+      <guid isPermaLink="true">https://rwatoday.news/dutch-east-india-company-voc-first-ipo-dtcc-tokenized-securities-history</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>March 20, 1602: the world's first IPO. VOC raised 6.45M guilders from 1,143 investors. The Amsterdam Beurs opened to trade the shares. The broker, market maker, and futures contract were invented for this stock. The DTCC October 2026 launch is the next chapter of a 424-year story.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>Sending $100 Home Still Costs $7. The G20 Promised to Fix It by 2030. They're Not Going to Make It.</title>
+      <link>https://rwatoday.news/remittances-800-billion-blockchain-stablecoin-cost-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/remittances-800-billion-blockchain-stablecoin-cost-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>$860B in remittances in 2023 — 3× all international aid. Average cost: 6.4%. US to sub-Saharan Africa: 8-10%. G20 committed to 5% by 2030 in 2014. Still at 6.4%. Blockchain settlement: $0.01-$0.50, minutes not days. Bitso, Valora, Coins.ph already doing it.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>1.4 Billion People Have No Legal Identity. Here Is Why That Is an RWA Problem — and What Blockchain Does About It.</title>
+      <link>https://rwatoday.news/legal-identity-1-4-billion-blockchain-digital-identity-rwa-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/legal-identity-1-4-billion-blockchain-digital-identity-rwa-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>17% of the global population has no birth certificate, no government ID, no legal existence. No bank account, no property rights, no formal employment. Blockchain self-sovereign identity — UNHCR Jordan/Kenya, ID2020, Estonia e-Residency — is the prerequisite for every other asset class.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>The Art Market Is $67 Billion, Almost Entirely Private, and Routinely Used for Money Laundering. Blockchain Changes That.</title>
+      <link>https://rwatoday.news/art-market-67-billion-money-laundering-blockchain-provenance-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/art-market-67-billion-money-laundering-blockchain-provenance-2026</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>US Senate found $100Ms laundered through art. EU AMLD5 and US AML Act 2020 just brought art under AML/KYC for the first time. Artory and Verisart building blockchain provenance. The opacity that made art useful for laundering becomes the transparency that makes it an investable asset class.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
     <item>
       <title>You Think You're Buying American Beef. You Might Not Be. Here Is Why — and What Blockchain Does That Regulation Cannot.</title>
       <link>https://rwatoday.news/country-of-origin-labeling-cool-beef-blockchain-grow-nourish-2026</link>
