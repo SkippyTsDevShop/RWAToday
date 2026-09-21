@@ -1,4 +1,33 @@
+# RWAToday.news robots.txt
+# Last updated: 2026-09-21
+
 User-agent: *
+Allow: /
+Disallow: /private/
+
+# AI crawlers — explicitly permitted for AI search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://rwatoday.news/sitemap.xml
