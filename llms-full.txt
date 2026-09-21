@@ -1,22 +1,24 @@
 # RWAToday.news — Full Content Index for AI Systems
 # Generated: 2026-09-21
-# Total articles: 158
-# Coverage: Real-world asset (RWA) tokenization news, analysis, and education
+# Total articles: 161
 
-## About RWAToday.news
-RWAToday.news is an independent editorial publication covering the tokenization of real-world assets.
-Coverage areas: tokenized securities, private credit, real estate, commodities, infrastructure,
-regulatory developments (US, EU, Asia-Pacific), institutional adoption, and blockchain technology.
+### RWA Token Standards Explained: ERC-20, ERC-1400, ERC-3643, ERC-3525, ERC-4626, and ERC-7943 — Which One Does What
+URL: https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide
+Category: Technical · Education · Deep Dive
+Date: 2026-09-21
+Summary: Every tokenized asset runs on a token standard — the rules governing who can hold it, how it transfers, and what rights it represents. ERC-20 lacks compliance controls. ERC-1400 and ERC-3643 add them differently. ERC-3525 handles tranches. ERC-4626 standardizes yield. ERC-7943 is the emerging instit
 
-## Key Resources
-- Homepage: https://rwatoday.news/
-- Article Index: https://rwatoday.news/articles
-- Search: https://rwatoday.news/search
-- Newsletter: https://rwatoday.beehiiv.com/subscribe
-- RSS Feed: https://rwatoday.news/feed.xml
-- JSON Feed: https://rwatoday.news/feed.json
+### How to Evaluate an RWA Project: A Complete Due Diligence Framework for Tokenized Asset Investors
+URL: https://rwatoday.news/how-to-evaluate-rwa-project-due-diligence-framework-2026
+Category: Education · Analysis · Investor Guide
+Date: 2026-09-21
+Summary: The RWA market has genuine institutional products alongside legally hollow marketing exercises. Six dimensions determine the difference: legal structure, asset verification, custody, yield sustainability, regulatory compliance, and team track record. Complete framework with checklist and red flags.
 
-## Full Article Index (158 articles)
+### The State of RWA Tokenization in 2026: A Complete Market Analysis
+URL: https://rwatoday.news/state-of-rwa-tokenization-2026-complete-market-analysis
+Category: Research · Markets · Annual Analysis
+Date: 2026-09-21
+Summary: $39.2B on-chain. 3.5M holders. 260% YTD growth. Private credit at $35.9B is bigger than Treasuries 2:1. DTCC October launch is the defining infrastructure event. Japan and South Korea moved faster than the US on the same day CLARITY failed.
 
 ### AMC's CEO Called Robinhood's Tokenized Stock "Vile." Robinhood Said "Send Your Lawyers." Here Is What They're Actually Fighting About.
 URL: https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026

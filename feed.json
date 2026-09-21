@@ -4,9 +4,81 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 158
+    "total_articles": 161
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide",
+      "url": "https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide",
+      "title": "RWA Token Standards Explained: ERC-20, ERC-1400, ERC-3643, ERC-3525, ERC-4626, and ERC-7943 — Which One Does What",
+      "content_text": "Every tokenized asset runs on a token standard — the rules governing who can hold it, how it transfers, and what rights it represents. ERC-20 lacks compliance controls. ERC-1400 and ERC-3643 add them differently. ERC-3525 handles tranches. ERC-4626 standardizes yield. ERC-7943 is the emerging institutional convergence point. Full breakdown for every standard in current use.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Technical",
+        "Education",
+        "Deep Dive"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide",
+        "category": "Technical · Education · Deep Dive",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/how-to-evaluate-rwa-project-due-diligence-framework-2026",
+      "url": "https://rwatoday.news/how-to-evaluate-rwa-project-due-diligence-framework-2026",
+      "title": "How to Evaluate an RWA Project: A Complete Due Diligence Framework for Tokenized Asset Investors",
+      "content_text": "The RWA market has genuine institutional products alongside legally hollow marketing exercises. Six dimensions determine the difference: legal structure, asset verification, custody, yield sustainability, regulatory compliance, and team track record. Complete framework with checklist and red flags.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Education",
+        "Analysis",
+        "Investor Guide"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "how-to-evaluate-rwa-project-due-diligence-framework-2026",
+        "category": "Education · Analysis · Investor Guide",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/state-of-rwa-tokenization-2026-complete-market-analysis",
+      "url": "https://rwatoday.news/state-of-rwa-tokenization-2026-complete-market-analysis",
+      "title": "The State of RWA Tokenization in 2026: A Complete Market Analysis",
+      "content_text": "$39.2B on-chain. 3.5M holders. 260% YTD growth. Private credit at $35.9B is bigger than Treasuries 2:1. DTCC October launch is the defining infrastructure event. Japan and South Korea moved faster than the US on the same day CLARITY failed.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Research",
+        "Markets",
+        "Annual Analysis"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "state-of-rwa-tokenization-2026-complete-market-analysis",
+        "category": "Research · Markets · Annual Analysis",
+        "date_display": "2026-09-21"
+      }
+    },
     {
       "id": "https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026",
       "url": "https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026",

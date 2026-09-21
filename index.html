@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RWAToday.news — Real-World Asset Tokenization News</title>
 <meta name="description" content="The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy — from tokenized treasuries to utility infrastructure.">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:title" content="RWAToday.news — Real-World Asset Tokenization News">
 <meta property="og:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
 <meta property="og:type" content="website">
@@ -682,6 +682,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
 }
 </style>
+<link rel="sitemap" type="application/xml" title="News Sitemap" href="https://rwatoday.news/news-sitemap.xml"/>
 </head>
 <body>
 
@@ -695,7 +696,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
     </div>
     <ul class="site-nav-links">
-    <li><a href="search.html" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
+    <li><a href="search" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
     <div></div>
   </nav>
 
@@ -706,18 +707,19 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3DAA6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
   <input id="homeSearch" type="search" placeholder="Search All Articles..." autocomplete="off"
     style="flex:1;background:none;border:none;outline:none;font-family:'Archivo',sans-serif;font-size:15px;color:#F0F4FA;"
-    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='search.html?q='+encodeURIComponent(this.value.trim())"
+    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='/search?q='+encodeURIComponent(this.value.trim())"
   />
-  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='search.html?q='+encodeURIComponent(v)"
+  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='/search?q='+encodeURIComponent(v)"
     style="background:#3DAA6E;border:none;border-radius:4px;padding:8px 16px;font-family:'Archivo Narrow',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#080E0A;cursor:pointer;">Search</button>
 </div>
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Real-World Asset Tokenization News and Analysis</h1>
 <div class="homepage-grid">
 
     <!-- LEFT COLUMN: Hero + Recently Featured -->
     <div class="homepage-left">
 
       <a 
-<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Real-World Asset Tokenization News and Analysis</h1>class="hero-main" href="state-of-rwa-tokenization-2026-complete-market-analysis.html" style="text-decoration:none;display:block;">
+class="hero-main" href="state-of-rwa-tokenization-2026-complete-market-analysis" style="text-decoration:none;display:block;">
       <div class="hero-img-utility" style="height:200px;background:linear-gradient(140deg,#060810 0%,#0A0F1A 35%,#0F1525 60%,#060810 100%);">
         <div class="hero-grid-overlay"></div>
         <div class="hero-glow-green"></div>
@@ -757,17 +759,17 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <!-- RECENTLY FEATURED -->
       <div class="recently-featured">
         <div class="rf-heading">Recently Featured</div>
-        <div class="rf-grid"><a class="rf-card" href="how-to-evaluate-rwa-project-due-diligence-framework-2026.html">
+        <div class="rf-grid"><a class="rf-card" href="how-to-evaluate-rwa-project-due-diligence-framework-2026">
             <div class="rf-cat">Investor Guide</div>
             <div class="rf-title">How to Evaluate an RWA Project — Complete Due Diligence Framework</div>
             <div class="rf-meta">2026-09-21 · 13 min</div>
           </a>
-          <a class="rf-card" href="rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide.html">
+          <a class="rf-card" href="rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide">
             <div class="rf-cat">Technical</div>
             <div class="rf-title">RWA Token Standards: ERC-20 to ERC-7943 Explained</div>
             <div class="rf-meta">2026-09-21 · 14 min</div>
           </a>
-          <a class="rf-card" href="amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026.html">
+          <a class="rf-card" href="amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026">
             <div class="rf-cat">Breaking</div>
             <div class="rf-title">AMC vs Robinhood — The Tokenized Stock Legal Fight</div>
             <div class="rf-meta">2026-09-21 · 7 min</div>
@@ -780,17 +782,17 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="recently-featured">
         <div class="rf-heading">Get Started</div>
         <div class="rf-grid">
-          <a class="rf-card" href="rwa-glossary-terms-explained.html">
+          <a class="rf-card" href="rwa-glossary-terms-explained">
             <div class="rf-cat">Reference · Education</div>
             <div class="rf-title">The RWA Glossary: Every Term You Need to Know, Explained in Plain English</div>
             <div class="rf-meta">10 min read</div>
           </a>
-          <a class="rf-card" href="rwa-for-the-rest-of-us-tokenization.html">
+          <a class="rf-card" href="rwa-for-the-rest-of-us-tokenization">
             <div class="rf-cat">Beginner · Series</div>
             <div class="rf-title">What Is Tokenization? (Explained Like You're in 5th Grade)</div>
             <div class="rf-meta">5 min read</div>
           </a>
-          <a class="rf-card" href="how-to-invest-in-rwa-beginner-guide.html">
+          <a class="rf-card" href="how-to-invest-in-rwa-beginner-guide">
             <div class="rf-cat">Education · How-To · RWA</div>
             <div class="rf-title">How a Normal Person Actually Participates in RWA Tokenization Today</div>
             <div class="rf-meta">7 min read</div>
@@ -803,27 +805,27 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <!-- RIGHT COLUMN: Top Stories -->
     <div class="homepage-right">
       <div class="rf-heading">More Top Stories</div>
-                                                                                                                                                                                                                                                                              <a class="sidebar-article" href="clarity-act-failed-senate-vote-49-50-what-comes-next-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+                                                                                                                                                                                                                                                                              <a class="sidebar-article" href="clarity-act-failed-senate-vote-49-50-what-comes-next-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">04</div>
         <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">CLARITY Failed 49–50 — Full Post-Mortem</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
-      <a class="sidebar-article" href="tokenized-private-credit-36-billion-largest-rwa-category-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="tokenized-private-credit-36-billion-largest-rwa-category-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">05</div>
         <div><div class="sidebar-cat">Private Credit</div><div class="sidebar-title">$36B Private Credit — Biggest RWA Category Nobody Covers</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
-      <a class="sidebar-article" href="savings-account-tokenized-treasuries-yield-gap-blockchain-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="savings-account-tokenized-treasuries-yield-gap-blockchain-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">06</div>
         <div><div class="sidebar-cat">Finance</div><div class="sidebar-title">Your Savings Pays 0.5%. Tokenized Treasuries Pay 4.8%.</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
-      <a class="sidebar-article" href="amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">07</div>
         <div><div class="sidebar-cat">Breaking</div><div class="sidebar-title">AMC vs Robinhood — The Tokenized Stock Fight</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
-      <a class="sidebar-article" href="japan-fsa-on-chain-finance-policy-2026-clarity-act-contrast.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="japan-fsa-on-chain-finance-policy-2026-clarity-act-contrast" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">08</div>
         <div><div class="sidebar-cat">International</div><div class="sidebar-title">Japan Made Blockchain Finance Government Policy</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
-      <a class="sidebar-article" href="south-korea-tokenized-securities-roadmap-february-2027-rwa.html" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
+      <a class="sidebar-article" href="south-korea-tokenized-securities-roadmap-february-2027-rwa" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
         <div class="sidebar-num">09</div>
         <div><div class="sidebar-cat">International</div><div class="sidebar-title">South Korea — Most Detailed G20 Tokenization Roadmap</div><div class="sidebar-time">2026-09-21</div></div>
       </a>
@@ -870,7 +872,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="index.html" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
+        <a href="/" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
           <div class="site-logo-mark"><span>R</span></div>
           <div class="site-logo-text" style="font-size:18px;"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span></div>
         </div></a>
@@ -880,13 +882,13 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Company</h4>
         <ul>
-          <li><a href="articles.html">All Articles</a></li>
-          <li><a href="about.html" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="articles">All Articles</a></li>
+          <li><a href="about" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
           <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about.html" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="about" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
           <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained.html" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="rwa-glossary-terms-explained" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -900,15 +902,15 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy.html" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy.html" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms.html" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="privacy-policy" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="terms" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms.html" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
   </footer>
 </body>
