@@ -4,16 +4,137 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 153
+    "total_articles": 158
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026",
+      "url": "https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026",
+      "title": "AMC's CEO Called Robinhood's Tokenized Stock \"Vile.\" Robinhood Said \"Send Your Lawyers.\" Here Is What They're Actually Fighting About.",
+      "content_text": "Robinhood tokenized 190+ stocks without asking the companies. AMC CEO Adam Aron: 'contemptible, vile.' Robinhood CLO (ex-SEC commissioner): 'Send your lawyers.' The fight exposes the most important legal question in tokenized equities — and the meme stock history that makes it personal.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Markets",
+        "Analysis",
+        "Breaking",
+        "September 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026",
+        "category": "Markets · Analysis · Breaking · September 2026",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/japan-fsa-on-chain-finance-policy-2026-clarity-act-contrast",
+      "url": "https://rwatoday.news/japan-fsa-on-chain-finance-policy-2026-clarity-act-contrast",
+      "title": "Japan Made Blockchain Finance Official Government Policy on the Same Day the US Senate Failed to Pass CLARITY.",
+      "content_text": "On September 15, US Senate voted 49-50 against CLARITY. On the same day, Japan's FSA released its 2026 policy mandating blockchain on-chain finance for the first time — tokenized deposits, stablecoins, integrated settlement. Not a pilot. A national mandate.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Policy",
+        "International",
+        "September 16, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "japan-fsa-on-chain-finance-policy-2026-clarity-act-contrast",
+        "category": "Policy · International · September 16, 2026",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/what-you-own-tokenized-stock-complete-guide-dtcc-robinhood-spectrum-2026",
+      "url": "https://rwatoday.news/what-you-own-tokenized-stock-complete-guide-dtcc-robinhood-spectrum-2026",
+      "title": "What Do You Actually Own When You Buy a Tokenized Stock? The Answer Depends Entirely on Which One.",
+      "content_text": "The $13.4B tokenized stock market uses the same vocabulary for four completely different products — from DTCC-settled actual equity with full shareholder rights to Jersey-issued offshore debt with only price exposure. Here is the full spectrum.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Markets",
+        "Education"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "what-you-own-tokenized-stock-complete-guide-dtcc-robinhood-spectrum-2026",
+        "category": "Analysis · Markets · Education",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/south-korea-tokenized-securities-roadmap-february-2027-rwa",
+      "url": "https://rwatoday.news/south-korea-tokenized-securities-roadmap-february-2027-rwa",
+      "title": "South Korea Just Published the Most Detailed Tokenization Roadmap of Any G20 Nation. Here Is What It Says.",
+      "content_text": "South Korea's FSC published a three-stage tokenized securities plan on September 4, taking effect February 2027. Stocks, bonds, funds. Existing brokerages need no additional licenses. Hanwha — 9.6% Securitize shareholder — already built on Avalanche. Most specific tokenization framework from any G20 nation.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Policy",
+        "International",
+        "Markets"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "south-korea-tokenized-securities-roadmap-february-2027-rwa",
+        "category": "Policy · International · Markets",
+        "date_display": "2026-09-21"
+      }
+    },
+    {
+      "id": "https://rwatoday.news/tokenized-private-credit-36-billion-largest-rwa-category-2026",
+      "url": "https://rwatoday.news/tokenized-private-credit-36-billion-largest-rwa-category-2026",
+      "title": "Private Credit Is the Biggest RWA Category Nobody Is Talking About: $36 Billion, 15% Yields, Almost No Coverage.",
+      "content_text": "Tokenized private credit: 58% of all tokenized RWA flows. More than Treasuries, gold, and real estate combined. Maple Finance $4.6B AUM up 81% YoY. Centrifuge $1.62B TVL. Yields 8-15% vs Treasuries' 3.5%. The biggest category is the quietest.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Analysis",
+        "Markets",
+        "Private Credit"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ],
+      "_rwatoday": {
+        "slug": "tokenized-private-credit-36-billion-largest-rwa-category-2026",
+        "category": "Analysis · Markets · Private Credit",
+        "date_display": "2026-09-21"
+      }
+    },
     {
       "id": "https://rwatoday.news/clarity-act-failed-senate-vote-49-50-what-comes-next-2026",
       "url": "https://rwatoday.news/clarity-act-failed-senate-vote-49-50-what-comes-next-2026",
       "title": "The CLARITY Act Failed 49–50. Zero Democrats Voted Yes. Here Is What Just Happened — and What Comes Next.",
       "content_text": "49–50. Not even a simple majority. Zero Democrats voted yes — including senators who spent months negotiating. Four Republicans defected. The CLARITY Act is dead for 2026. Full post-mortem: who voted no, why, and what the industry gets instead.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "Policy",
         "Breaking",
@@ -37,7 +158,7 @@
       "title": "CLARITY Failed. The SEC's Plan B Is Already Running. Here Is What Regulation Crypto Assets Actually Does.",
       "content_text": "SEC Chairman Atkins: the agency will deliver with or without legislation. Regulation Crypto Assets — the administrative alternative — has a public comment deadline of October 20. What it covers, what it doesn't, and how rulemaking differs from statute.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "Policy",
         "Regulation",
@@ -61,7 +182,7 @@
       "title": "CLARITY Failed. The DTCC October Launch Proceeds. Here Is Why One Does Not Depend on the Other.",
       "content_text": "The CLARITY Act is dead for 2026. The DTCC October launch for all 4,000+ member institutions is on schedule. The legal authority is a December 2025 No-Action Letter — not CLARITY. What launches, what it covers, what the failure actually means.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "Infrastructure",
         "Policy",
@@ -85,7 +206,7 @@
       "title": "TOKEN2049 Singapore Is 21 Days Away. CLARITY Just Failed. Here Is What Changes About What to Watch.",
       "content_text": "TOKEN2049 Singapore opens October 7. It arrives after CLARITY failed and the SEC confirmed rulemaking. Singapore's regulatory advantage is now sharper. MAS Project Guardian Phase 3, post-CLARITY Asian distribution, Chainlink CCIP, GCC sovereign wealth.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "Events",
         "Markets",
@@ -109,7 +230,7 @@
       "title": "RWA This Week #013: CLARITY Died. The DTCC Launches Next Month. TOKEN2049 Is 21 Days Away.",
       "content_text": "Three weeks in one place. CLARITY failed 49-50. Zero Democrats voted yes. SEC confirmed Plan B. DTCC October unaffected. 3.5M RWA holders. TOKEN2049 opens October 7. SEC comment deadline October 20. Everything since August 26.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "Weekly",
         "Markets",
@@ -133,7 +254,7 @@
       "title": "The CLARITY Act Vote Is 48 Hours Away. Here Is Everything You Need to Know Before 2:15 PM ET Monday.",
       "content_text": "The Senate votes on cloture at 2:15 PM ET Tuesday. Republicans need 7 Democrats. Polymarket: 16%. Galaxy Research: 10%. Coinbase CEO Armstrong says it passes. Three disputes still unresolved. The volatility corridor: CPI, FOMC, SEC roundtable all in the same week.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-13T00:00:00Z",
       "tags": [
         "Policy",
         "Breaking",
@@ -157,7 +278,7 @@
       "title": "Your Savings Account Pays 0.5%. Tokenized Treasuries Pay 4.8%. The Bank Is Keeping the Difference.",
       "content_text": "The Fed funds rate is 5.25%. T-bills yield 4.8%. Your savings account pays 0.5%. The bank captures the spread. Tokenized Treasury products pass the yield directly to the holder. Here is the math, the access barriers, and what changes.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Consumer Finance",
@@ -181,7 +302,7 @@
       "title": "The Tuna in Your Sushi Traveled 8,000 Miles. Nobody Can Prove Where It Came From.",
       "content_text": "IUU fishing costs $23B annually. A 2019 DNA study found 59% mislabeling in tuna across nine countries. Blockchain provenance — the same infrastructure as tokenized Treasuries — creates tamper-proof chain of custody from vessel to plate.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Supply Chain",
@@ -206,7 +327,7 @@
       "title": "Solar Is Now the Cheapest Electricity in History. So Why Are Your Bills Still at Record Highs?",
       "content_text": "Utility-scale solar LCOE: $33-40/MWh. Coal: $65-150. Your residential bill: all-time high. Generation costs fell 90%. Transmission costs rose faster. Blockchain peer-to-peer energy settlement is the architecture that closes the gap.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Energy",
@@ -230,7 +351,7 @@
       "title": "What Happens to Your Netflix Account When You Die? Your Digital Library Disappears. Here Is What Blockchain Changes.",
       "content_text": "You don't own your Netflix, Spotify, Kindle, or Steam libraries. You license them. Licenses are non-transferable and non-heritable. Your physical books can be inherited. Your 200-game Steam library cannot. Blockchain ownership is the fix.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Consumer Finance",
@@ -255,7 +376,7 @@
       "title": "Water Rights Are Worth More Than Gold in the American West. Nobody Can Agree Who Owns Them.",
       "content_text": "First-ever Colorado River Tier 1 shortage declared 2021. Rights sell for $40,000-$80,000/acre-foot. CME launched water futures 2020. But the record-keeping is 1920s paper. Blockchain water rights registries are the most natural RWA application imaginable.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Natural Capital",
@@ -279,7 +400,7 @@
       "title": "The Creator Economy Is $250 Billion. Platforms Take 30-45%. Blockchain Gives It Back.",
       "content_text": "YouTube: 45%. Spotify: $0.003/stream. Substack: 10%. Twitch: 50%. Blockchain-based creator monetization — Mirror.xyz, Royal, direct smart contracts — removes the intermediary. A newsletter at $1M annual revenue pays $100K in platform fees or $10K on blockchain.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Creator Economy",
@@ -303,7 +424,7 @@
       "title": "The Dutch East India Company Was Worth $8 Trillion. It Invented the Stock Market. Here Is What October 2026 Completes.",
       "content_text": "March 20, 1602: the world's first IPO. VOC raised 6.45M guilders from 1,143 investors. The Amsterdam Beurs opened to trade the shares. The broker, market maker, and futures contract were invented for this stock. The DTCC October 2026 launch is the next chapter of a 424-year story.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "History",
@@ -327,7 +448,7 @@
       "title": "Sending $100 Home Still Costs $7. The G20 Promised to Fix It by 2030. They're Not Going to Make It.",
       "content_text": "$860B in remittances in 2023 — 3× all international aid. Average cost: 6.4%. US to sub-Saharan Africa: 8-10%. G20 committed to 5% by 2030 in 2014. Still at 6.4%. Blockchain settlement: $0.01-$0.50, minutes not days. Bitso, Valora, Coins.ph already doing it.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Payments",
@@ -351,7 +472,7 @@
       "title": "1.4 Billion People Have No Legal Identity. Here Is Why That Is an RWA Problem — and What Blockchain Does About It.",
       "content_text": "17% of the global population has no birth certificate, no government ID, no legal existence. No bank account, no property rights, no formal employment. Blockchain self-sovereign identity — UNHCR Jordan/Kenya, ID2020, Estonia e-Residency — is the prerequisite for every other asset class.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Social Impact",
@@ -375,7 +496,7 @@
       "title": "The Art Market Is $67 Billion, Almost Entirely Private, and Routinely Used for Money Laundering. Blockchain Changes That.",
       "content_text": "US Senate found $100Ms laundered through art. EU AMLD5 and US AML Act 2020 just brought art under AML/KYC for the first time. Artory and Verisart building blockchain provenance. The opacity that made art useful for laundering becomes the transparency that makes it an investable asset class.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Alternative Assets",
@@ -400,7 +521,7 @@
       "title": "You Think You're Buying American Beef. You Might Not Be. Here Is Why — and What Blockchain Does That Regulation Cannot.",
       "content_text": "Trump signed an EO today reopening mandatory COOL for beef. COOL repealed 2015 (WTO). New voluntary USDA rule Jan 2026. Blockchain provenance at Nourish Marketplace (40+ vendors, GROW blockchain) is the WTO-proof alternative to mandated labeling.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Agriculture",
@@ -425,7 +546,7 @@
       "title": "Your EV Battery Contains Cobalt From the DRC. Nobody Can Tell You Exactly Where. Blockchain Is Starting to Change That.",
       "content_text": "70% of global cobalt from the DRC. 40,000 children in artisanal mines. EU Battery Regulation mandates traceability. RCS Global/Circulor, Minespider, and Element United — each building a different part of the verification layer.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Supply Chain",
@@ -449,7 +570,7 @@
       "title": "From Medieval Indulgences to GoFundMe Scams: The 700-Year History of Charitable Fraud — and the First Architecture That Changes It",
       "content_text": "Every era applied better administration to the same problem. 15th century indulgences, 1869 charity watchdogs, Form 990, Haiti $1.4B gap, effective altruism. Blockchain is the first structural change. Give Blockchain is building it.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Social Impact",
@@ -474,7 +595,7 @@
       "title": "TOKEN2049 Singapore Is October 7–8. Here Is What RWA Watchers Should Be Looking For.",
       "content_text": "MAS Project Guardian, Chainlink CCIP, GCC sovereign wealth, Ondo and Securitize Asia expansions. The most consequential Q4 conference for institutional RWA — and what typically gets announced in the side-event week.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Events",
         "Markets",
@@ -498,7 +619,7 @@
       "title": "The Stock Certificate Was America's First Token. The 1968 Paperwork Crisis Explains Why the DTCC Exists — and What It's Doing in October 2026.",
       "content_text": "In 1968 the NYSE closed Wednesdays because paper certificate delivery overwhelmed Wall Street. That crisis built the DTCC. In October 2026 the DTCC launches blockchain-based tokenized securities for 4,000+ member institutions. The second dematerialization.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "History",
@@ -522,7 +643,7 @@
       "title": "Your Airline Miles Are Worth $48 Billion. The Airline Can Change the Rules Tomorrow.",
       "content_text": "Delta, United, and American hold $48B in unredeemed miles. Airlines can devalue, expire, or change redemption rates with 30 days notice. This is the counterparty control problem tokenized assets solve — explained through something 100 million Americans understand.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Consumer Finance"
@@ -545,7 +666,7 @@
       "title": "Your Car Title Takes 4-6 Weeks to Arrive. In Any Rational System, It Would Take Seconds.",
       "content_text": "You drive it off the lot immediately. The legal proof it is yours takes six weeks to mail from the DMV. You cannot sell it or use it as collateral in the interim. Georgia solved this with blockchain in 2016. The US has not.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Consumer Finance",
@@ -569,7 +690,7 @@
       "title": "The Letter of Credit Is 700 Years Old. Your Cargo Ship Still Uses It. Here Is What Blockchain Does to Five to Seven Days of Paperwork.",
       "content_text": "Invented in medieval Venice. Still governing $18T in annual global trade. 20 documents, 5+ institutions, 5-7 business days. Blockchain-based trade finance (Contour, Marco Polo) does it in under 24 hours. First infrastructure upgrade in 700 years.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Trade Finance",
@@ -593,7 +714,7 @@
       "title": "Music Royalties Are a $30 Billion Asset Class. You've Never Been Able to Own One. Blockchain Changes That.",
       "content_text": "Bob Dylan: $400M. Bruce Springsteen: $500M. Music royalties are stable, uncorrelated cash flows — and were inaccessible below $1M minimum until Royal, AnotherBlock, and BAND Royalties tokenized fractions from $50.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Alternative Assets",
@@ -617,7 +738,7 @@
       "title": "Every Diamond Has a GIA Certificate. That Certificate Can Be Faked, Mismatched, or Transferred to a Different Stone. Blockchain Changes That.",
       "content_text": "GIA certificates can be counterfeited, mismatched, fraudulently transferred. De Beers' Tracr platform and Everledger link a stone's physical fingerprint to an immutable chain of custody. Certificate fraud becomes detectable.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-09T00:00:00Z",
       "tags": [
         "Analysis",
         "Natural Capital",
@@ -641,7 +762,7 @@
       "title": "The CLARITY Act Vote Is in 7 Days. Here Is Exactly What Happens at 2:15 PM ET on September 15.",
       "content_text": "60 votes needed. Three disputes unresolved: Trump ethics, DeFi liability, stablecoin yield. Polymarket 16%. House canceled 8 September sessions. Here is exactly what the vote decides.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-08T00:00:00Z",
       "tags": [
         "Policy",
         "Breaking",
@@ -665,7 +786,7 @@
       "title": "Tokenized Stocks in 2026: The Market Is Real, Growing Fast, and Still 97% Blocked From Americans.",
       "content_text": "3.5M RWA holders today. $376B perps vs $7.5B spot. 190+ US stocks tokenized in 120 countries — not the US. One platform collapsed 40% from a legal event. BUIDL is now collateral. DTCC launches October.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-08T00:00:00Z",
       "tags": [
         "Markets",
         "Tokenized Equities",
@@ -689,7 +810,7 @@
       "title": "StateChain Summit 2026: Where State Government Meets Blockchain — September 30, Lafayette, Louisiana",
       "content_text": "2 days. 40+ speakers. 300+ attendees from 40+ states. LITE Center, UL Lafayette. Chainlink Labs, Blockchain Association. Critical Digital Infrastructure as a fourth revenue path for state governments.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-09-08T00:00:00Z",
       "tags": [
         "Events",
         "Policy",
@@ -713,7 +834,7 @@
       "title": "Henry Ford Proposed This in 1921. The Technology to Build It Just Arrived.",
       "content_text": "On December 4, 1921, Ford proposed replacing gold with energy currency backed by kilowatt-hours. He had the idea exactly right — immune to banking control, impossible to monopolize. He had no blockchain. Now we do. GREEN and Set Power Free: sovereignty, not price.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-27T00:00:00Z",
       "tags": [
         "Analysis",
         "Energy",
@@ -737,7 +858,7 @@
       "title": "Tokenized Equities Just Got Its First Report Card. CoinGecko's Findings Are Remarkable — and the 40% Crash Nobody Talked About.",
       "content_text": "Perpetuals at $376.3B vs $7.5B spot (up 209x). SpaceX pre-IPO within 4.9% of opening. 10 assets = 76.6% of volume. Anthropic/OpenAI legal event wiped 40% overnight. Here is what it all means.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-27T00:00:00Z",
       "tags": [
         "Analysis",
         "Tokenized Equities",
@@ -761,7 +882,7 @@
       "title": "The Minerals in Your Phone Come From Somewhere. Blockchain Is Starting to Prove Where — and Under What Conditions.",
       "content_text": "60%+ of mining companies cite supply chain transparency as their biggest challenge. Blockchain makes provenance unforeable and certification economically valuable. IBM/MineHub, Circulor, Minespider, and Element United are each building part of the answer.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-27T00:00:00Z",
       "tags": [
         "Analysis",
         "Social Impact",
@@ -785,7 +906,7 @@
       "title": "The RWA Market Is Approaching $40 Billion. Here Is How It Got There and What Comes Next.",
       "content_text": "256.7% growth in 15 months. 1.7 million holders. Six categories above $1B. Here is the full breakdown of how the market reached $40B and what pushes it toward $100B.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Markets",
         "Milestone"
@@ -808,7 +929,7 @@
       "title": "97% of Tokenized RWA Value Is Inaccessible to US Retail Investors. Here Is Why — and What Would Fix It.",
       "content_text": "Robinhood sells tokenized stocks in 120 countries — not to Americans. Ondo USDY blocked to US persons. The regulatory architecture that caused it and what would actually change it.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Analysis",
         "Policy",
@@ -832,7 +953,7 @@
       "title": "Tokenized Private Equity Is Up 236% YTD. The Best-Performing RWA Category Nobody Writes About.",
       "content_text": "RWA.xyz data: PE +236.36% YTD. VC +159.15%. Stocks +11.56%. Treasuries +0.70%. KKR, Mubadala, Hamilton Lane, Apollo all live.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Data",
         "Analysis"
@@ -855,7 +976,7 @@
       "title": "DTCC October 2026: What Changes When Tokenized Securities Go From Pilot to Full Commercial Infrastructure.",
       "content_text": "July pilot worked. October: all Russell 1000, major ETFs, benchmark Treasuries — standard service for every DTC participant. $114T eligible.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Markets",
         "Infrastructure"
@@ -878,7 +999,7 @@
       "title": "Tether Is Building Something Much Bigger Than USDT. The Saudi Arabia Move Just Made It Visible.",
       "content_text": "USDT ($184.6B) as settlement, XAUT ($2.6B) as gold, Hadron as tokenization platform. Saudi Arabia real estate is the beachhead. Energy/infrastructure next.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Analysis",
         "Infrastructure"
@@ -901,7 +1022,7 @@
       "title": "RWA This Week — Issue #012",
       "content_text": "RWA approaching $40B. DTCC October 5 weeks away. Tether Saudi Arabia RWA strategy. 97% retail blocked. PE up 236%. August 26, 2026.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-26T00:00:00Z",
       "tags": [
         "Weekly Roundup"
       ],
@@ -923,7 +1044,7 @@
       "title": "What Is Tokenization? The Ultimate Guide to Real-World Asset Tokenization [2026]",
       "content_text": "The complete guide: what tokenization is, how it works step by step, the six genuine benefits, the real risks, and the $38B market snapshot. Everything a first-time reader needs.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Education",
         "Beginner"
@@ -946,7 +1067,7 @@
       "title": "Larry Fink Says Tokenization Is Finance's Next Evolution. He's Not Just Talking — BlackRock Is Building It.",
       "content_text": "In his 2026 Annual Chairman's Letter, Fink compared tokenization to the 1996 internet. He manages $14T. BUIDL is $2.56B. He moved it to DeFi. Here is what he said and why it matters.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Top Voices in RWA",
         "#06"
@@ -969,7 +1090,7 @@
       "title": "How to Evaluate the Team Behind Any RWA Product — DYOR in Tokenized Assets Part 03",
       "content_text": "Most investors evaluate teams last. They should do it first. Regulatory fluency, custodian relationships, red flags, green flags, and the one question that cuts through everything.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Education",
         "DYOR",
@@ -993,7 +1114,7 @@
       "title": "Aviva Investors and Ripple Just Launched the First Central Bank of Ireland-Approved Tokenized Fund on a Public Blockchain",
       "content_text": "July 29: first CBI-approved tokenized fund on a public chain. BNY Mellon custody, Komainu digital custody, Licuido tech. Ripple then invested in ZILO and Licuido on August 3.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Markets",
         "Infrastructure"
@@ -1016,7 +1137,7 @@
       "title": "Robinhood Sells Tokenized Stocks in 120 Countries. Americans Can't Buy Them. The CEO Is Calling on the SEC to Change That.",
       "content_text": "190+ US stocks tokenized for 120+ countries. 35 million American users blocked. CEO Vlad Tenev publicly calling on SEC. Here is what he is asking for.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Markets",
         "Policy"
@@ -1039,7 +1160,7 @@
       "title": "BlackRock Put BUIDL on Uniswap. Here Is What That Actually Means — and the Catch Most Coverage Missed.",
       "content_text": "$2.56B BUIDL on UniswapX. UNI jumped 25%. BlackRock bought UNI tokens. DeFi-TradFi bridge built. Here is what the integration actually does, and the important catch.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-24T00:00:00Z",
       "tags": [
         "Markets",
         "Infrastructure",
@@ -1063,7 +1184,7 @@
       "title": "What Is TVL (Total Value Locked)? The Ultimate Guide for RWA Investors [2026]",
       "content_text": "TVL is the most-cited RWA metric and one of the most misunderstood. This ultimate guide explains what it measures, what it misses, and what the $38B RWA TVL figure actually tells you.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-21T00:00:00Z",
       "tags": [
         "Education"
       ],
@@ -1085,7 +1206,7 @@
       "title": "The Ultimate Guide to RWA Token Standards: ERC-20, ERC-1400, ERC-3525, and ERC-7943 Explained [2026]",
       "content_text": "Every tokenized asset is built on a token standard. Get it wrong and your token can't list or integrate with DeFi. This guide covers ERC-20, ERC-1400, ERC-3525, and the 2026 convergence standard ERC-7943.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-21T00:00:00Z",
       "tags": [
         "Education",
         "Infrastructure"
@@ -1108,7 +1229,7 @@
       "title": "RWA Perpetuals: The Complete Guide to the $524 Billion Market Most Investors Have Never Heard Of [2026]",
       "content_text": "$524.79B in Q1 2026 trading volume. More than the entire spot RWA market cap. Binance controls 68% of volume. Gold perps hit 8.3% of COMEX. This complete guide explains what RWA perpetuals are and why the numbers are this large.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-21T00:00:00Z",
       "tags": [
         "Analysis",
         "Derivatives"
@@ -1131,7 +1252,7 @@
       "title": "What Do You Actually Own When You Buy a Tokenized Stock? The Complete 2026 Guide",
       "content_text": "Tokenized stocks are growing fast — $9B trading volume, 800% YTD growth. But most buyers don't know the structure. Debt security or equity? Voting rights? What if the issuer fails? Every question answered.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-21T00:00:00Z",
       "tags": [
         "Education",
         "DYOR"
@@ -1154,7 +1275,7 @@
       "title": "Hong Kong vs. Singapore vs. UAE: Who Is Winning the Global RWA Race in 2026?",
       "content_text": "Hong Kong leads on product breadth, Singapore on cross-border coordination, UAE on speed. The US leads institutional infrastructure but blocks retail access. Complete 2026 scorecard — and why CLARITY matters globally.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-08-21T00:00:00Z",
       "tags": [
         "Analysis",
         "Global",
@@ -2808,7 +2929,7 @@
       "title": "What Is Liquidity? (Explained Like You're in 5th Grade)",
       "content_text": "Liquidity is the difference between a parking lot and a highway. Here's what it means for RWA — and the one question to ask before you invest.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-05-29T00:00:00Z",
       "tags": [
         "Education",
         "Beginner"
@@ -2831,7 +2952,7 @@
       "title": "Carlos Domingo Built the Compliance Layer the Entire RWA Sector Runs On",
       "content_text": "Securitize is the transfer agent for BlackRock's BUIDL, the compliance infrastructure behind OUSG, and a member of the DTCC working group.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-05-29T00:00:00Z",
       "tags": [
         "Top Voices",
         "Institutional"
@@ -2854,7 +2975,7 @@
       "title": "$30 Billion On-Chain. Less Than 10% Is Actually Usable in DeFi.",
       "content_text": "The RWA sector crossed $30B on-chain. Only $2.47B is active in DeFi. Here's why the composability gap exists and what's being built to close it.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-05-29T00:00:00Z",
       "tags": [
         "Markets",
         "DeFi",
@@ -2878,7 +2999,7 @@
       "title": "AdventureWurld Just Ran 1,929 On-Chain Games in Real Time. Here's What That Proves.",
       "content_text": "1,929 on-chain matches. 1,500 players. 62 countries. 1.66M GULD distributed by smart contract in real time. A stress test that held.",
       "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-01-01T00:00:00Z",
+      "date_published": "2026-05-29T00:00:00Z",
       "tags": [
         "Blockchain Gaming",
         "Web3"
