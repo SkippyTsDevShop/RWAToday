@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#0A1610"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#121F15" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/>
+    <line x1="0" y1="314" x2="1200" y2="314"/>
+    <line x1="0" y1="471" x2="1200" y2="471"/>
+    <line x1="300" y1="0" x2="300" y2="628"/>
+    <line x1="600" y1="0" x2="600" y2="628"/>
+    <line x1="900" y1="0" x2="900" y2="628"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="6" height="628" fill="#3DAA6E"/>
+
+  <!-- Large decorative 100 — background watermark -->
+  <text x="820" y="480" font-family="Arial Black, Arial, sans-serif" font-size="420" fill="#3DAA6E" opacity="0.05" font-weight="900" text-anchor="middle">100</text>
+
+  <!-- Top label -->
+  <text x="48" y="72" font-family="'Courier New', monospace" font-size="13" fill="#3DAA6E" letter-spacing="4" font-weight="700">MILESTONE</text>
+
+  <!-- Big 100 -->
+  <text x="48" y="220" font-family="Arial Black, Arial, sans-serif" font-size="200" fill="#3DAA6E" font-weight="900" letter-spacing="-6">100</text>
+
+  <!-- ARTICLES text next to/below the 100 -->
+  <text x="52" y="276" font-family="Arial Black, Arial, sans-serif" font-size="56" fill="#F0F4FA" font-weight="900" letter-spacing="8">ARTICLES</text>
+
+  <!-- Divider -->
+  <rect x="48" y="304" width="520" height="3" fill="#3DAA6E"/>
+
+  <!-- Subhead -->
+  <text x="48" y="352" font-family="Arial, sans-serif" font-size="22" fill="#A8C4B0">Independent coverage of the tokenized economy.</text>
+  <text x="48" y="382" font-family="Arial, sans-serif" font-size="22" fill="#A8C4B0">From Treasuries to real estate to emerging markets.</text>
+  <text x="48" y="412" font-family="Arial, sans-serif" font-size="22" fill="#A8C4B0">From the food supply chain to parametric insurance.</text>
+
+  <!-- Bottom brand -->
+  <text x="48" y="510" font-family="Arial Black, Arial, sans-serif" font-size="38" fill="#F0F4FA" font-weight="900">RWA<tspan fill="#3DAA6E">Today</tspan><tspan fill="#5A8068" font-size="22" font-weight="400">.news</tspan></text>
+
+  <!-- URL -->
+  <text x="48" y="548" font-family="'Courier New', monospace" font-size="15" fill="#3A5A40" letter-spacing="1">rwatoday.news</text>
+
+  <!-- Right side — stacked article category tags -->
+  <g transform="translate(720, 60)">
+    <!-- Tag rows -->
+    <rect x="0" y="0" width="200" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="100" y="23" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">MARKETS</text>
+
+    <rect x="214" y="0" width="220" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="324" y="23" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">INFRASTRUCTURE</text>
+
+    <rect x="0" y="48" width="180" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="90" y="71" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">POLICY</text>
+
+    <rect x="194" y="48" width="160" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="274" y="71" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">EDUCATION</text>
+
+    <rect x="368" y="48" width="66" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="401" y="71" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="1">RWA</text>
+
+    <rect x="0" y="96" width="220" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="110" y="119" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">TOKENIZED STOCKS</text>
+
+    <rect x="234" y="96" width="140" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="304" y="119" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">REAL ESTATE</text>
+
+    <rect x="0" y="144" width="130" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="65" y="167" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">INSURANCE</text>
+
+    <rect x="144" y="144" width="120" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="204" y="167" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">ENERGY</text>
+
+    <rect x="278" y="144" width="100" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="328" y="167" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">WEEKLY</text>
+
+    <rect x="0" y="192" width="170" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="85" y="215" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">CASE STUDIES</text>
+
+    <rect x="184" y="192" width="120" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="244" y="215" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">EMERGING</text>
+
+    <rect x="318" y="192" width="116" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="376" y="215" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">ANALYSIS</text>
+
+    <rect x="0" y="240" width="200" height="36" rx="4" fill="#3DAA6E"/>
+    <text x="100" y="263" font-family="'Courier New', monospace" font-size="11" fill="#0A1610" text-anchor="middle" letter-spacing="2" font-weight="700">TOP VOICES</text>
+
+    <rect x="214" y="240" width="170" height="36" rx="4" fill="#3DAA6E"/>
+    <text x="299" y="263" font-family="'Courier New', monospace" font-size="11" fill="#0A1610" text-anchor="middle" letter-spacing="2" font-weight="700">FOOD SAFETY</text>
+
+    <rect x="0" y="288" width="150" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="75" y="311" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">STABLECOINS</text>
+
+    <rect x="164" y="288" width="100" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="214" y="311" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">DYOR</text>
+
+    <rect x="278" y="288" width="156" height="36" rx="4" fill="#112418" stroke="#265235" stroke-width="1"/>
+    <text x="356" y="311" font-family="'Courier New', monospace" font-size="11" fill="#3DAA6E" text-anchor="middle" letter-spacing="2">BEGINNER</text>
+
+    <!-- Stats row -->
+    <rect x="0" y="360" width="440" height="2" fill="#1E3020"/>
+
+    <text x="0" y="398" font-family="Arial, sans-serif" font-size="13" fill="#5A8068">RWA news since 2026 · Tokenized economy · No ads · No hype</text>
+    <text x="0" y="422" font-family="Arial, sans-serif" font-size="13" fill="#5A8068">91 articles published · 10 weekly issues · 5 series</text>
+
+    <!-- Subscriber call to action -->
+    <rect x="0" y="450" width="440" height="50" rx="6" fill="#112418" stroke="#3DAA6E" stroke-width="1.5"/>
+    <text x="220" y="481" font-family="Arial, sans-serif" font-size="15" fill="#3DAA6E" text-anchor="middle" font-weight="700">rwatoday.beehiiv.com/subscribe</text>
+  </g>
+
+</svg>

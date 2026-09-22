@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0A1610"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#111D14" stroke-width="1">
+    <line x1="0" y1="216" x2="1920" y2="216"/>
+    <line x1="0" y1="432" x2="1920" y2="432"/>
+    <line x1="0" y1="648" x2="1920" y2="648"/>
+    <line x1="0" y1="864" x2="1920" y2="864"/>
+    <line x1="480" y1="0" x2="480" y2="1080"/>
+    <line x1="960" y1="0" x2="960" y2="1080"/>
+    <line x1="1440" y1="0" x2="1440" y2="1080"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="1080" fill="#3DAA6E"/>
+
+  <!-- Faint watermark question mark — far right only -->
+  <text x="1820" y="900" font-family="Arial Black, Arial, sans-serif" font-size="800" fill="#3DAA6E" opacity="0.03" font-weight="900" text-anchor="end">?</text>
+
+  <!-- ═══════════ LEFT SIDE — full width headline ═══════════ -->
+
+  <!-- Overline -->
+  <text x="56" y="90" font-family="'Courier New', monospace" font-size="13" fill="#3DAA6E" letter-spacing="5" font-weight="700">BLOCKCHAIN · SOCIAL IMPACT · CHARITABLE GIVING</text>
+
+  <!-- Headline — large, unobstructed -->
+  <text x="56" y="240" font-family="Arial Black, Arial, sans-serif" font-size="148" fill="#F0F4FA" font-weight="900" letter-spacing="-3">YOU CAN'T TRACK</text>
+  <text x="56" y="408" font-family="Arial Black, Arial, sans-serif" font-size="148" fill="#F0F4FA" font-weight="900" letter-spacing="-3">WHERE YOUR</text>
+  <text x="56" y="576" font-family="Arial Black, Arial, sans-serif" font-size="148" fill="#3DAA6E" font-weight="900" letter-spacing="-3">DONATION WENT.</text>
+
+  <!-- Subhead -->
+  <text x="56" y="652" font-family="Arial, sans-serif" font-size="30" fill="#A8C4B0">Blockchain changes that. St. Jude, the UN WFP, Endaoment,</text>
+  <text x="56" y="690" font-family="Arial, sans-serif" font-size="30" fill="#A8C4B0">and Give Blockchain are already building it.</text>
+
+  <!-- Divider -->
+  <rect x="56" y="732" width="80" height="4" fill="#3DAA6E"/>
+
+  <!-- Two stats — bottom left, clear of headline -->
+  <rect x="56" y="764" width="340" height="130" rx="6" fill="#112418" stroke="#265235" stroke-width="1"/>
+  <text x="226" y="834" font-family="Arial Black, Arial, sans-serif" font-size="64" fill="#3DAA6E" font-weight="900" text-anchor="middle">12%</text>
+  <text x="226" y="868" font-family="Arial, sans-serif" font-size="15" fill="#A8C4B0" text-anchor="middle">don't give — distrust charities</text>
+
+  <rect x="412" y="764" width="340" height="130" rx="6" fill="#112418" stroke="#265235" stroke-width="1"/>
+  <text x="582" y="834" font-family="Arial Black, Arial, sans-serif" font-size="64" fill="#3DAA6E" font-weight="900" text-anchor="middle">68%</text>
+  <text x="582" y="868" font-family="Arial, sans-serif" font-size="15" fill="#A8C4B0" text-anchor="middle">would give more — with proof</text>
+
+  <rect x="768" y="764" width="340" height="130" rx="6" fill="#112418" stroke="#265235" stroke-width="1"/>
+  <text x="938" y="834" font-family="Arial Black, Arial, sans-serif" font-size="64" fill="#E8C97A" font-weight="900" text-anchor="middle">$1B+</text>
+  <text x="938" y="868" font-family="Arial, sans-serif" font-size="15" fill="#A8C4B0" text-anchor="middle">crypto donated in 2024</text>
+
+  <!-- Brand bottom left -->
+  <text x="56" y="990" font-family="Arial Black, Arial, sans-serif" font-size="34" fill="#F0F4FA" font-weight="900">RWA<tspan fill="#3DAA6E">Today</tspan><tspan fill="#5A8068" font-size="20" font-weight="400">.news</tspan></text>
+  <text x="56" y="1028" font-family="'Courier New', monospace" font-size="14" fill="#3A5A40">rwatoday.news/give-blockchain-charitable-donations-transparency-2026</text>
+
+</svg>
