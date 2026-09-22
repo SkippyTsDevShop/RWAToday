@@ -1,6 +1,36 @@
 # RWAToday.news — Full Content Index for AI Systems
-# Generated: 2026-09-21
-# Total articles: 161
+# Generated: 2026-09-22
+# Total articles: 166
+
+### SEC's Five-Year Innovation Exemption Puts Tokenized Listed Stocks on AMMs — With Hard Caps and an Issuer Veto
+URL: https://rwatoday.news/sec-innovation-exemption-tokenized-nms-stock-amm-five-year
+Category: Policy · Regulation · September 22, 2026
+Date: 2026-09-22
+Summary: Release No. 34-106402 (91 FR 60168): permissioned AMMs for tokenized NMS stock, 0.25% ADV cap for S&P 500 names, 30-day issuer veto on third-party tokens, five-year clock to Sept. 2031. Not a sandbox. A supervised on-ramp.
+
+### The Issuer Veto: Under the SEC's New TSV Framework, Companies Can Block Third-Party Tokenization of Their Own Stock
+URL: https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026
+Category: Policy · Analysis · September 22, 2026
+Date: 2026-09-22
+Summary: The SEC's Innovation Exemption gives issuers a 30-day window to block third-party tokenization on compliant TSVs. Written objection is dispositive — no appeal. What public companies and RWA builders need to do now.
+
+### Two Paths to Tokenized Equity: DTCC October vs. the SEC's TSV Framework — What's the Difference?
+URL: https://rwatoday.news/dtcc-october-vs-sec-tsv-two-paths-tokenized-equity-2026
+Category: Analysis · Markets · September 22, 2026
+Date: 2026-09-22
+Summary: As of Sept. 22, two authorized paths coexist. DTCC tokenizes inside existing infrastructure — exchange hours, Reg NMS, institutional settlement. SEC TSVs run AMMs outside it — 24/7, self-custody, AMM pricing. Full comparison.
+
+### What Is a Tokenized Securities Venue (TSV)? The Complete Guide to the SEC's New AMM Equity Framework
+URL: https://rwatoday.news/what-is-tokenized-securities-venue-tsv-sec-explained-2026
+Category: Education · Policy · September 22, 2026
+Date: 2026-09-22
+Summary: A TSV is a permissioned AMM for listed equity tokens — not an exchange, not an ATS, not DeFi, not the DTCC model. Five-year conditional exemption. What it can do, what it cannot, and how it differs from everything else.
+
+### RWA This Week #014: SEC Creates Tokenized Securities Venues, CLARITY Dead, Japan Mandates On-Chain Finance
+URL: https://rwatoday.news/rwa-this-week-014
+Category: Weekly · Markets · Policy
+Date: 2026-09-22
+Summary: SEC Innovation Exemption creates TSVs — permissioned AMMs for tokenized equity, volume-capped, issuer veto included. CLARITY failed 49-50. Japan mandates on-chain finance. $39.2B market. TOKEN2049 in 15 days.
 
 ### RWA Token Standards Explained: ERC-20, ERC-1400, ERC-3643, ERC-3525, ERC-4626, and ERC-7943 — Which One Does What
 URL: https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide
