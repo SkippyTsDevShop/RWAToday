@@ -4,9 +4,199 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 182
+    "total_articles": 192
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact",
+      "url": "https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact",
+      "title": "Hester Peirce Leaves the SEC on October 2. What a Two-Member Commission Means for Tokenization.",
+      "content_text": "Peirce — the SEC primary digital asset advocate — leaves Oct 2. Two-member commission, no quorum for formal action, three weeks before the Regulation Crypto Assets comment deadline. What proceeds, what stalls, why midterm elections are the key variable.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026",
+      "url": "https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026",
+      "title": "ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get.",
+      "content_text": "Cathie Wood ARK + Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get tokenized fund interests with daily pricing and planned secondary trading — not the private shares themselves.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Markets",
+        "Institutional",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/dtcc-tokenization-readiness-checklist-october-2026",
+      "url": "https://rwatoday.news/dtcc-tokenization-readiness-checklist-october-2026",
+      "title": "The DTCC Launch Is This Month. Here Is the Readiness Checklist for Custodians, Brokers, and RWA Platforms.",
+      "content_text": "Nine operational readiness items for the DTCC commercial launch: custodian DLT integration, disclosure updates, collateral workflows; broker settlement mapping, prime brokerage, client comms; RWA platform eligible products and two-layer architecture.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Infrastructure",
+        "Operations",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/regulating-without-congress-rwa-roadmap-post-clarity-2026",
+      "url": "https://rwatoday.news/regulating-without-congress-rwa-roadmap-post-clarity-2026",
+      "title": "Regulating Without Congress: How Agencies Became the RWA Roadmap After CLARITY Failed.",
+      "content_text": "CLARITY failed Sep 15. Six weeks later: SEC Innovation Exemption, SEC token buyback guidance, CFTC same rights test, DTCC No-Action Letter, Chair Atkins on mass tokenization. The regulatory stack as it actually stands today — without any new legislation.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/cftc-same-rights-test-tokenized-assets-customer-funds-2026",
+      "url": "https://rwatoday.news/cftc-same-rights-test-tokenized-assets-customer-funds-2026",
+      "title": "The CFTC's \"Same Rights\" Test: Which Tokenized Assets Can Now Hold Customer Segregated Funds?",
+      "content_text": "CFTC says FCMs and DCOs can invest customer segregated funds in tokenized assets if they convey the same rights as the traditional equivalent. Two-part test explained, which products likely qualify, and the public blockchain recordkeeping solution.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/who-launches-tokenized-us-stocks-first-tsv-race-2026",
+      "url": "https://rwatoday.news/who-launches-tokenized-us-stocks-first-tsv-race-2026",
+      "title": "The SEC's Tokenized Stock Framework Is Live. Who Launches First? Coinbase, Kraken, or Robinhood?",
+      "content_text": "TSV Innovation Exemption is live. Earliest first trading ~October 28. Coinbase infrastructure ready, Payward/Kraken targeting Q2 2027, Robinhood offshore vs compliant split. The issuer veto as speed bump. Why first-mover advantage is complicated at 0.25% ADV caps.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Markets",
+        "Policy",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026",
+      "url": "https://rwatoday.news/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026",
+      "title": "The Fed's GENIUS Act Proposals: Treasuries as the Backbone of US Stablecoins, and the Fight Over \"Rewards.\"",
+      "content_text": "100% Treasury/repo reserves, 3% capital buffer, 60-day comment window. The defining fight: whether rewards programs count as the prohibited interest payments. Why stablecoin reserve composition matters for RWA settlement.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Stablecoins",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026",
+      "url": "https://rwatoday.news/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026",
+      "title": "Can a Tokenized Asset Be Frozen? What the Bitget Hack Teaches RWA Issuers.",
+      "content_text": "Bitget hacked for $83M. Circle froze USDC. Tether froze USDT. ~$75M XRP moved freely — Ripple had no mechanism to freeze it. Why freeze and clawback are non-negotiable for regulated tokenized securities, which architectures support it.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Infrastructure",
+        "Security",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa",
+      "url": "https://rwatoday.news/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa",
+      "title": "XRPL's Batch Upgrade Targets October 9. Here Is Why Atomic Settlement Changes the RWA Equation.",
+      "content_text": "XRPL's Batch amendment — bundling multiple transactions into one all-or-nothing execution — targets October 9. Atomic delivery versus payment eliminates the settlement risk window across contract boundaries that institutional RWA transactions currently carry.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Infrastructure",
+        "Technology",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/esma-tokenization-2027-supervisory-priority-retail-eu-rwa",
+      "url": "https://rwatoday.news/esma-tokenization-2027-supervisory-priority-retail-eu-rwa",
+      "title": "ESMA Makes Tokenization a 2027 Supervisory Priority. Europe Shifts From Writing Rules to Enforcing Them.",
+      "content_text": "ESMA designated tokenization as a 2027 supervisory priority — shifting from writing MiCA rules to enforcing how they apply to retail investors. Liquidity disclosure is the focus. ECB Pontes accepts tokenized collateral. US vs EU comparison.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "International",
+        "Policy",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
     {
       "id": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",
       "url": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",

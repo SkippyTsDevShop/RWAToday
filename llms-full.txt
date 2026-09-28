@@ -1,6 +1,56 @@
 # RWAToday.news — Full Article Index
-# Generated: {DATE}
-# Total: 182
+# Generated: 2026-09-28
+# Total: 192
+
+### Hester Peirce Leaves the SEC on October 2. What a Two-Member Commission Means for Tokenization.
+URL: https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact
+Date: 2026-09-28
+Summary: Peirce — the SEC primary digital asset advocate — leaves Oct 2. Two-member commission, no quorum for formal action, three weeks before the Regulation Crypto Assets comment deadline. What proceeds, what stalls, why midterm elections are the key variab
+
+### ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get.
+URL: https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026
+Date: 2026-09-28
+Summary: Cathie Wood ARK + Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get tokenized fund interests with daily pricing and planned secondary trading — not the private shares themselve
+
+### The DTCC Launch Is This Month. Here Is the Readiness Checklist for Custodians, Brokers, and RWA Platforms.
+URL: https://rwatoday.news/dtcc-tokenization-readiness-checklist-october-2026
+Date: 2026-09-28
+Summary: Nine operational readiness items for the DTCC commercial launch: custodian DLT integration, disclosure updates, collateral workflows; broker settlement mapping, prime brokerage, client comms; RWA platform eligible products and two-layer architecture.
+
+### Regulating Without Congress: How Agencies Became the RWA Roadmap After CLARITY Failed.
+URL: https://rwatoday.news/regulating-without-congress-rwa-roadmap-post-clarity-2026
+Date: 2026-09-28
+Summary: CLARITY failed Sep 15. Six weeks later: SEC Innovation Exemption, SEC token buyback guidance, CFTC same rights test, DTCC No-Action Letter, Chair Atkins on mass tokenization. The regulatory stack as it actually stands today — without any new legislat
+
+### The CFTC's "Same Rights" Test: Which Tokenized Assets Can Now Hold Customer Segregated Funds?
+URL: https://rwatoday.news/cftc-same-rights-test-tokenized-assets-customer-funds-2026
+Date: 2026-09-28
+Summary: CFTC says FCMs and DCOs can invest customer segregated funds in tokenized assets if they convey the same rights as the traditional equivalent. Two-part test explained, which products likely qualify, and the public blockchain recordkeeping solution.
+
+### The SEC's Tokenized Stock Framework Is Live. Who Launches First? Coinbase, Kraken, or Robinhood?
+URL: https://rwatoday.news/who-launches-tokenized-us-stocks-first-tsv-race-2026
+Date: 2026-09-28
+Summary: TSV Innovation Exemption is live. Earliest first trading ~October 28. Coinbase infrastructure ready, Payward/Kraken targeting Q2 2027, Robinhood offshore vs compliant split. The issuer veto as speed bump. Why first-mover advantage is complicated at 0
+
+### The Fed's GENIUS Act Proposals: Treasuries as the Backbone of US Stablecoins, and the Fight Over "Rewards."
+URL: https://rwatoday.news/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026
+Date: 2026-09-28
+Summary: 100% Treasury/repo reserves, 3% capital buffer, 60-day comment window. The defining fight: whether rewards programs count as the prohibited interest payments. Why stablecoin reserve composition matters for RWA settlement.
+
+### Can a Tokenized Asset Be Frozen? What the Bitget Hack Teaches RWA Issuers.
+URL: https://rwatoday.news/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026
+Date: 2026-09-28
+Summary: Bitget hacked for $83M. Circle froze USDC. Tether froze USDT. ~$75M XRP moved freely — Ripple had no mechanism to freeze it. Why freeze and clawback are non-negotiable for regulated tokenized securities, which architectures support it.
+
+### XRPL's Batch Upgrade Targets October 9. Here Is Why Atomic Settlement Changes the RWA Equation.
+URL: https://rwatoday.news/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa
+Date: 2026-09-28
+Summary: XRPL's Batch amendment — bundling multiple transactions into one all-or-nothing execution — targets October 9. Atomic delivery versus payment eliminates the settlement risk window across contract boundaries that institutional RWA transactions current
+
+### ESMA Makes Tokenization a 2027 Supervisory Priority. Europe Shifts From Writing Rules to Enforcing Them.
+URL: https://rwatoday.news/esma-tokenization-2027-supervisory-priority-retail-eu-rwa
+Date: 2026-09-28
+Summary: ESMA designated tokenization as a 2027 supervisory priority — shifting from writing MiCA rules to enforcing how they apply to retail investors. Liquidity disclosure is the focus. ECB Pontes accepts tokenized collateral. US vs EU comparison.
 
 ### TOKEN2049 Singapore Is 9 Days Away. Here Is What to Watch.
 URL: https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch

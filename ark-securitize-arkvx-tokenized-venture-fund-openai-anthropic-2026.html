@@ -1,125 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RWAToday.news — Real-World Asset Tokenization News</title>
-<meta name="description" content="The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:title" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://rwatoday.news/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@RWAToday">
-<meta name="twitter:title" content="RWAToday.news">
-<meta name="twitter:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<link rel="canonical" href="https://rwatoday.news/">
-<meta property="og:image" content="https://rwatoday.news/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:site_name" content="RWAToday.news">
-<meta name="twitter:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEyMDAiIHkyPSI2MzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA2MTUxMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzBEMUExMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTI0MTgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3ciIGN4PSI3NSUiIGN5PSIzNSUiIHI9IjU1JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzREFBNkUiIHN0b3Atb3BhY2l0eT0iMC4yIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEQUE2RSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIGZpbGw9InVybCgjYmcpIi8+CiAgPGcgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuNCI+CiAgICA8bGluZSB4MT0iMCIgeTE9IjEwNSIgeDI9IjEyMDAiIHkyPSIxMDUiLz48bGluZSB4MT0iMCIgeTE9IjIxMCIgeDI9IjEyMDAiIHkyPSIyMTAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMzE1IiB4Mj0iMTIwMCIgeTI9IjMxNSIvPjxsaW5lIHgxPSIwIiB5MT0iNDIwIiB4Mj0iMTIwMCIgeTI9IjQyMCIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSI1MjUiIHgyPSIxMjAwIiB5Mj0iNTI1Ii8+CiAgICA8bGluZSB4MT0iMjAwIiB5MT0iMCIgeDI9IjIwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI0MDAiIHkxPSIwIiB4Mj0iNDAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iNjAwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI4MDAiIHkxPSIwIiB4Mj0iODAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iMTAwMCIgeTE9IjAiIHgyPSIxMDAwIiB5Mj0iNjMwIi8+CiAgPC9nPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDwhLS0gTGVmdCBncmVlbiBiYXIgLS0+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjYiIGhlaWdodD0iNjMwIiBmaWxsPSIjM0RBQTZFIi8+CiAgPCEtLSBDaXJjbGUgbG9nbyBtYXJrIC0tPgogIDxjaXJjbGUgY3g9IjEwNCIgY3k9Ijc0IiByPSI0NCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8dGV4dCB4PSIxMDQiIHk9Ijg0IiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlI8L3RleHQ+CiAgPGNpcmNsZSBjeD0iMTI2IiBjeT0iNTYiIHI9IjUiIGZpbGw9IiMzREFBNkUiLz4KICA8Y2lyY2xlIGN4PSIxNDAiIGN5PSI1NiIgcj0iNSIgZmlsbD0iIzVEQzQ4QSIvPgogIDwhLS0gV29yZG1hcmsgLS0+CiAgPHRleHQgeD0iMTYyIiB5PSI5NiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjM0RBQTZFIiBsZXR0ZXItc3BhY2luZz0iMiI+UldBPC90ZXh0PgogIDx0ZXh0IHg9IjM5MiIgeT0iOTYiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIgbGV0dGVyLXNwYWNpbmc9IjEiPlRvZGF5PC90ZXh0PgogIDx0ZXh0IHg9IjE2MiIgeT0iMTI1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM3Q0M0OUEiIGxldHRlci1zcGFjaW5nPSIzIj5SZWFsIFdvcmxkIEFzc2V0cyDigJQgVG9rZW5pemVkPC90ZXh0PgogIDwhLS0gRGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iMTQ4IiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBUYWdsaW5lIC0tPgogIDx0ZXh0IHg9IjYwIiB5PSIyMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI0U4RjJFQyI+VGhlIEluc2lkZXIgUHVibGljYXRpb24gZm9yPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSIyODUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzNEQUE2RSI+UmVhbC1Xb3JsZCBBc3NldCBUb2tlbml6YXRpb248L3RleHQ+CiAgPHRleHQgeD0iNjAiIHk9IjM0NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIxIiBmaWxsPSIjQThDNEIyIj5QcmFjdGl0aW9uZXItbGVkIGVkaXRvcmlhbC4gRGFpbHkgc2lnbmFsLiBObyBoeXBlLjwvdGV4dD4KICA8IS0tIFJXQSBzdGF0IC0tPgogIDx0ZXh0IHg9IjYwIiB5PSI0NTAiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjaywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI2OCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iIzNEQUE2RSI+JDYzLjdCPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSI0ODgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZmlsbD0iIzVBODA2OCIgbGV0dGVyLXNwYWNpbmc9IjIiPlJXQSBNQVJLRVQgQ0FQIMK3IDIwMjY8L3RleHQ+CiAgPCEtLSBCb3R0b20gZGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iNTEwIiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBQaWxsIHRhZ3MgLS0+CiAgPHJlY3QgeD0iNjAiIHk9IjUzMCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iMTQwIiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPk1BUktFVFM8L3RleHQ+CiAgPHJlY3QgeD0iMjM2IiB5PSI1MzAiIHdpZHRoPSIxOTAiIGhlaWdodD0iMzQiIHJ4PSIzIiBmaWxsPSIjMTEyNDE4IiBzdHJva2U9IiMxRTQwMjgiIHN0cm9rZS13aWR0aD0iMSIvPgogIDx0ZXh0IHg9IjMzMSIgeT0iNTUyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMzREFBNkUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIxIj5JTlNUSVRVVElPTkFMPC90ZXh0PgogIDxyZWN0IHg9IjQ0MiIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI1MjciIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UFJPVE9DT0xTPC90ZXh0PgogIDxyZWN0IHg9IjYyOCIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI3MTMiIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UkVHVUxBVElPTjwvdGV4dD4KICA8cmVjdCB4PSI4MTQiIHk9IjUzMCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iODg5IiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPlJFU0VBUkNIPC90ZXh0PgogIDwhLS0gVVJMIC0tPgogIDx0ZXh0IHg9IjExNDAiIHk9IjYxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjNUE4MDY4IiB0ZXh0LWFuY2hvcj0iZW5kIiBsZXR0ZXItc3BhY2luZz0iMSI+cndhdG9kYXkubmV3czwvdGV4dD4KPC9zdmc+">
-<meta name="news_keywords" content="RWA, real world assets, tokenization, blockchain, DeFi, tokenized gold, PAXG, ONDO, on-chain finance, crypto news">
-<meta name="keywords" content="real world assets, RWA tokenization, blockchain news, tokenized treasury, PAXG, XAUT, ONDO, on-chain assets, DeFi, crypto news 2026">
-<meta name="author" content="RWAToday Editorial">
-<meta name="copyright" content="RWAToday.news">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "NewsMediaOrganization",
-      "@id": "https://rwatoday.news/#organization",
-      "name": "RWAToday.news",
-      "url": "https://rwatoday.news",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://rwatoday.news/logo.png",
-        "width": 512,
-        "height": 512
-      },
-      "description": "The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy.",
-      "foundingDate": "2026-05-17",
-      "sameAs": [
-        "https://x.com/RWAToday",
-        "https://coinmarketcap.com/community/profile/RWAToday/",
-        "https://www.linkedin.com/company/rwatoday/"
-      ],
-      "publishingPrinciples": "https://rwatoday.news/index.html#editorial-policy",
-      "masthead": "https://rwatoday.news/index.html#about"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://rwatoday.news/#website",
-      "url": "https://rwatoday.news",
-      "name": "RWAToday.news",
-      "description": "Real-world asset tokenization news, analysis, and market intelligence.",
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-utility",
-      "headline": "Five Under-the-Radar Tokens With Real-World Utility You Should Be Watching in 2026",
-      "description": "Agriculture, energy, payments, education, collaboration — five projects shipping live products with real on-chain activity. Real Products. Real Users. Real Revenue. OnChain.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "GROW, GREEN, RALLY, WIN, SWITCH, utility tokens, RWA, real world assets, blockchain 2026",
-      "articleSection": "Real-World Utility",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-gaming",
-      "headline": "Web3 Gaming That's Actually On-Chain: AdventureWurld Distributes 1,000,000 GULD to Players in Real Time",
-      "description": "1,074 games. 31 countries. 1,000,000 GULD paid directly to player wallets — no intermediary, no custodian. The KillTheBoss Tech Test proved fully on-chain game rewards at scale are live.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "AdventureWurld, GULD, KillTheBoss, Web3 gaming, on-chain gaming, blockchain game rewards",
-      "articleSection": "On-Chain Infrastructure",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://rwatoday.news"
-        }
-      ]
-    }
-  ]
-}
-</script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Archivo+Narrow:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ARK Tokenizes Venture Fund With OpenAI, Anthropic Stakes | RWAToday.news</title>
+<meta name="description" content="Cathie Wood's ARK and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get fund inte"/>
+<meta name="keywords" content="ARK Securitize ARKVX tokenized venture fund OpenAI Anthropic 2026, Cathie Wood tokenized fund blockchain, ARKVX tokenization Securitize, tokenized venture capital fund OpenAI blockchain"/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<meta property="og:title" content="ARK Tokenizes Venture Fund With OpenAI, Anthropic Stakes"/>
+<meta property="og:description" content="Cathie Wood's ARK and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get fund inte"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026"/>
+<meta property="og:image" content="https://rwatoday.news/og-image.png"/>
+<meta property="article:published_time" content="2026-09-28"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@RWAToday"/>
+<meta name="twitter:title" content="ARK Tokenizes Venture Fund With OpenAI, Anthropic Stakes"/>
+<meta name="twitter:description" content="Cathie Wood's ARK and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get fund inte"/>
+<meta name="twitter:image" content="https://rwatoday.news/og-image.png"/>
+<link rel="canonical" href="https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
 :root {
   --black: #080E0A;
@@ -671,6 +569,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
+  .ticker-item .asset { font-size:10px; }
+
   .fn-heading { font-size:18px; }
 
   .inner-page h1 { font-size:24px; }
@@ -681,16 +581,9 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   p[style*="display:flex"] a { width:100%; justify-content:center; }
 
 }
-</style>
-<link rel="sitemap" type="application/xml" title="News Sitemap" href="https://rwatoday.news/news-sitemap.xml"/>
-</head>
-<body>
-
-<!-- ══════════════════════════════════════════ -->
-<!-- HOMEPAGE                                  -->
-<!-- ══════════════════════════════════════════ -->
-<div id="homepage" class="panel active">
-  <nav class="site-nav">
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get", "description": "Cathie Wood's ARK and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get fund interests with daily pricing and planned secondary trading — not the private shares themselves. The distinction matters.", "datePublished": "2026-09-28", "dateModified": "2026-09-28", "author": {"@type": "Organization", "name": "RWAToday.news", "url": "https://rwatoday.news"}, "publisher": {"@type": "NewsMediaOrganization", "name": "RWAToday.news", "url": "https://rwatoday.news", "logo": {"@type": "ImageObject", "url": "https://rwatoday.news/rwatoday-logo.png"}}, "image": {"@type": "ImageObject", "url": "https://rwatoday.news/og-image.png"}, "url": "https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026"}, "articleSection": "Markets"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "RWAToday.news", "item": "https://rwatoday.news/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://rwatoday.news/articles"}, {"@type": "ListItem", "position": 3, "name": "ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here ", "item": "https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026"}]}</script></head>
+<body><nav class="site-nav">
     <div class="site-logo">
       <div class="site-logo-mark"><span>R</span></div>
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
@@ -699,182 +592,66 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <li><a href="search" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
     <div></div>
   </nav>
+<div class="article-wrap">
+<a href="/" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#3DAA6E;text-decoration:none;margin:24px 40px 12px;">&#8592; Back to RWAToday.news</a>
+<div class="article-hero"><div><span class="article-cat-tag">Markets · Institutional · September 28, 2026</span></div>
+<h1 class="article-headline">ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get.</h1><p class="article-deck">Cathie Wood's ARK and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get fund interests with daily pricing and planned secondary trading — not the private shares themselves. The distinction matters.</p>
+<div class="article-meta"><span>📅 2026-09-28</span><span>⏱ 7 min read</span><span>🏷 Markets · Institutional · September 28, 2026</span></div></div>
+<div class="article-body"><div class="article-content"><p>Cathie Wood's ARK Investment Management and Securitize announced a partnership to tokenize ARKVX — ARK's venture fund — in September 2026, creating the first tokenized fund to hold stakes in private technology companies including OpenAI, Anthropic, Stripe, and Databricks. The announcement marks a significant expansion of tokenized fund infrastructure beyond the Treasury bill and money market products that have defined the institutional RWA market to date.</p>
 
-  <!-- SINGLE HERO + SIDEBAR -->
-  <!-- MAIN LAYOUT: left col = hero + recently featured, right col = top stories -->
-  
-<div style="background:var(--surface,#112418);border:1px solid var(--border2,#265235);border-radius:8px;padding:16px 20px;margin:0 40px 32px;display:flex;gap:12px;align-items:center;">
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3DAA6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-  <input id="homeSearch" type="search" placeholder="Search All Articles..." autocomplete="off"
-    style="flex:1;background:none;border:none;outline:none;font-family:'Archivo',sans-serif;font-size:15px;color:#F0F4FA;"
-    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='/search?q='+encodeURIComponent(this.value.trim())"
-  />
-  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='/search?q='+encodeURIComponent(v)"
-    style="background:#3DAA6E;border:none;border-radius:4px;padding:8px 16px;font-family:'Archivo Narrow',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#080E0A;cursor:pointer;">Search</button>
-</div>
-<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Real-World Asset Tokenization News and Analysis</h1>
-<div class="homepage-grid">
+<p>The distinction that matters most: investors in the tokenized ARKVX receive fund interests, not the private shares themselves. OpenAI, Anthropic, Stripe, and Databricks are not tokenizing their own equity. ARK's fund, which holds stakes in those companies, is being tokenized. Investors get fractional interests in a fund that holds the stakes — the same legal structure as any tokenized fund, with the underlying assets being private technology company equity rather than government bonds.</p>
 
-    <!-- LEFT COLUMN: Hero + Recently Featured -->
-    <div class="homepage-left">
+<h2>Why This Is a Different Animal from Tokenized Treasuries</h2>
 
-      <a class="hero-main" href="/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026" style="text-decoration:none;display:block;">
-      <div class="hero-img-utility" style="height:200px;background:linear-gradient(140deg,#020810 0%,#071220 35%,#0A1830 60%,#030A14 100%);">
-        <div class="hero-grid-overlay"></div>
-        <div class="hero-glow-green"></div>
-        <div class="hero-stat-block">
-          <div class="big-num" style="color:#3DAA6E;font-size:28px;">5-YEAR ORDER</div>
-          <div class="big-label">91 FR 60168 · Release No. 34-106402</div>
+<p>The tokenized Treasury market — BUIDL, BENJI, USDY — works because the underlying assets are highly liquid, daily-priced, and creditworthy. A Treasury bill has a known maturity date, a contractual interest payment, and a deep secondary market. Valuing the fund at any point in time is straightforward: the NAV is the sum of the Treasury bill values.</p>
+
+<p>Private technology company stakes are none of these things. OpenAI's valuation is determined by infrequent funding rounds, not daily market prices. Anthropic does not have a public market. Stripe has been valued at widely different figures in different funding rounds over the past three years. The "daily pricing" that the ARK/Securitize announcement references is not mark-to-market pricing of the underlying stakes — it is model-based NAV estimation using the most recent funding round valuations and any intervening information.</p>
+
+<p>This is not unique to tokenization. Private equity and venture funds that report daily NAVs use the same model-based approach. The tokenization adds transparency to the fund's capital structure and enables secondary market trading of fund interests — it does not add liquidity or daily price discovery to the underlying private company stakes.</p>
+
+<h2>What Investors Actually Get</h2>
+
+<p>A tokenized ARKVX interest gives the holder a fractional claim on the fund's portfolio — its stakes in OpenAI, Anthropic, Stripe, Databricks, and other private technology companies. The token can be transferred to another qualified investor without requiring a formal private placement process. If Securitize establishes secondary market infrastructure — which the announcement indicates is planned — the token can be sold to another buyer at whatever price they agree on, rather than waiting for the fund's defined liquidity windows.</p>
+
+<p>The practical improvement over traditional private fund interests: lower minimum investment, transferability between qualified investors, and planned secondary market access. The practical constraints that remain: accredited investor requirements (these are not retail products), model-based pricing that reflects funding round valuations rather than continuous price discovery, and the inherent illiquidity of the underlying private stakes.</p>
+
+<h2>Why the Securitize Partnership Matters</h2>
+
+<p>Securitize — now publicly traded on the NYSE as SECZ after its July 2026 SPAC merger — serves as transfer agent for the tokenized ARKVX interests. This is the same role Securitize plays for BlackRock's BUIDL fund: maintaining the token holder register, managing KYC (know your customer) verification for transfers, and coordinating compliance with the fund's investor eligibility requirements.</p>
+
+<p>The ARK deal extends Securitize's platform from fixed income into venture equity — a meaningful expansion of what Securitize's infrastructure supports. For Securitize as a business, it demonstrates that the tokenization platform built for Treasury products can handle the more complex ownership and transfer mechanics of private equity interests. For the RWA market, it signals that the infrastructure capable of tokenizing the simplest assets is maturing to handle more complex ones.</p>
+
+<h2>The Broader Signal</h2>
+
+<p>The ARK/ARKVX tokenization is not the first tokenized venture fund — Hamilton Lane has tokenized interests in its private markets funds, and several smaller platforms have offered tokenized stakes in early-stage companies. What makes it notable is the specific portfolio: OpenAI and Anthropic are the most prominent private technology companies in the world in 2026, and Stripe and Databricks are among the most valuable late-stage companies. The announcement generates attention that generic "tokenized private fund" announcements do not.</p>
+
+<p>That attention matters for market development. Every institutional investor, family office, and registered investment advisor who reads about tokenized OpenAI exposure in a mainstream business outlet is learning that tokenization applies to assets beyond Treasury bills. The specific portfolio is less important than the market education that comes with it.</p>
+
+<p>→ <a href="/tokenized-private-credit-36-billion-largest-rwa-category-2026" style="color:#3DAA6E;">Private credit — the largest tokenized asset class, now expanding into venture equity</a><br>
+→ <a href="/how-to-evaluate-rwa-project-due-diligence-framework-2026" style="color:#3DAA6E;">How to evaluate an RWA project — key questions for any tokenized fund</a><br>
+→ <a href="/401k-pension-fund-tokenized-assets-erisa-problem-2026" style="color:#3DAA6E;">The 401k problem — why retail access to tokenized venture funds is still blocked</a></p></div>
+<aside class="article-sidebar"><aside class="article-sidebar"><div class="sidebar-card"><div class="sidebar-card-title">ARKVX Deal</div><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Partners: ARK Investment Management + Securitize</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Fund: ARKVX — ARK venture strategy</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Key holdings: OpenAI, Anthropic, Stripe, Databricks</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">What you own: Tokenized fund interests — not private shares</a><a class="sidebar-related-item" style="display:block;padding:9px 0;">Securitize role: Transfer agent — same as BUIDL</a></div><div class="sidebar-card"><div class="sidebar-card-title">Related</div><a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/tokenized-private-credit-36-billion-largest-rwa-category-2026"><span class="sidebar-related-cat">Markets</span> Private Credit $36B</a><a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/how-to-evaluate-rwa-project-due-diligence-framework-2026"><span class="sidebar-related-cat">Education</span> Due Diligence Framework</a><a class="sidebar-related-item" style="display:block;padding:10px 0;" href="/401k-pension-fund-tokenized-assets-erisa-problem-2026"><span class="sidebar-related-cat">Policy</span> The 401k Problem</a></div></aside></aside></div>
+
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 0;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="/articles" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;line-height:1.6;">→ Browse all 180+ articles at RWAToday.news</a></div>
+</div><footer class="site-footer">
+
+    <!-- Newsletter Band -->
+    <div class="footer-newsletter">
+      <div class="fn-inner">
+        <div class="fn-text">
+          <div class="fn-heading">The RWA Brief</div>
+          <div class="fn-sub">Daily intelligence on real-world asset tokenization. No noise. No hype. Just the signal. Free.</div>
         </div>
-        <div class="hero-pills">
-          <span class="pill-green">● TSVs: permissioned AMMs for listed equity</span>
-          <span class="pill-green">● 0.25% ADV cap · 30-day issuer veto</span>
-        </div>
-        <div class="hero-badge-row" style="padding-bottom:0;">
-          <span class="badge-featured">Breaking</span>
-        </div>
+        <form class="fn-form" action="https://rwatoday.beehiiv.com/subscribe" method="GET" target="_blank">
+          <input type="email" name="email" placeholder="your@email.com" class="fn-input" required>
+          <button class="fn-btn" type="submit">Subscribe Free</button>
+        </form>
       </div>
-      <div class="hero-content">
-        <div class="hero-cat"><span style="background:#3DAA6E;color:#0A1610;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:2px 8px;border-radius:3px;margin-right:8px;vertical-align:middle;">NEW</span>Policy · Regulation · September 22, 2026</div>
-        <h2 class="hero-title" style="font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,4vw,52px);line-height:1.1;color:var(--text,#F0F4FA);margin:0 0 12px;">ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get.</h2>
-        <div class="hero-excerpt">Cathie Wood's ARK Investment and Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get tokenized fund interests with planned secondary trading. Not the private shares themselves. The distinction matters.</div>
-        <div class="hero-meta">
-          <div class="author-byline">
-            <div class="author-avatar">RW</div>
-            <div>
-              <div class="author-name">RWAToday Staff</div>
-              <div class="author-role">RWAToday.news Editorial Team</div>
-            </div>
-          </div>
-          <span class="byline-sep">·</span>
-          <span>September 22, 2026</span>
-          <span class="byline-sep">·</span>
-          <span>9 min read</span>
-        </div>
-      </div>
-    </a>
-
-      <!-- RECENTLY FEATURED -->
-      <div class="recently-featured">
-        <div class="rf-heading">Recently Featured</div>
-        <div class="rf-grid"><a class="rf-card" href="/hester-peirce-sec-departure-october-2026-tokenization-impact">
-            <div class="rf-cat">Policy</div>
-            <div class="rf-title">Peirce Leaves Oct 2 — Two-Member SEC, What Changes</div>
-            <div class="rf-meta">2026-09-28 · 6 min</div>
-          </a>
-          <a class="rf-card" href="/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026">
-            <div class="rf-cat">Security</div>
-            <div class="rf-title">Can a Tokenized Asset Be Frozen? The Bitget Lesson.</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          <a class="rf-card" href="/regulating-without-congress-rwa-roadmap-post-clarity-2026">
-            <div class="rf-cat">Policy</div>
-            <div class="rf-title">Regulating Without Congress — The Post-CLARITY Roadmap</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          </div>
-      </div>
-
-
-      <!-- LEARNING CENTER -->
-      <div class="recently-featured">
-        <div class="rf-heading">Get Started</div>
-        <div class="rf-grid">
-          <a class="rf-card" href="rwa-glossary-terms-explained">
-            <div class="rf-cat">Reference · Education</div>
-            <div class="rf-title">The RWA Glossary: Every Term You Need to Know, Explained in Plain English</div>
-            <div class="rf-meta">10 min read</div>
-          </a>
-          <a class="rf-card" href="rwa-for-the-rest-of-us-tokenization">
-            <div class="rf-cat">Beginner · Series</div>
-            <div class="rf-title">What Is Tokenization? (Explained Like You're in 5th Grade)</div>
-            <div class="rf-meta">5 min read</div>
-          </a>
-          <a class="rf-card" href="how-to-invest-in-rwa-beginner-guide">
-            <div class="rf-cat">Education · How-To · RWA</div>
-            <div class="rf-title">How a Normal Person Actually Participates in RWA Tokenization Today</div>
-            <div class="rf-meta">7 min read</div>
-          </a>
-        </div>
-      </div>
-
-    </div><!-- /homepage-left -->
-
-    <!-- RIGHT COLUMN: Top Stories -->
-    <div class="homepage-right">
-      <div class="rf-heading">More Top Stories</div>
-                                                                                                                                                                                                                                                                                                      <a class="sidebar-article" href="/who-launches-tokenized-us-stocks-first-tsv-race-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">02</div>
-        <div><div class="sidebar-cat">Markets</div><div class="sidebar-title">Who Launches Tokenized US Stocks First?</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">03</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">GENIUS Act — Treasuries as Stablecoin Backbone</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/cftc-same-rights-test-tokenized-assets-customer-funds-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">04</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">CFTC Same Rights Test — Which Tokens Qualify</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">05</div>
-        <div><div class="sidebar-cat">Infrastructure</div><div class="sidebar-title">XRPL Batch Oct 9 — Atomic Settlement</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/esma-tokenization-2027-supervisory-priority-retail-eu-rwa" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">06</div>
-        <div><div class="sidebar-cat">International</div><div class="sidebar-title">ESMA 2027 — Europe Enforces Tokenization Rules</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/dtcc-tokenization-readiness-checklist-october-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">07</div>
-        <div><div class="sidebar-cat">Infrastructure</div><div class="sidebar-title">DTCC Launch Checklist for Custodians and Brokers</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-      
-      
-</div>
     </div>
 
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
+        <a href="index" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
           <div class="site-logo-mark"><span>R</span></div>
           <div class="site-logo-text" style="font-size:18px;"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span></div>
         </div></a>
@@ -885,12 +662,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         <h4>Company</h4>
         <ul>
           <li><a href="articles">All Articles</a></li>
-          <li><a href="about" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="#" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Advertise</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
+          <li><a href="#" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -904,16 +681,14 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="#" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
-  </footer>
-</body>
-</html>
+  </footer><div class="mobile-bottom-nav"><a class="mbn-back" href="/">← Home</a><a class="mbn-logo" href="/"><span style="color:#3DAA6E;">RWA</span>Today</a><a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a></div></body></html>
