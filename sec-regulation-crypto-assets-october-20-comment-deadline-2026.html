@@ -1,125 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RWAToday.news — Real-World Asset Tokenization News</title>
-<meta name="description" content="The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:title" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://rwatoday.news/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@RWAToday">
-<meta name="twitter:title" content="RWAToday.news">
-<meta name="twitter:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<link rel="canonical" href="https://rwatoday.news/">
-<meta property="og:image" content="https://rwatoday.news/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:site_name" content="RWAToday.news">
-<meta name="twitter:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEyMDAiIHkyPSI2MzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA2MTUxMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzBEMUExMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTI0MTgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3ciIGN4PSI3NSUiIGN5PSIzNSUiIHI9IjU1JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzREFBNkUiIHN0b3Atb3BhY2l0eT0iMC4yIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEQUE2RSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIGZpbGw9InVybCgjYmcpIi8+CiAgPGcgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuNCI+CiAgICA8bGluZSB4MT0iMCIgeTE9IjEwNSIgeDI9IjEyMDAiIHkyPSIxMDUiLz48bGluZSB4MT0iMCIgeTE9IjIxMCIgeDI9IjEyMDAiIHkyPSIyMTAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMzE1IiB4Mj0iMTIwMCIgeTI9IjMxNSIvPjxsaW5lIHgxPSIwIiB5MT0iNDIwIiB4Mj0iMTIwMCIgeTI9IjQyMCIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSI1MjUiIHgyPSIxMjAwIiB5Mj0iNTI1Ii8+CiAgICA8bGluZSB4MT0iMjAwIiB5MT0iMCIgeDI9IjIwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI0MDAiIHkxPSIwIiB4Mj0iNDAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iNjAwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI4MDAiIHkxPSIwIiB4Mj0iODAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iMTAwMCIgeTE9IjAiIHgyPSIxMDAwIiB5Mj0iNjMwIi8+CiAgPC9nPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDwhLS0gTGVmdCBncmVlbiBiYXIgLS0+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjYiIGhlaWdodD0iNjMwIiBmaWxsPSIjM0RBQTZFIi8+CiAgPCEtLSBDaXJjbGUgbG9nbyBtYXJrIC0tPgogIDxjaXJjbGUgY3g9IjEwNCIgY3k9Ijc0IiByPSI0NCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8dGV4dCB4PSIxMDQiIHk9Ijg0IiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlI8L3RleHQ+CiAgPGNpcmNsZSBjeD0iMTI2IiBjeT0iNTYiIHI9IjUiIGZpbGw9IiMzREFBNkUiLz4KICA8Y2lyY2xlIGN4PSIxNDAiIGN5PSI1NiIgcj0iNSIgZmlsbD0iIzVEQzQ4QSIvPgogIDwhLS0gV29yZG1hcmsgLS0+CiAgPHRleHQgeD0iMTYyIiB5PSI5NiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjM0RBQTZFIiBsZXR0ZXItc3BhY2luZz0iMiI+UldBPC90ZXh0PgogIDx0ZXh0IHg9IjM5MiIgeT0iOTYiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIgbGV0dGVyLXNwYWNpbmc9IjEiPlRvZGF5PC90ZXh0PgogIDx0ZXh0IHg9IjE2MiIgeT0iMTI1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM3Q0M0OUEiIGxldHRlci1zcGFjaW5nPSIzIj5SZWFsIFdvcmxkIEFzc2V0cyDigJQgVG9rZW5pemVkPC90ZXh0PgogIDwhLS0gRGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iMTQ4IiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBUYWdsaW5lIC0tPgogIDx0ZXh0IHg9IjYwIiB5PSIyMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI0U4RjJFQyI+VGhlIEluc2lkZXIgUHVibGljYXRpb24gZm9yPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSIyODUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzNEQUE2RSI+UmVhbC1Xb3JsZCBBc3NldCBUb2tlbml6YXRpb248L3RleHQ+CiAgPHRleHQgeD0iNjAiIHk9IjM0NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIxIiBmaWxsPSIjQThDNEIyIj5QcmFjdGl0aW9uZXItbGVkIGVkaXRvcmlhbC4gRGFpbHkgc2lnbmFsLiBObyBoeXBlLjwvdGV4dD4KICA8IS0tIFJXQSBzdGF0IC0tPgogIDx0ZXh0IHg9IjYwIiB5PSI0NTAiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjaywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI2OCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iIzNEQUE2RSI+JDYzLjdCPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSI0ODgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZmlsbD0iIzVBODA2OCIgbGV0dGVyLXNwYWNpbmc9IjIiPlJXQSBNQVJLRVQgQ0FQIMK3IDIwMjY8L3RleHQ+CiAgPCEtLSBCb3R0b20gZGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iNTEwIiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBQaWxsIHRhZ3MgLS0+CiAgPHJlY3QgeD0iNjAiIHk9IjUzMCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iMTQwIiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPk1BUktFVFM8L3RleHQ+CiAgPHJlY3QgeD0iMjM2IiB5PSI1MzAiIHdpZHRoPSIxOTAiIGhlaWdodD0iMzQiIHJ4PSIzIiBmaWxsPSIjMTEyNDE4IiBzdHJva2U9IiMxRTQwMjgiIHN0cm9rZS13aWR0aD0iMSIvPgogIDx0ZXh0IHg9IjMzMSIgeT0iNTUyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMzREFBNkUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIxIj5JTlNUSVRVVElPTkFMPC90ZXh0PgogIDxyZWN0IHg9IjQ0MiIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI1MjciIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UFJPVE9DT0xTPC90ZXh0PgogIDxyZWN0IHg9IjYyOCIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI3MTMiIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UkVHVUxBVElPTjwvdGV4dD4KICA8cmVjdCB4PSI4MTQiIHk9IjUzMCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iODg5IiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPlJFU0VBUkNIPC90ZXh0PgogIDwhLS0gVVJMIC0tPgogIDx0ZXh0IHg9IjExNDAiIHk9IjYxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjNUE4MDY4IiB0ZXh0LWFuY2hvcj0iZW5kIiBsZXR0ZXItc3BhY2luZz0iMSI+cndhdG9kYXkubmV3czwvdGV4dD4KPC9zdmc+">
-<meta name="news_keywords" content="RWA, real world assets, tokenization, blockchain, DeFi, tokenized gold, PAXG, ONDO, on-chain finance, crypto news">
-<meta name="keywords" content="real world assets, RWA tokenization, blockchain news, tokenized treasury, PAXG, XAUT, ONDO, on-chain assets, DeFi, crypto news 2026">
-<meta name="author" content="RWAToday Editorial">
-<meta name="copyright" content="RWAToday.news">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "NewsMediaOrganization",
-      "@id": "https://rwatoday.news/#organization",
-      "name": "RWAToday.news",
-      "url": "https://rwatoday.news",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://rwatoday.news/logo.png",
-        "width": 512,
-        "height": 512
-      },
-      "description": "The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy.",
-      "foundingDate": "2026-05-17",
-      "sameAs": [
-        "https://x.com/RWAToday",
-        "https://coinmarketcap.com/community/profile/RWAToday/",
-        "https://www.linkedin.com/company/rwatoday/"
-      ],
-      "publishingPrinciples": "https://rwatoday.news/index.html#editorial-policy",
-      "masthead": "https://rwatoday.news/index.html#about"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://rwatoday.news/#website",
-      "url": "https://rwatoday.news",
-      "name": "RWAToday.news",
-      "description": "Real-world asset tokenization news, analysis, and market intelligence.",
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-utility",
-      "headline": "Five Under-the-Radar Tokens With Real-World Utility You Should Be Watching in 2026",
-      "description": "Agriculture, energy, payments, education, collaboration — five projects shipping live products with real on-chain activity. Real Products. Real Users. Real Revenue. OnChain.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "GROW, GREEN, RALLY, WIN, SWITCH, utility tokens, RWA, real world assets, blockchain 2026",
-      "articleSection": "Real-World Utility",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-gaming",
-      "headline": "Web3 Gaming That's Actually On-Chain: AdventureWurld Distributes 1,000,000 GULD to Players in Real Time",
-      "description": "1,074 games. 31 countries. 1,000,000 GULD paid directly to player wallets — no intermediary, no custodian. The KillTheBoss Tech Test proved fully on-chain game rewards at scale are live.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "AdventureWurld, GULD, KillTheBoss, Web3 gaming, on-chain gaming, blockchain game rewards",
-      "articleSection": "On-Chain Infrastructure",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://rwatoday.news"
-        }
-      ]
-    }
-  ]
-}
-</script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Archivo+Narrow:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SEC Comment Deadline Oct 20: What Is at Stake for RWA | RWAToday.news</title>
+<meta name="description" content="October 20 is the Regulation Crypto Assets comment deadline — the administrative alternative to CLARITY. What the proposal covers, the 97% problem in the c"/>
+<meta name="keywords" content="SEC Regulation Crypto Assets October 20 comment deadline, SEC crypto rulemaking 2026 comment, Regulation Crypto Assets RWA impact, SEC crypto rulemaking comment period October 2026"/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<meta property="og:title" content="SEC Comment Deadline Oct 20: What Is at Stake for RWA"/>
+<meta property="og:description" content="October 20 is the Regulation Crypto Assets comment deadline — the administrative alternative to CLARITY. What the proposal covers, the 97% problem in the c"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026"/>
+<meta property="og:image" content="https://rwatoday.news/og-image.png"/>
+<meta property="article:published_time" content="2026-09-28"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@RWAToday"/>
+<meta name="twitter:title" content="SEC Comment Deadline Oct 20: What Is at Stake for RWA"/>
+<meta name="twitter:description" content="October 20 is the Regulation Crypto Assets comment deadline — the administrative alternative to CLARITY. What the proposal covers, the 97% problem in the c"/>
+<meta name="twitter:image" content="https://rwatoday.news/og-image.png"/>
+<link rel="canonical" href="https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
 :root {
   --black: #080E0A;
@@ -671,6 +569,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
+  .ticker-item .asset { font-size:10px; }
+
   .fn-heading { font-size:18px; }
 
   .inner-page h1 { font-size:24px; }
@@ -681,16 +581,9 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   p[style*="display:flex"] a { width:100%; justify-content:center; }
 
 }
-</style>
-<link rel="sitemap" type="application/xml" title="News Sitemap" href="https://rwatoday.news/news-sitemap.xml"/>
-</head>
-<body>
-
-<!-- ══════════════════════════════════════════ -->
-<!-- HOMEPAGE                                  -->
-<!-- ══════════════════════════════════════════ -->
-<div id="homepage" class="panel active">
-  <nav class="site-nav">
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "October 20 Is the SEC Comment Deadline That Will Shape RWA Rules for Years. Here Is What Is at Stake.", "description": "October 20 is the Regulation Crypto Assets comment deadline — the administrative alternative to CLARITY. What the proposal covers, the 97% problem in the comment record, what administrative rulemaking can't fix that CLARITY would have, and how to engage before the deadline.", "datePublished": "2026-09-28", "dateModified": "2026-09-28", "author": {"@type": "Organization", "name": "RWAToday.news", "url": "https://rwatoday.news"}, "publisher": {"@type": "NewsMediaOrganization", "name": "RWAToday.news", "url": "https://rwatoday.news", "logo": {"@type": "ImageObject", "url": "https://rwatoday.news/rwatoday-logo.png"}}, "image": {"@type": "ImageObject", "url": "https://rwatoday.news/og-image.png"}, "url": "https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026"}, "articleSection": "Policy"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "RWAToday.news", "item": "https://rwatoday.news/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://rwatoday.news/articles"}, {"@type": "ListItem", "position": 3, "name": "October 20 Is the SEC Comment Deadline That Will Shape RWA Rules for Years. Here", "item": "https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026"}]}</script></head>
+<body><nav class="site-nav">
     <div class="site-logo">
       <div class="site-logo-mark"><span>R</span></div>
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
@@ -699,181 +592,64 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <li><a href="search" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
     <div></div>
   </nav>
+<div class="article-wrap">
+<a href="/" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#3DAA6E;text-decoration:none;margin:24px 40px 12px;">&#8592; Back to RWAToday.news</a>
+<div class="article-hero"><div><span class="article-cat-tag">Policy · Regulation · September 28, 2026</span></div>
+<h1 class="article-headline">October 20 Is the SEC Comment Deadline That Will Shape RWA Rules for Years. Here Is What Is at Stake.</h1><p class="article-deck">October 20 is the Regulation Crypto Assets comment deadline — the administrative alternative to CLARITY. What the proposal covers, the 97% problem in the comment record, what administrative rulemaking can't fix that CLARITY would have, and how to engage before the deadline.</p>
+<div class="article-meta"><span>📅 2026-09-28</span><span>⏱ 7 min read</span><span>🏷 Policy · Regulation · September 28, 2026</span></div></div>
+<div class="article-body"><div class="article-content"><p>October 20, 2026 is the comment deadline for the Securities and Exchange Commission's proposed Regulation Crypto Assets — the administrative alternative to the CLARITY Act that the SEC committed to delivering after the Senate vote failed on September 15. Comment deadlines generate less press coverage than legislative votes. They should not: the comment record assembled by October 20 will directly shape the rules that govern the tokenized asset market for years.</p>
 
-  <!-- SINGLE HERO + SIDEBAR -->
-  <!-- MAIN LAYOUT: left col = hero + recently featured, right col = top stories -->
-  
-<div style="background:var(--surface,#112418);border:1px solid var(--border2,#265235);border-radius:8px;padding:16px 20px;margin:0 40px 32px;display:flex;gap:12px;align-items:center;">
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3DAA6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-  <input id="homeSearch" type="search" placeholder="Search All Articles..." autocomplete="off"
-    style="flex:1;background:none;border:none;outline:none;font-family:'Archivo',sans-serif;font-size:15px;color:#F0F4FA;"
-    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='/search?q='+encodeURIComponent(this.value.trim())"
-  />
-  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='/search?q='+encodeURIComponent(v)"
-    style="background:#3DAA6E;border:none;border-radius:4px;padding:8px 16px;font-family:'Archivo Narrow',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#080E0A;cursor:pointer;">Search</button>
-</div>
-<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Real-World Asset Tokenization News and Analysis</h1>
-<div class="homepage-grid">
+<h2>What Regulation Crypto Assets Actually Proposes</h2>
 
-    <!-- LEFT COLUMN: Hero + Recently Featured -->
-    <div class="homepage-left">
+<p>Regulation Crypto Assets is the SEC's attempt to build a comprehensive framework for digital asset markets through administrative rulemaking rather than legislation. Where CLARITY would have created statutory definitions and exemptions through an Act of Congress, Regulation Crypto Assets creates them through SEC rulemaking authority under existing law.</p>
 
-      <a class="hero-main" href="/sec-innovation-exemption-tokenized-nms-stock-amm-five-year" style="text-decoration:none;display:block;">
-      <div class="hero-img-utility" style="height:200px;background:linear-gradient(140deg,#020810 0%,#071220 35%,#0A1830 60%,#030A14 100%);">
-        <div class="hero-grid-overlay"></div>
-        <div class="hero-glow-green"></div>
-        <div class="hero-stat-block">
-          <div class="big-num" style="color:#3DAA6E;font-size:28px;">5-YEAR ORDER</div>
-          <div class="big-label">91 FR 60168 · Release No. 34-106402</div>
+<p>The core proposals cover four areas. First, classification: a functional test for determining whether a digital asset is a security, a commodity, or something in between — intended to replace the decade-long case-by-case application of the Howey test that has generated regulatory uncertainty across the industry. Second, registration: streamlined pathways for crypto asset exchanges, brokers, and issuers to register with the SEC without navigating rules written for traditional securities markets. Third, disclosure: standardized disclosure requirements for digital asset issuers calibrated to the unique characteristics of blockchain-native assets. Fourth, tokenized traditional assets: specific guidance on when a tokenized stock, bond, or fund share is treated identically to its traditional equivalent and what registration and disclosure requirements apply.</p>
+
+<p>The fourth area is the most consequential for the RWA market. The question of whether a tokenized Treasury bill requires the same registration as a traditional Treasury bill (it does not, under current guidance) and whether a tokenized equity token issued by a third party constitutes a security requiring full registration (it probably does) will be addressed in the final rule.</p>
+
+<h2>The 97% Problem in the Comment Record</h2>
+
+<p>The most consistent theme in comments submitted to date is what practitioners call the <a href="/rwa-97-percent-problem-us-retail-access-tokenized-assets-2026" style="color:#3DAA6E;">97% problem</a>: the structural fact that 97% of the US population is legally excluded from most tokenized RWA products because they do not meet the accredited investor threshold ($200,000 individual income or $1 million net worth excluding primary residence). The institutional tokenized Treasury market is thriving. The retail tokenized investment market is not — because the distribution infrastructure to serve retail legally does not exist.</p>
+
+<p>Comments from consumer advocacy groups, retail broker-dealers, and several House members who supported CLARITY are pressing the SEC to create a simplified exemption for tokenized products that invest in already-registered underlying assets — specifically, tokenized money market funds and Treasury products. The argument: if the underlying asset is already registered and regulated, requiring full re-registration of the tokenized wrapper creates compliance costs without investor protection benefit.</p>
+
+<h2>What the Comment Record Won't Fix</h2>
+
+<p>Administrative rulemaking has two limitations that CLARITY would not have had. First, rules can be reversed. A future administration with different priorities can initiate a new rulemaking process and undo what the current SEC establishes. Statutory provisions — passed by Congress and signed by the President — require Congressional action to repeal. The RWA industry's concern about regulatory durability is legitimate: a tokenization infrastructure built on administrative guidance that can be reversed in 2029 is a different investment than one built on statute.</p>
+
+<p>Second, administrative rules cannot override statutory definitions. The SEC can define "crypto asset" for rulemaking purposes, but it cannot redefine what constitutes an "exchange" under the Exchange Act or what requires "registration" under the Securities Act without Congressional action. CLARITY would have amended the statutes themselves. Regulation Crypto Assets works within them.</p>
+
+<h2>How to Engage</h2>
+
+<p>Comments can be submitted at regulations.gov through October 20. The most useful comments for the record are specific: not general support or opposition, but detailed analysis of specific proposed rules with concrete examples of how the proposal would affect real products and market participants. Comments that explain operational impact — how long compliance would take, what it would cost, which use cases it would enable or prohibit — are more influential than advocacy statements.</p>
+
+<p>The comment record becomes public and is published by the SEC. Every submitted comment is searchable and will be addressed in the final rulemaking. For anyone building in the tokenized RWA space, the October 20 deadline is worth taking seriously.</p>
+
+<p>→ <a href="/sec-regulation-crypto-assets-clarity-plan-b-rulemaking-2026" style="color:#3DAA6E;">Regulation Crypto Assets explained — the full breakdown</a><br>
+→ <a href="/clarity-act-failed-senate-vote-49-50-what-comes-next-2026" style="color:#3DAA6E;">CLARITY failed — why the comment process matters more now</a><br>
+→ <a href="/rwa-97-percent-problem-us-retail-access-tokenized-assets-2026" style="color:#3DAA6E;">The 97% Problem — the retail access question the comment record must answer</a></p></div>
+<aside class="article-sidebar"><aside class="article-sidebar"><div class="sidebar-card"><div class="sidebar-card-title">Key Dates</div><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Comment deadline: October 20, 2026</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Where to submit: regulations.gov</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">SEC released: September 17, 2026 — same week as CLARITY vote</a><a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Covers: Classification, registration, disclosure, tokenized assets</a><a class="sidebar-related-item" style="display:block;padding:9px 0;">97% problem: Accredited investor threshold excluding retail</a></div><div class="sidebar-card"><div class="sidebar-card-title">Related</div><a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/sec-regulation-crypto-assets-clarity-plan-b-rulemaking-2026"><span class="sidebar-related-cat">Policy</span> Regulation Crypto Assets</a><a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/clarity-act-failed-senate-vote-49-50-what-comes-next-2026"><span class="sidebar-related-cat">Policy</span> CLARITY Post-Mortem</a><a class="sidebar-related-item" style="display:block;padding:10px 0;" href="/rwa-97-percent-problem-us-retail-access-tokenized-assets-2026"><span class="sidebar-related-cat">Policy</span> The 97% Problem</a></div></aside></aside></div>
+
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 0;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="/articles" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;line-height:1.6;">→ Browse all 175+ articles at RWAToday.news</a></div>
+</div><footer class="site-footer">
+
+    <!-- Newsletter Band -->
+    <div class="footer-newsletter">
+      <div class="fn-inner">
+        <div class="fn-text">
+          <div class="fn-heading">The RWA Brief</div>
+          <div class="fn-sub">Daily intelligence on real-world asset tokenization. No noise. No hype. Just the signal. Free.</div>
         </div>
-        <div class="hero-pills">
-          <span class="pill-green">● TSVs: permissioned AMMs for listed equity</span>
-          <span class="pill-green">● 0.25% ADV cap · 30-day issuer veto</span>
-        </div>
-        <div class="hero-badge-row" style="padding-bottom:0;">
-          <span class="badge-featured">Breaking</span>
-        </div>
+        <form class="fn-form" action="https://rwatoday.beehiiv.com/subscribe" method="GET" target="_blank">
+          <input type="email" name="email" placeholder="your@email.com" class="fn-input" required>
+          <button class="fn-btn" type="submit">Subscribe Free</button>
+        </form>
       </div>
-      <div class="hero-content">
-        <div class="hero-cat"><span style="background:#3DAA6E;color:#0A1610;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:2px 8px;border-radius:3px;margin-right:8px;vertical-align:middle;">NEW</span>Policy · Regulation · September 22, 2026</div>
-        <h2 class="hero-title" style="font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,4vw,52px);line-height:1.1;color:var(--text,#F0F4FA);margin:0 0 12px;">SEC's Five-Year Innovation Exemption Puts Tokenized Stocks on AMMs — With Hard Caps and an Issuer Veto</h2>
-        <div class="hero-excerpt">Release No. 34-106402 creates Tokenized Securities Venues — permissioned AMMs for genuine listed equity tokens. Hard volume caps: 0.25% ADV for S&P 500 names. A 30-day issuer veto on third-party tokens. A five-year clock to 2031. Not a sandbox. A supervised on-ramp.</div>
-        <div class="hero-meta">
-          <div class="author-byline">
-            <div class="author-avatar">RW</div>
-            <div>
-              <div class="author-name">RWAToday Staff</div>
-              <div class="author-role">RWAToday.news Editorial Team</div>
-            </div>
-          </div>
-          <span class="byline-sep">·</span>
-          <span>September 22, 2026</span>
-          <span class="byline-sep">·</span>
-          <span>9 min read</span>
-        </div>
-      </div>
-    </a>
-
-      <!-- RECENTLY FEATURED -->
-      <div class="recently-featured">
-        <div class="rf-heading">Recently Featured</div>
-        <div class="rf-grid"><a class="rf-card" href="/dtcc-october-2026-commercial-launch-what-happens-now">
-            <div class="rf-cat">Infrastructure</div>
-            <div class="rf-title">DTCC October: What Changes for 4,000 Institutions</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          <a class="rf-card" href="/token2049-singapore-october-2026-rwa-what-to-watch">
-            <div class="rf-cat">Events</div>
-            <div class="rf-title">TOKEN2049 Singapore — 9 Days Away: What to Watch</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          <a class="rf-card" href="/movie-rights-film-finance-tokenization-blockchain-rwa-2026">
-            <div class="rf-cat">Entertainment</div>
-            <div class="rf-title">A Movie Is a Financial Instrument. Blockchain Makes It Investable.</div>
-            <div class="rf-meta">2026-09-28 · 8 min</div>
-          </a>
-          </div>
-      </div>
-
-
-      <!-- LEARNING CENTER -->
-      <div class="recently-featured">
-        <div class="rf-heading">Get Started</div>
-        <div class="rf-grid">
-          <a class="rf-card" href="rwa-glossary-terms-explained">
-            <div class="rf-cat">Reference · Education</div>
-            <div class="rf-title">The RWA Glossary: Every Term You Need to Know, Explained in Plain English</div>
-            <div class="rf-meta">10 min read</div>
-          </a>
-          <a class="rf-card" href="rwa-for-the-rest-of-us-tokenization">
-            <div class="rf-cat">Beginner · Series</div>
-            <div class="rf-title">What Is Tokenization? (Explained Like You're in 5th Grade)</div>
-            <div class="rf-meta">5 min read</div>
-          </a>
-          <a class="rf-card" href="how-to-invest-in-rwa-beginner-guide">
-            <div class="rf-cat">Education · How-To · RWA</div>
-            <div class="rf-title">How a Normal Person Actually Participates in RWA Tokenization Today</div>
-            <div class="rf-meta">7 min read</div>
-          </a>
-        </div>
-      </div>
-
-    </div><!-- /homepage-left -->
-
-    <!-- RIGHT COLUMN: Top Stories -->
-    <div class="homepage-right">
-      <div class="rf-heading">More Top Stories</div>
-                                                                                                                                                                                                                                                                                                <a class="sidebar-article" href="/life-settlement-insurance-policy-rwa-tokenization-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">02</div>
-        <div><div class="sidebar-cat">Alternative Assets</div><div class="sidebar-title">Life Settlements: $4B Near-Perfect RWA Candidate</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/carbon-credits-voluntary-market-collapse-blockchain-2-0-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">03</div>
-        <div><div class="sidebar-cat">Environment</div><div class="sidebar-title">Carbon Credits Collapsed. Blockchain Rebuilds.</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/infrastructure-bonds-tokenization-toll-roads-airports-rwa-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">04</div>
-        <div><div class="sidebar-cat">Real Assets</div><div class="sidebar-title">$10T Infrastructure Bonds Are Being Tokenized</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/sports-contracts-athlete-income-tokenization-rwa-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">05</div>
-        <div><div class="sidebar-cat">Sports</div><div class="sidebar-title">Tokenizing Sports Contracts — Is the Market Ready?</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/sec-regulation-crypto-assets-october-20-comment-deadline-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">06</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">SEC Comment Deadline Oct 20 — What Is at Stake</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/sec-innovation-exemption-tokenized-nms-stock-amm-five-year" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">07</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">SEC Innovation Exemption — Hard Caps, Issuer Veto</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-      
-      
-</div>
     </div>
 
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
+        <a href="index" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
           <div class="site-logo-mark"><span>R</span></div>
           <div class="site-logo-text" style="font-size:18px;"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span></div>
         </div></a>
@@ -884,12 +660,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         <h4>Company</h4>
         <ul>
           <li><a href="articles">All Articles</a></li>
-          <li><a href="about" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
-          <li><a href="about.html#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="#" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Advertise</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
+          <li><a href="#" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -903,16 +679,14 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="#" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
-  </footer>
-</body>
-</html>
+  </footer><div class="mobile-bottom-nav"><a class="mbn-back" href="/">← Home</a><a class="mbn-logo" href="/"><span style="color:#3DAA6E;">RWA</span>Today</a><a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a></div></body></html>

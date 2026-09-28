@@ -1,6 +1,46 @@
-# RWAToday.news — Full Content Index
+# RWAToday.news — Full Article Index
 # Generated: {DATE}
-# Total: 174
+# Total: 182
+
+### TOKEN2049 Singapore Is 9 Days Away. Here Is What to Watch.
+URL: https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch
+Date: 2026-09-28
+Summary: MAS Project Guardian Phase 3 expected. DTCC commercial launch happening simultaneously. Post-CLARITY geography of institutional capital. The SEC TSV framework gets its first international evaluation. Six things that define TOKEN2049 2026.
+
+### The DTCC October Launch Is Here. Here Is What Actually Changes for 4,000 Institutions.
+URL: https://rwatoday.news/dtcc-october-2026-commercial-launch-what-happens-now
+Date: 2026-09-28
+Summary: The DTCC expands blockchain settlement to all 4,000+ member institutions this month. Russell 1000, major ETFs, benchmark Treasuries. Settlement in minutes instead of T+2. What launches, what follows, and why CLARITY had nothing to do with it.
+
+### October 20 Is the SEC Comment Deadline That Will Shape RWA Rules for Years.
+URL: https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026
+Date: 2026-09-28
+Summary: October 20 is the Regulation Crypto Assets comment deadline — the post-CLARITY administrative alternative. What it proposes, the 97% problem in the comment record, what rulemaking can't fix that statute would have, and how to engage.
+
+### A $4 Billion Market Nobody Talks About: Life Settlements Are a Near-Perfect RWA Candidate.
+URL: https://rwatoday.news/life-settlement-insurance-policy-rwa-tokenization-2026
+Date: 2026-09-28
+Summary: Life settlements pay 8-14% with near-zero equity market correlation. The market is opaque, illiquid, and inaccessible below $5M minimums. HIPAA, state regulation, and secondary market gaps are exactly what blockchain tokenization is built to fix.
+
+### Spencer Dinwiddie Tried to Tokenize His NBA Contract in 2022. Is the Market Ready Now?
+URL: https://rwatoday.news/sports-contracts-athlete-income-tokenization-rwa-2026
+Date: 2026-09-28
+Summary: Dinwiddie's $34M NBA contract tokenization failed in 2022 — NBA objected, SEC raised questions. Four years later: athlete income agreements, PE stakes in sports teams, media rights tokenization, fan tokens. Here is where the market actually stands.
+
+### The Voluntary Carbon Market Collapsed in 2023. Blockchain Is Building Version 2.0.
+URL: https://rwatoday.news/carbon-credits-voluntary-market-collapse-blockchain-2-0-2026
+Date: 2026-09-28
+Summary: Verra's credits were revealed as largely worthless — additionality overstated, $2B market cratered. Blockchain continuous monitoring, on-chain retirement records, and ICVCM standards reform are building carbon credits 2.0. High-integrity, verifiable,
+
+### Every Toll You Pay Funds a Bond. The $10 Trillion Infrastructure Bond Market Is Being Tokenized.
+URL: https://rwatoday.news/infrastructure-bonds-tokenization-toll-roads-airports-rwa-2026
+Date: 2026-09-28
+Summary: Predictable inflation-linked cash flows. Essential service monopolies. 10-year lockups and $10M minimums that lock out all but the largest institutions. The EIB has been issuing digital bonds since 2021. Tokenization is fractionalizing the $10T infra
+
+### A Movie Is a Financial Instrument. Hollywood Has Known This for Decades. Blockchain Is Making It Investable.
+URL: https://rwatoday.news/movie-rights-film-finance-tokenization-blockchain-rwa-2026
+Date: 2026-09-28
+Summary: Hollywood securitized film revenues through slate deals and library bonds long before blockchain. Mogul Productions, Securitize conversations with talent agencies, independent film equity tokenization — here is the revenue stack, the IP challenge, an
 
 ### Your Mortgage Has Been a Token Since 1970. Nobody Called It That.
 URL: https://rwatoday.news/mortgage-backed-securities-tokenization-blockchain-2026
@@ -588,7 +628,7 @@ Date: June 22, 2026
 Summary: Shareholders vote June 29. SEC cleared the S-4. $1.25B valuation, $4B in tokenized assets, 39% YoY revenue growth. The first publicly traded RWA infrastructure company.
 
 ### Sergey Nazarov Is Building the Infrastructure That Every RWA Protocol Depends On
-URL: https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink
+URL: https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink-chainlink
 Date: June 22, 2026
 Summary: Chainlink co-founder is not issuing tokenized assets. He is building the oracle network, cross-chain infrastructure, and on-chain verification layer without which institutional RWA cannot function.
 
@@ -713,7 +753,7 @@ Date: 2026-05-29
 Summary: Liquidity is the difference between a parking lot and a highway. Here's what it means for RWA — and the one question to ask before you invest.
 
 ### Carlos Domingo Built the Compliance Layer the Entire RWA Sector Runs On
-URL: https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize
+URL: https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize-securitize
 Date: 2026-05-29
 Summary: Securitize is the transfer agent for BlackRock's BUIDL, the compliance infrastructure behind OUSG, and a member of the DTCC working group.
 

@@ -1,26 +1,46 @@
 # RWAToday.news
-> Independent editorial coverage of real-world asset (RWA) tokenization
+> Independent news and analysis covering real-world asset (RWA) tokenization
 
-RWAToday.news covers the tokenization of real-world assets — tokenized securities, private credit, real estate, commodities, infrastructure, and the blockchain protocols that enable them.
+RWAToday.news covers the tokenization of real-world assets — tokenized securities, private credit, real estate, commodities, and the blockchain infrastructure enabling them. Coverage spans institutions (BlackRock, DTCC, Securitize, Ondo), regulation (SEC, FSA, MAS, FSC), and consumer finance angles.
 
-## Key Pages
-- [Article Index](https://rwatoday.news/articles) — Full index of all published articles
-- [Search](https://rwatoday.news/search) — Search across all 160+ articles
-- [Newsletter](https://rwatoday.beehiiv.com/subscribe) — Weekly RWA This Week digest
+## Site Pages
+- [Home](https://rwatoday.news/) — Latest articles and editorial
+- [Articles](https://rwatoday.news/articles) — Full index of all 177 published articles
+- [Search](https://rwatoday.news/search) — Search all articles
+- [About](https://rwatoday.news/about) — About RWAToday.news
+- [Editorial Policy](https://rwatoday.news/editorial-policy) — Editorial standards and affiliate disclosures
+- [Staff](https://rwatoday.news/rwatoday-staff) — Editorial team
 
-## Coverage Areas
-- Tokenized securities (equities, bonds, Treasuries)
-- Private credit and tokenized lending
-- Real estate tokenization
-- Commodity tokenization (gold, carbon credits, energy)
-- RWA regulation: US (SEC, DTCC, CLARITY Act), EU (MiCA, ECB), Asia-Pacific (MAS, FSC, FSA)
-- Institutional adoption: BlackRock BUIDL, Securitize, Ondo, Franklin Templeton, DTCC
-- Blockchain infrastructure for RWA: Ethereum, Avalanche, Stellar, XRP Ledger
+## Series Hubs
+- [RWA for the Rest of Us](https://rwatoday.news/rwa-for-the-rest-of-us-tokenization) — Beginner series (6 parts: tokenization, smart contracts, nodes, yield, liquidity, DAOs)
+- [DYOR Research Series](https://rwatoday.news/dyor-rwa-linkedin-vs-twitter) — Research methodology (2 parts: LinkedIn/Twitter, on-chain explorer)
 
-## Full Content Index
-For the complete article-by-article index with summaries, see:
-- [https://rwatoday.news/llms-full.txt](https://rwatoday.news/llms-full.txt)
+## Pillar Pages and Key Articles
+- [what-is-tokenization-ultimate-guide-real-world-assets-2026](https://rwatoday.news/what-is-tokenization-ultimate-guide-real-world-assets-2026) — The definitive guide to what tokenization means, how it works, and why it matters for every asset class
+- [state-of-rwa-tokenization-2026-complete-market-analysis](https://rwatoday.news/state-of-rwa-tokenization-2026-complete-market-analysis) — Complete 2026 market analysis: $39.2B on-chain, breakdown by asset class, institutional participants, regulatory status
+- [how-to-evaluate-rwa-project-due-diligence-framework-2026](https://rwatoday.news/how-to-evaluate-rwa-project-due-diligence-framework-2026) — Six-dimension due diligence framework for evaluating any tokenized RWA investment with checklist
+- [rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide](https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide) — Every RWA token standard in current institutional use: ERC-20, ERC-1400, ERC-3643, ERC-3525, ERC-4626, ERC-7943
+- [rwa-glossary-terms-explained](https://rwatoday.news/rwa-glossary-terms-explained) — Complete glossary of RWA and blockchain terminology for investors and builders
+- [what-is-rwa-crypto-explained](https://rwatoday.news/what-is-rwa-crypto-explained) — Entry-level explainer: what real-world assets are, why they are tokenized, and who is doing it
+- [how-to-invest-in-rwa-beginner-guide](https://rwatoday.news/how-to-invest-in-rwa-beginner-guide) — Step-by-step guide for first-time RWA investors: platforms, minimums, risks, and how to start
+- [rwa-for-the-rest-of-us-tokenization](https://rwatoday.news/rwa-for-the-rest-of-us-tokenization) — Series: What Is Tokenization? — explained for beginners using the Spotify analogy
+- [rwa-for-the-rest-of-us-smart-contracts](https://rwatoday.news/rwa-for-the-rest-of-us-smart-contracts) — Series: What Is a Smart Contract? — vending machine analogy, how smart contracts power RWA
+- [rwa-for-the-rest-of-us-dao](https://rwatoday.news/rwa-for-the-rest-of-us-dao) — Series: What Is a DAO? — governance, voting, and how DAOs govern RWA platforms
+- [rwa-for-the-rest-of-us-yield](https://rwatoday.news/rwa-for-the-rest-of-us-yield) — Series: What Is Yield? — types of yield in tokenized assets, the Treasury yield gap
+- [rwa-for-the-rest-of-us-liquidity](https://rwatoday.news/rwa-for-the-rest-of-us-liquidity) — Series: What Is Liquidity? — the liquidity spectrum in tokenized assets, redemption risk
+- [rwa-for-the-rest-of-us-nodes](https://rwatoday.news/rwa-for-the-rest-of-us-nodes) — Series: What Are Nodes and Networks? — how blockchain infrastructure works
+- [dyor-rwa-linkedin-vs-twitter](https://rwatoday.news/dyor-rwa-linkedin-vs-twitter) — DYOR Series: LinkedIn vs Twitter — how to research RWA teams and projects off-chain
+- [dyor-rwa-on-chain-explorer](https://rwatoday.news/dyor-rwa-on-chain-explorer) — DYOR Series: How to Read a Block Explorer — on-chain verification for RWA investors
+- [tokenized-private-credit-36-billion-largest-rwa-category-2026](https://rwatoday.news/tokenized-private-credit-36-billion-largest-rwa-category-2026) — $35.9B tokenized private credit — the largest RWA category, Maple Finance, Centrifuge, 8-15% yields
+- [savings-account-tokenized-treasuries-yield-gap-blockchain-2026](https://rwatoday.news/savings-account-tokenized-treasuries-yield-gap-blockchain-2026) — Why your savings account pays 0.5% while tokenized Treasuries pay 4.8% — the yield gap explained
+- [sec-innovation-exemption-tokenized-nms-stock-amm-five-year](https://rwatoday.news/sec-innovation-exemption-tokenized-nms-stock-amm-five-year) — SEC Innovation Exemption: five-year order creating Tokenized Securities Venues with AMMs for listed equity
+- [dtcc-october-launch-proceeds-clarity-act-failed-rwa-2026](https://rwatoday.news/dtcc-october-launch-proceeds-clarity-act-failed-rwa-2026) — DTCC October 2026 launch for tokenized securities — what it covers, why CLARITY failure did not affect it
+- [amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026](https://rwatoday.news/amc-robinhood-tokenized-stock-fight-who-owns-equity-blockchain-2026) — AMC vs Robinhood tokenized stock dispute — the legal fight exposing who owns equity on-chain
+
+## Full Article Index
+For the complete article list with summaries, see [https://rwatoday.news/llms-full.txt](https://rwatoday.news/llms-full.txt)
 
 ## Feeds
 - JSON Feed: https://rwatoday.news/feed.json
 - RSS: https://rwatoday.news/feed.xml
+- News Sitemap: https://rwatoday.news/news-sitemap.xml
