@@ -4,9 +4,86 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 192
+    "total_articles": 196
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026",
+      "url": "https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026",
+      "title": "StateChain Summit Opens Tomorrow in Lafayette. Why State Governments Are the Next RWA Frontier.",
+      "content_text": "StateChain Summit opens September 30 in Lafayette, Louisiana. 40+ states. Critical Digital Infrastructure as the fourth state revenue path. Why state land, pension funds, and municipal bonds are the next tokenization frontier. Chainlink Labs sponsors — same day as CCIP 2.0 launch.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Events",
+        "Policy",
+        "Government",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026",
+      "url": "https://rwatoday.news/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026",
+      "title": "Tokenization Solved Issuance. Chainlink CCIP 2.0, Live Today, Solves Distribution.",
+      "content_text": "CCIP 2.0 launches September 28 with $84B in secured value and institutional partners including ANZ, Fidelity, Deutsche Börse, and Swift. Cross-Chain Verifiers, ACE compliance enforcement, configurable finality. The missing distribution layer for tokenized funds is live.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Infrastructure",
+        "Technology",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026",
+      "url": "https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026",
+      "title": "The 30-Day Issuer Opt-Out Clock Inside the SEC's Innovation Exemption Is Now Running.",
+      "content_text": "Section IV(B)(3) of SEC Order 34-106402 gives issuers 30 days to veto third-party tokenization of their stock. Most coverage missed it. How the clock works, which issuers are most likely to object, and why issuer-sponsored tokenization is the cleaner path.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",
+      "url": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",
+      "title": "TOKEN2049 Singapore Is 9 Days Away. Six Things to Watch — Starting October 6.",
+      "content_text": "The most important RWA week of 2026 starts October 6 with the Global Onchain Summit, then TOKEN2049 October 7-8. MAS Project Guardian Phase 3, DTCC live updates, post-CLARITY capital geography, CCIP 2.0 deployments, and South Korea/Japan institutional presence.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-09-28T09:00:00-05:00",
+      "tags": [
+        "Events",
+        "Markets",
+        "September 28, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
     {
       "id": "https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact",
       "url": "https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact",
