@@ -1,11 +1,13 @@
 # RWAToday.news
-> Independent news and analysis covering real-world asset (RWA) tokenization
+> News and analysis covering real-world asset (RWA) tokenization
+
+RWAToday.news is run by members of the Connect community. Not owned or operated by Connect United.
 
 RWAToday.news covers the tokenization of real-world assets — tokenized securities, private credit, real estate, commodities, and the blockchain infrastructure enabling them. Coverage spans institutions (BlackRock, DTCC, Securitize, Ondo), regulation (SEC, FSA, MAS, FSC), and consumer finance angles.
 
 ## Site Pages
 - [Home](https://rwatoday.news/) — Latest articles and editorial
-- [Articles](https://rwatoday.news/articles) — Full index of all 177 published articles
+- [Articles](https://rwatoday.news/articles) — Full index of all 207 published articles
 - [Search](https://rwatoday.news/search) — Search all articles
 - [About](https://rwatoday.news/about) — About RWAToday.news
 - [Editorial Policy](https://rwatoday.news/editorial-policy) — Editorial standards and affiliate disclosures

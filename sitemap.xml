@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://rwatoday.news/</loc><lastmod>2026-10-02</lastmod><priority>1.0</priority></url>
   <url><loc>https://rwatoday.news/articles</loc><lastmod>2026-10-02</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rwatoday.news/about</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rwatoday.news/editorial-policy</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rwatoday.news/privacy-policy</loc><lastmod>2026-09-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://rwatoday.news/terms</loc><lastmod>2026-09-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://rwatoday.news/rwatoday-staff</loc><lastmod>2026-10-02</lastmod><priority>0.6</priority></url>
   <url><loc>https://rwatoday.news/contact</loc><lastmod>2026-10-02</lastmod><priority>0.6</priority></url>
   <url><loc>https://rwatoday.news/corrections</loc><lastmod>2026-10-02</lastmod><priority>0.6</priority></url>
+  <url><loc>https://rwatoday.news/rwa-dyor-checklist-evaluating-tokenized-assets</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/rwa-dyor-reading-the-data</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/adventurewurld-kill-the-boss-gta6-gaming-own-your-rewards-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/brief-rwa-holders-3-5-million-september-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/brief-what-is-tokenization</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/coral-futures-blubird-tokenized-reef-sections-natural-capital-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/impact-is-a-real-world-asset-blockchain-charitable-outcomes-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/jon-tetreault-crypto-security-mastery-connect-united-education-blockbot</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/dtcc-october-launch-canton-network-july-trades-what-we-know-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-market-size-46-billion-vs-38-billion-data-gap-explained-2026</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-this-week-015</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
@@ -145,7 +158,7 @@
   <url><loc>https://rwatoday.news/rwa-mainstream-adoption-what-needs-to-happen</loc><lastmod>2026-06-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-this-week-005</loc><lastmod>2026-06-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/securitize-nyse-secz-rwa-public-company-2026</loc><lastmod>2026-06-22</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink-chainlink</loc><lastmod>2026-06-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink</loc><lastmod>2026-06-22</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-this-week-004</loc><lastmod>2026-06-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/connect-learn2earn-blockchain-education-program</loc><lastmod>2026-06-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/royal-family-farms-austin-allred-grow-blockchain</loc><lastmod>2026-06-17</lastmod><priority>0.8</priority></url>
@@ -170,7 +183,7 @@
   <url><loc>https://rwatoday.news/rwa-for-the-rest-of-us-nodes</loc><lastmod>2026-05-30</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-for-the-rest-of-us-yield</loc><lastmod>2026-05-30</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-for-the-rest-of-us-liquidity</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize-securitize</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/rwa-defi-composability-gap-2026</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/adventurewurld-kill-the-boss-tech-test-2026</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url>
   <url><loc>https://rwatoday.news/ultimate-guide-rwa-tokenization-2026</loc><lastmod>2026-05-27</lastmod><priority>0.8</priority></url>
