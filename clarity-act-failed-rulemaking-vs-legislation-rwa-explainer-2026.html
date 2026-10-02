@@ -1,125 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RWAToday.news — Real-World Asset Tokenization News</title>
-<meta name="description" content="The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:title" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://rwatoday.news/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@RWAToday">
-<meta name="twitter:title" content="RWAToday.news">
-<meta name="twitter:description" content="The insider publication for real-world asset tokenization. Real Products. Real Users. Real Revenue. OnChain.">
-<link rel="canonical" href="https://rwatoday.news/">
-<meta property="og:image" content="https://rwatoday.news/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="RWAToday.news — Real-World Asset Tokenization News">
-<meta property="og:site_name" content="RWAToday.news">
-<meta name="twitter:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEyMDAiIHkyPSI2MzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA2MTUxMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzBEMUExMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTI0MTgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3ciIGN4PSI3NSUiIGN5PSIzNSUiIHI9IjU1JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzREFBNkUiIHN0b3Atb3BhY2l0eT0iMC4yIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEQUE2RSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIGZpbGw9InVybCgjYmcpIi8+CiAgPGcgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuNCI+CiAgICA8bGluZSB4MT0iMCIgeTE9IjEwNSIgeDI9IjEyMDAiIHkyPSIxMDUiLz48bGluZSB4MT0iMCIgeTE9IjIxMCIgeDI9IjEyMDAiIHkyPSIyMTAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMzE1IiB4Mj0iMTIwMCIgeTI9IjMxNSIvPjxsaW5lIHgxPSIwIiB5MT0iNDIwIiB4Mj0iMTIwMCIgeTI9IjQyMCIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSI1MjUiIHgyPSIxMjAwIiB5Mj0iNTI1Ii8+CiAgICA8bGluZSB4MT0iMjAwIiB5MT0iMCIgeDI9IjIwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI0MDAiIHkxPSIwIiB4Mj0iNDAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iNjAwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjYzMCIvPjxsaW5lIHgxPSI4MDAiIHkxPSIwIiB4Mj0iODAwIiB5Mj0iNjMwIi8+CiAgICA8bGluZSB4MT0iMTAwMCIgeTE9IjAiIHgyPSIxMDAwIiB5Mj0iNjMwIi8+CiAgPC9nPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDwhLS0gTGVmdCBncmVlbiBiYXIgLS0+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjYiIGhlaWdodD0iNjMwIiBmaWxsPSIjM0RBQTZFIi8+CiAgPCEtLSBDaXJjbGUgbG9nbyBtYXJrIC0tPgogIDxjaXJjbGUgY3g9IjEwNCIgY3k9Ijc0IiByPSI0NCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8dGV4dCB4PSIxMDQiIHk9Ijg0IiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlI8L3RleHQ+CiAgPGNpcmNsZSBjeD0iMTI2IiBjeT0iNTYiIHI9IjUiIGZpbGw9IiMzREFBNkUiLz4KICA8Y2lyY2xlIGN4PSIxNDAiIGN5PSI1NiIgcj0iNSIgZmlsbD0iIzVEQzQ4QSIvPgogIDwhLS0gV29yZG1hcmsgLS0+CiAgPHRleHQgeD0iMTYyIiB5PSI5NiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjM0RBQTZFIiBsZXR0ZXItc3BhY2luZz0iMiI+UldBPC90ZXh0PgogIDx0ZXh0IHg9IjM5MiIgeT0iOTYiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIgbGV0dGVyLXNwYWNpbmc9IjEiPlRvZGF5PC90ZXh0PgogIDx0ZXh0IHg9IjE2MiIgeT0iMTI1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM3Q0M0OUEiIGxldHRlci1zcGFjaW5nPSIzIj5SZWFsIFdvcmxkIEFzc2V0cyDigJQgVG9rZW5pemVkPC90ZXh0PgogIDwhLS0gRGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iMTQ4IiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBUYWdsaW5lIC0tPgogIDx0ZXh0IHg9IjYwIiB5PSIyMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI0U4RjJFQyI+VGhlIEluc2lkZXIgUHVibGljYXRpb24gZm9yPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSIyODUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzNEQUE2RSI+UmVhbC1Xb3JsZCBBc3NldCBUb2tlbml6YXRpb248L3RleHQ+CiAgPHRleHQgeD0iNjAiIHk9IjM0NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIxIiBmaWxsPSIjQThDNEIyIj5QcmFjdGl0aW9uZXItbGVkIGVkaXRvcmlhbC4gRGFpbHkgc2lnbmFsLiBObyBoeXBlLjwvdGV4dD4KICA8IS0tIFJXQSBzdGF0IC0tPgogIDx0ZXh0IHg9IjYwIiB5PSI0NTAiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjaywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI2OCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iIzNEQUE2RSI+JDYzLjdCPC90ZXh0PgogIDx0ZXh0IHg9IjYwIiB5PSI0ODgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZmlsbD0iIzVBODA2OCIgbGV0dGVyLXNwYWNpbmc9IjIiPlJXQSBNQVJLRVQgQ0FQIMK3IDIwMjY8L3RleHQ+CiAgPCEtLSBCb3R0b20gZGl2aWRlciAtLT4KICA8cmVjdCB4PSI2MCIgeT0iNTEwIiB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMUU0MDI4Ii8+CiAgPCEtLSBQaWxsIHRhZ3MgLS0+CiAgPHJlY3QgeD0iNjAiIHk9IjUzMCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iMTQwIiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPk1BUktFVFM8L3RleHQ+CiAgPHJlY3QgeD0iMjM2IiB5PSI1MzAiIHdpZHRoPSIxOTAiIGhlaWdodD0iMzQiIHJ4PSIzIiBmaWxsPSIjMTEyNDE4IiBzdHJva2U9IiMxRTQwMjgiIHN0cm9rZS13aWR0aD0iMSIvPgogIDx0ZXh0IHg9IjMzMSIgeT0iNTUyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMzREFBNkUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIxIj5JTlNUSVRVVElPTkFMPC90ZXh0PgogIDxyZWN0IHg9IjQ0MiIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI1MjciIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UFJPVE9DT0xTPC90ZXh0PgogIDxyZWN0IHg9IjYyOCIgeT0iNTMwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iIzExMjQxOCIgc3Ryb2tlPSIjMUU0MDI4IiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCB4PSI3MTMiIHk9IjU1MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjM0RBQTZFIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMSI+UkVHVUxBVElPTjwvdGV4dD4KICA8cmVjdCB4PSI4MTQiIHk9IjUzMCIgd2lkdGg9IjE1MCIgaGVpZ2h0PSIzNCIgcng9IjMiIGZpbGw9IiMxMTI0MTgiIHN0cm9rZT0iIzFFNDAyOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPHRleHQgeD0iODg5IiB5PSI1NTIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzNEQUE2RSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPlJFU0VBUkNIPC90ZXh0PgogIDwhLS0gVVJMIC0tPgogIDx0ZXh0IHg9IjExNDAiIHk9IjYxMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjNUE4MDY4IiB0ZXh0LWFuY2hvcj0iZW5kIiBsZXR0ZXItc3BhY2luZz0iMSI+cndhdG9kYXkubmV3czwvdGV4dD4KPC9zdmc+">
-<meta name="news_keywords" content="RWA, real world assets, tokenization, blockchain, DeFi, tokenized gold, PAXG, ONDO, on-chain finance, crypto news">
-<meta name="keywords" content="real world assets, RWA tokenization, blockchain news, tokenized treasury, PAXG, XAUT, ONDO, on-chain assets, DeFi, crypto news 2026">
-<meta name="author" content="RWAToday Editorial">
-<meta name="copyright" content="RWAToday.news">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwODBFMEEiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzFGNkIzRSIgc3Ryb2tlPSIjM0RBQTZFIiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjE2IiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SPC90ZXh0Pjwvc3ZnPg==">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "NewsMediaOrganization",
-      "@id": "https://rwatoday.news/#organization",
-      "name": "RWAToday.news",
-      "url": "https://rwatoday.news",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://rwatoday.news/logo.png",
-        "width": 512,
-        "height": 512
-      },
-      "description": "The insider publication for real-world asset tokenization. Practitioner-led editorial covering the on-chain economy.",
-      "foundingDate": "2026-05-17",
-      "sameAs": [
-        "https://x.com/RWAToday",
-        "https://coinmarketcap.com/community/profile/RWAToday/",
-        "https://www.linkedin.com/company/rwatoday/"
-      ],
-      "publishingPrinciples": "https://rwatoday.news/index.html#editorial-policy",
-      "masthead": "https://rwatoday.news/index.html#about"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://rwatoday.news/#website",
-      "url": "https://rwatoday.news",
-      "name": "RWAToday.news",
-      "description": "Real-world asset tokenization news, analysis, and market intelligence.",
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-utility",
-      "headline": "Five Under-the-Radar Tokens With Real-World Utility You Should Be Watching in 2026",
-      "description": "Agriculture, energy, payments, education, collaboration — five projects shipping live products with real on-chain activity. Real Products. Real Users. Real Revenue. OnChain.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "GROW, GREEN, RALLY, WIN, SWITCH, utility tokens, RWA, real world assets, blockchain 2026",
-      "articleSection": "Real-World Utility",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://rwatoday.news/#article-gaming",
-      "headline": "Web3 Gaming That's Actually On-Chain: AdventureWurld Distributes 1,000,000 GULD to Players in Real Time",
-      "description": "1,074 games. 31 countries. 1,000,000 GULD paid directly to player wallets — no intermediary, no custodian. The KillTheBoss Tech Test proved fully on-chain game rewards at scale are live.",
-      "datePublished": "2026-05-17",
-      "dateModified": "2026-05-17",
-      "author": {
-        "@type": "Organization",
-        "name": "RWAToday Editorial",
-        "url": "https://rwatoday.news"
-      },
-      "publisher": {
-        "@id": "https://rwatoday.news/#organization"
-      },
-      "url": "https://rwatoday.news",
-      "mainEntityOfPage": "https://rwatoday.news",
-      "keywords": "AdventureWurld, GULD, KillTheBoss, Web3 gaming, on-chain gaming, blockchain game rewards",
-      "articleSection": "On-Chain Infrastructure",
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://rwatoday.news"
-        }
-      ]
-    }
-  ]
-}
-</script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Archivo+Narrow:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CLARITY Failed: Legislation vs. Rulemaking for RWA | RWAToday.news</title>
+<meta name="description" content="CLARITY failed 49-50. The SEC is now writing rules instead. These are not the same thing — and the difference matters enormously for how durable, legally s"/>
+<meta name="keywords" content="CLARITY Act failed rulemaking vs legislation RWA, SEC rulemaking vs Congress tokenization, CLARITY Act Senate vote rulemaking difference, is CLARITY failing good RWA investors, Loper Bright SEC rulemaking durability"/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<meta property="og:title" content="CLARITY Failed: Legislation vs. Rulemaking for RWA"/>
+<meta property="og:description" content="CLARITY failed 49-50. The SEC is now writing rules instead. These are not the same thing — and the difference matters enormously for how durable, legally s"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026"/>
+<meta property="og:image" content="https://rwatoday.news/og-image.png"/>
+<meta property="article:published_time" content="2026-10-02"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@RWAToday"/>
+<meta name="twitter:title" content="CLARITY Failed: Legislation vs. Rulemaking for RWA"/>
+<meta name="twitter:description" content="CLARITY failed 49-50. The SEC is now writing rules instead. These are not the same thing — and the difference matters enormously for how durable, legally s"/>
+<meta name="twitter:image" content="https://rwatoday.news/og-image.png"/>
+<link rel="canonical" href="https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
 :root {
   --black: #080E0A;
@@ -671,6 +569,8 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
   .site-nav-links { display:none; } /* hide nav links on very small screens */
 
+  .ticker-item .asset { font-size:10px; }
+
   .fn-heading { font-size:18px; }
 
   .inner-page h1 { font-size:24px; }
@@ -681,16 +581,9 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   p[style*="display:flex"] a { width:100%; justify-content:center; }
 
 }
-</style>
-<link rel="sitemap" type="application/xml" title="News Sitemap" href="https://rwatoday.news/news-sitemap.xml"/>
-</head>
-<body>
-
-<!-- ══════════════════════════════════════════ -->
-<!-- HOMEPAGE                                  -->
-<!-- ══════════════════════════════════════════ -->
-<div id="homepage" class="panel active">
-  <nav class="site-nav">
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained for RWA Investors.", "description": "CLARITY failed 49-50. The SEC is now writing rules instead. These are not the same thing — and the difference matters enormously for how durable, legally sound, and reversible the US tokenization framework will be. The honest pros and cons.", "datePublished": "2026-10-02", "dateModified": "2026-10-02", "author": {"@type": "Organization", "name": "RWAToday Staff", "url": "https://rwatoday.news/rwatoday-staff"}, "publisher": {"@type": "NewsMediaOrganization", "name": "RWAToday.news", "url": "https://rwatoday.news", "logo": {"@type": "ImageObject", "url": "https://rwatoday.news/rwatoday-logo.png"}}, "image": {"@type": "ImageObject", "url": "https://rwatoday.news/og-image.png"}, "url": "https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026"}, "articleSection": "Policy"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "RWAToday.news", "item": "https://rwatoday.news/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://rwatoday.news/articles"}, {"@type": "ListItem", "position": 3, "name": "CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained for ", "item": "https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026"}]}</script></head>
+<body><nav class="site-nav">
     <div class="site-logo">
       <div class="site-logo-mark"><span>R</span></div>
       <div class="site-logo-text"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span><span style="font-size:13px;color:#7CC49A;font-family:'Archivo Narrow',sans-serif;letter-spacing:1px;">.news</span></div>
@@ -699,182 +592,140 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
     <li><a href="search" class="nav-search-link" aria-label="Search" style="display:flex;align-items:center;gap:6px;font-family:'Archivo Narrow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#7CC49A;text-decoration:none;padding:6px 10px;border:1px solid rgba(61,170,110,0.25);border-radius:4px;transition:all .2s;" onmouseover="this.style.borderColor='#3DAA6E';this.style.color='#3DAA6E'" onmouseout="this.style.borderColor='rgba(61,170,110,0.25)';this.style.color='#7CC49A'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Search</a></li></ul>
     <div></div>
   </nav>
+<div class="article-wrap">
+<a href="/" class="back-link" style="display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Narrow',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#3DAA6E;text-decoration:none;margin:24px 40px 12px;">&#8592; Back to RWAToday.news</a>
+<div class="article-hero"><div><span class="article-cat-tag">Policy · Education · October 2, 2026</span></div>
+<h1 class="article-headline">CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained for RWA Investors.</h1>
+<p class="article-deck">CLARITY failed 49-50. The SEC is now writing rules instead. These are not the same thing — and the difference matters enormously for how durable, legally sound, and reversible the US tokenization framework will be. The honest pros and cons.</p>
+<div class="article-meta"><span>📅 2026-10-02</span><span>⏱ 9 min read</span><span>🏷 Policy · Education</span></div></div>
+<div class="article-body"><div class="article-content"><p>On September 15, 2026, the CLARITY Act — the Digital Asset Market Clarity Act — failed in the US Senate, 49-50. Four Republicans voted against it. Not one Democrat crossed the aisle. The bill is dead for 2026. The 120th Congress will have to start over in January 2027.</p>
 
-  <!-- SINGLE HERO + SIDEBAR -->
-  <!-- MAIN LAYOUT: left col = hero + recently featured, right col = top stories -->
-  
-<div style="background:var(--surface,#112418);border:1px solid var(--border2,#265235);border-radius:8px;padding:16px 20px;margin:0 40px 32px;display:flex;gap:12px;align-items:center;">
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3DAA6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-  <input id="homeSearch" type="search" placeholder="Search All Articles..." autocomplete="off"
-    style="flex:1;background:none;border:none;outline:none;font-family:'Archivo',sans-serif;font-size:15px;color:#F0F4FA;"
-    onkeydown="if(event.key==='Enter'&&this.value.trim())window.location='/search?q='+encodeURIComponent(this.value.trim())"
-  />
-  <button onclick="var v=document.getElementById('homeSearch').value.trim();if(v)window.location='/search?q='+encodeURIComponent(v)"
-    style="background:#3DAA6E;border:none;border-radius:4px;padding:8px 16px;font-family:'Archivo Narrow',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#080E0A;cursor:pointer;">Search</button>
+<p>In the six weeks since, three federal agencies have produced significant new frameworks for digital assets through administrative rulemaking — the SEC's Innovation Exemption for Tokenized Securities Venues, the CFTC's "same rights" guidance for tokenized assets in customer segregated funds, and the Regulation Crypto Assets comment process. Market participants who had been waiting for CLARITY have largely moved on.</p>
+
+<p>But "moved on" is not the same as "got what they needed." The difference between a law and a rule is one of the most practically important distinctions in the US regulatory system — and almost nobody in crypto or RWA is explaining it clearly. This article does that.</p>
+
+<h2>What Passing a Law Actually Does</h2>
+
+<p>When Congress passes a bill and the President signs it, the result is a statute — text that becomes part of the United States Code. A statute creates rights, obligations, definitions, and authorities that can only be changed by another Act of Congress. It is the highest form of domestic legal authority below the Constitution itself.</p>
+
+<p>CLARITY, if passed, would have amended the Securities Exchange Act of 1934 and the Commodity Exchange Act to add new statutory definitions: what constitutes a "digital commodity," when a digital asset is a security versus a commodity, how exchanges trading digital assets are regulated, and what registration and disclosure requirements apply to token issuers. These would have been statutory definitions — not agency interpretations, not guidance documents, not exemptive relief that expires in five years. Law.</p>
+
+<p>The practical meaning: a company building tokenized asset infrastructure on the basis of statutory definitions from CLARITY could plan a decade ahead. The definitions would not change because an election happened. A new SEC chair could not reverse them by issuing new staff guidance. A court could not strike them down because an agency overstepped its authority. Congress would have to pass another bill.</p>
+
+<h2>What Administrative Rulemaking Does (And Does Not Do)</h2>
+
+<p>When a federal agency issues a rule — through the notice-and-comment rulemaking process required by the Administrative Procedure Act (APA) — the result is a regulation. Regulations have the force of law within the agency's existing statutory authority. But they are fundamentally different from statutes in three ways that matter enormously for the tokenization market.</p>
+
+<p><strong>1. Rules can be reversed by the next administration.</strong> A rule is promulgated by an agency, which is part of the executive branch. When an administration changes, the new administration can initiate a new rulemaking and reverse or replace the prior rule — as long as it follows the same APA notice-and-comment process. This takes time (typically one to three years for a significant rulemaking), but it is entirely normal. The current administration's crypto-friendly regulatory agenda could be unwound by a subsequent administration with different priorities, using the exact same administrative process that built it.</p>
+
+<p>A statute cannot be undone this way. Reversing a statute requires Congress to pass another bill, which requires 60 Senate votes to overcome a filibuster — the same high bar that CLARITY could not clear.</p>
+
+<p><strong>2. Rules cannot exceed the underlying statute's authority.</strong> An agency can only regulate within the authority Congress has granted it. The SEC can write rules about securities because the Securities Act gives it authority over securities. It cannot, through rulemaking alone, redefine what a "security" is in a way that contradicts the statutory text — or create new registration categories Congress did not authorize, or establish a safe harbor that Congress did not grant.</p>
+
+<p>CLARITY would have granted new statutory authorities: a defined safe harbor period for new token issuances, clear commodity classification for decentralized digital assets, and new registration pathways for digital asset exchanges. The SEC's current rulemaking can work around these gaps using existing authority, but it cannot replicate them directly. The Regulation Crypto Assets framework will have edges — places where the agency reaches the boundary of its statutory authority and simply cannot go further without a new law.</p>
+
+<p><strong>3. Rules are more legally vulnerable after Loper Bright.</strong> In June 2024, the Supreme Court issued its decision in <em>Loper Bright Enterprises v. Raimondo</em>, overturning the Chevron doctrine — the 40-year-old principle that courts defer to an agency's reasonable interpretation of an ambiguous statute. Under Chevron, if a statute was ambiguous about whether a digital asset was a security, a court would likely defer to the SEC's interpretation. Under Loper Bright, courts now interpret the statute themselves and give no special deference to the agency.</p>
+
+<p>This changes the legal risk calculus for administrative rulemaking significantly. An SEC rule on digital asset classification that stretches the existing statutory text is now substantially easier for an adversarial party to challenge in federal court — and substantially more likely to be struck down — than it would have been in 2022. Rules built on statutory ambiguity are less stable than they appear. A company that structures its compliance program around an SEC interpretation that gets struck down in the Fifth Circuit is in a worse position than one that structured around a clear statutory provision in CLARITY.</p>
+
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="background:#112418;border-bottom:2px solid #3DAA6E;">
+<th style="padding:10px 14px;text-align:left;color:#3DAA6E;font-family:'Archivo Narrow',sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;">Dimension</th>
+<th style="padding:10px 14px;text-align:left;color:#3DAA6E;font-family:'Archivo Narrow',sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;">Legislation (CLARITY)</th>
+<th style="padding:10px 14px;text-align:left;color:#3DAA6E;font-family:'Archivo Narrow',sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;">Rulemaking (Reg Crypto Assets)</th>
+</tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #1E3020;"><td style="padding:10px 14px;color:#A8C4B0;">Legal authority</td><td style="padding:10px 14px;color:#F0F4FA;font-weight:600;">Statute — amends the US Code</td><td style="padding:10px 14px;color:#A8C4B0;">Regulation — within existing statutory authority</td></tr>
+<tr style="border-bottom:1px solid #1E3020;background:#0D1A12;"><td style="padding:10px 14px;color:#A8C4B0;">How to reverse</td><td style="padding:10px 14px;color:#3DAA6E;">Requires another Act of Congress (60 Senate votes)</td><td style="padding:10px 14px;color:#E87A7A;">New administration + new rulemaking (1–3 years)</td></tr>
+<tr style="border-bottom:1px solid #1E3020;"><td style="padding:10px 14px;color:#A8C4B0;">Scope</td><td style="padding:10px 14px;color:#3DAA6E;">Can create new authorities, definitions, safe harbors</td><td style="padding:10px 14px;color:#E87A7A;">Limited to existing statutory authority</td></tr>
+<tr style="border-bottom:1px solid #1E3020;background:#0D1A12;"><td style="padding:10px 14px;color:#A8C4B0;">Court vulnerability</td><td style="padding:10px 14px;color:#3DAA6E;">Very low — courts interpret statutes, not defer to agencies</td><td style="padding:10px 14px;color:#E87A7A;">Higher post-Loper Bright — no Chevron deference</td></tr>
+<tr style="border-bottom:1px solid #1E3020;"><td style="padding:10px 14px;color:#A8C4B0;">Speed to implementation</td><td style="padding:10px 14px;color:#E87A7A;">Slow — requires 60 Senate votes + House + presidential signature</td><td style="padding:10px 14px;color:#3DAA6E;">Faster — agency can act without Congressional majority</td></tr>
+<tr style="border-bottom:1px solid #1E3020;background:#0D1A12;"><td style="padding:10px 14px;color:#A8C4B0;">Political requirement</td><td style="padding:10px 14px;color:#E87A7A;">Bipartisan supermajority</td><td style="padding:10px 14px;color:#3DAA6E;">Executive branch only (agency + OMB review)</td></tr>
+<tr style="border-bottom:1px solid #1E3020;"><td style="padding:10px 14px;color:#A8C4B0;">Durability horizon</td><td style="padding:10px 14px;color:#3DAA6E;">Decades — unless Congress acts</td><td style="padding:10px 14px;color:#E87A7A;">One to two presidential terms, potentially</td></tr>
+<tr style="background:#0D1A12;"><td style="padding:10px 14px;color:#A8C4B0;">Bipartisan input</td><td style="padding:10px 14px;color:#3DAA6E;">Yes — required to pass</td><td style="padding:10px 14px;color:#E87A7A;">No — agency determines outcome</td></tr>
+</tbody>
+</table>
 </div>
-<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Real-World Asset Tokenization News and Analysis</h1>
-<div class="homepage-grid">
 
-    <!-- LEFT COLUMN: Hero + Recently Featured -->
-    <div class="homepage-left">
+<h2>Was CLARITY Failing a Good Thing?</h2>
 
-      <a class="hero-main" href="/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026" style="text-decoration:none;display:block;">
-      <div class="hero-img-utility" style="height:200px;background:linear-gradient(140deg,#020810 0%,#071220 35%,#0A1830 60%,#030A14 100%);">
-        <div class="hero-grid-overlay"></div>
-        <div class="hero-glow-green"></div>
-        <div class="hero-stat-block">
-          <div class="big-num" style="color:#3DAA6E;font-size:28px;">5-YEAR ORDER</div>
-          <div class="big-label">91 FR 60168 · Release No. 34-106402</div>
-        </div>
-        <div class="hero-pills">
-          <span class="pill-green">● TSVs: permissioned AMMs for listed equity</span>
-          <span class="pill-green">● 0.25% ADV cap · 30-day issuer veto</span>
-        </div>
-        <div class="hero-badge-row" style="padding-bottom:0;">
-          <span class="badge-featured">Breaking</span>
-        </div>
-      </div>
-      <div class="hero-content">
-        <div class="hero-cat"><span style="background:#3DAA6E;color:#0A1610;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:2px 8px;border-radius:3px;margin-right:8px;vertical-align:middle;">NEW</span>Policy · Regulation · September 22, 2026</div>
-        <h2 class="hero-title" style="font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,4vw,52px);line-height:1.1;color:var(--text,#F0F4FA);margin:0 0 12px;">CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained.</h2>
-        <div class="hero-excerpt">CLARITY failed 49–50. The SEC is writing rules instead. These are not the same thing — and the difference matters enormously for how durable your tokenization infrastructure is. Statutes vs. rules. Loper Bright. The honest pros and cons.</div>
-        <div class="hero-meta">
-          <div class="author-byline">
-            <div class="author-avatar">RW</div>
-            <div>
-              <div class="author-name">RWAToday Staff</div>
-              <div class="author-role">RWAToday.news Editorial Team</div>
-            </div>
-          </div>
-          <span class="byline-sep">·</span>
-          <span>September 22, 2026</span>
-          <span class="byline-sep">·</span>
-          <span>9 min read</span>
-        </div>
-      </div>
-    </a>
+<p>This is where honest analysis requires acknowledging that the answer depends entirely on what you think CLARITY's flaws were — and whether you believe the current agency-driven alternative will be better or worse on its specific merits.</p>
 
-      <!-- RECENTLY FEATURED -->
-      <div class="recently-featured">
-        <div class="rf-heading">Recently Featured</div>
-        <div class="rf-grid"><a class="rf-card" href="/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026">
-            <div class="rf-cat">Infrastructure</div>
-            <div class="rf-title">CCIP 2.0 Live: The Missing Distribution Layer for Tokenized Funds</div>
-            <div class="rf-meta">2026-09-28 · 8 min</div>
-          </a>
-          <a class="rf-card" href="/statechain-summit-lafayette-louisiana-state-government-blockchain-2026">
-            <div class="rf-cat">Government</div>
-            <div class="rf-title">StateChain Summit — State Governments as the Next RWA Frontier</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          <a class="rf-card" href="/sec-tsv-issuer-veto-tokenized-stock-third-party-2026">
-            <div class="rf-cat">Policy</div>
-            <div class="rf-title">The 30-Day Issuer Opt-Out Clock in the SEC TSV Exemption</div>
-            <div class="rf-meta">2026-09-28 · 7 min</div>
-          </a>
-          </div>
-      </div>
+<p><strong>The case that CLARITY failing was bad for the RWA market:</strong></p>
 
+<p>The durability argument is the strongest. A tokenization infrastructure built on administrative exemptions and rules that can be reversed in 2029 is a different investment than one built on statute. Institutions planning decade-long infrastructure investments — custody systems, settlement networks, fund structures — need to know the regulatory framework will still exist when they need it. Administrative rules do not provide that assurance.</p>
 
-      <!-- LEARNING CENTER -->
-      <div class="recently-featured">
-        <div class="rf-heading">Get Started</div>
-        <div class="rf-grid">
-          <a class="rf-card" href="rwa-glossary-terms-explained">
-            <div class="rf-cat">Reference · Education</div>
-            <div class="rf-title">The RWA Glossary: Every Term You Need to Know, Explained in Plain English</div>
-            <div class="rf-meta">10 min read</div>
-          </a>
-          <a class="rf-card" href="rwa-for-the-rest-of-us-tokenization">
-            <div class="rf-cat">Beginner · Series</div>
-            <div class="rf-title">What Is Tokenization? (Explained Like You're in 5th Grade)</div>
-            <div class="rf-meta">5 min read</div>
-          </a>
-          <a class="rf-card" href="how-to-invest-in-rwa-beginner-guide">
-            <div class="rf-cat">Education · How-To · RWA</div>
-            <div class="rf-title">How a Normal Person Actually Participates in RWA Tokenization Today</div>
-            <div class="rf-meta">7 min read</div>
-          </a>
-        </div>
-      </div>
+<p>The scope argument is second. The SEC's rulemaking cannot create a statutory safe harbor for new token issuances during a decentralization period — only Congress can grant that. It cannot clearly classify decentralized assets as commodities outside SEC jurisdiction — only statute can do that cleanly. The gaps that CLARITY would have filled remain open. The rulemaking will work around them, but the workarounds have edges.</p>
 
-    </div><!-- /homepage-left -->
+<p>The Loper Bright argument is underappreciated. Post-2024, any ambitious SEC interpretation of an ambiguous statute is a litigation target. The SEC's Innovation Exemption — which is technically exemptive relief under existing authority, not a rulemaking — is less vulnerable. But a comprehensive Regulation Crypto Assets rulemaking that stretches existing definitions will face coordinated legal challenge from parties who preferred the pre-exemption enforcement status quo.</p>
 
-    <!-- RIGHT COLUMN: Top Stories -->
-    <div class="homepage-right">
-      <div class="rf-heading">More Top Stories</div>
-                                                                                                                                                                                                                                                                                                      <a class="sidebar-article" href="/who-launches-tokenized-us-stocks-first-tsv-race-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">02</div>
-        <div><div class="sidebar-cat">Markets</div><div class="sidebar-title">Who Launches Tokenized US Stocks First?</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">03</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">GENIUS Act — Treasuries as Stablecoin Backbone</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/cftc-same-rights-test-tokenized-assets-customer-funds-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">04</div>
-        <div><div class="sidebar-cat">Policy</div><div class="sidebar-title">CFTC Same Rights Test — Which Tokens Qualify</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">05</div>
-        <div><div class="sidebar-cat">Infrastructure</div><div class="sidebar-title">XRPL Batch Oct 9 — Atomic Settlement</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/esma-tokenization-2027-supervisory-priority-retail-eu-rwa" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">06</div>
-        <div><div class="sidebar-cat">International</div><div class="sidebar-title">ESMA 2027 — Europe Enforces Tokenization Rules</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
-      <a class="sidebar-article" href="/dtcc-tokenization-readiness-checklist-october-2026" style="text-decoration:none;display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border);">
-        <div class="sidebar-num">07</div>
-        <div><div class="sidebar-cat">Infrastructure</div><div class="sidebar-title">DTCC Launch Checklist for Custodians and Brokers</div><div class="sidebar-time">2026-09-28</div></div>
-      </a>
+<p><strong>The case that CLARITY failing was not entirely bad — or that it was inevitable:</strong></p>
 
+<p>CLARITY as written had real flaws that the industry's loudest advocates glossed over. The bill's commodity classification for "sufficiently decentralized" digital assets was vague enough that a determined bad actor could structure a token to meet the definition and escape meaningful investor protection. Several securities law professors argued publicly that CLARITY's definitions would have created regulatory arbitrage that damaged investor protection without commensurate benefit.</p>
 
+<p>The 49-50 vote reflects the reality that crypto legislation in the US requires bipartisan support, and bipartisan support requires compromises that neither side fully endorsed. A bill that passed 51-50 along party lines would have faced immediate legal and political challenge. The bipartisan legitimacy of CLARITY — which is what the Senate vote tested — was genuinely absent.</p>
 
+<p>The near-term practical reality is that the most important institutional tokenization activity happening right now does not require CLARITY. The DTCC's October launch is authorized by a No-Action Letter. The TSV Innovation Exemption exists. The CFTC's guidance for tokenized assets in customer segregated funds exists. The most important institutional actors — DTCC, BlackRock, Franklin Templeton, Securitize — are building under existing frameworks that CLARITY would not have dramatically altered. For the 2026 institutional market, CLARITY's failure has not prevented what was ready to happen.</p>
 
+<p>What CLARITY's failure does prevent is the next layer — the expansion of retail access to tokenized assets, the clear commodity classification for decentralized assets, the statutory safe harbor for new token issuances. Those are the places where the rulemaking path runs into its scope limits. That layer of the market — broader retail tokenization, DeFi regulatory clarity, new token issuance safe harbors — remains in legal limbo that only statute can resolve.</p>
 
+<h2>The Honest Answer</h2>
 
+<p>CLARITY failing was probably bad for the long-term durability and scope of the US tokenization framework. It was not catastrophic for the 2026 institutional market, which had workable administrative alternatives. It was bad for the 2027-2030 retail and decentralized asset market, which still needs statutory clarity that rulemaking cannot fully provide.</p>
 
+<p>The next question — whether the 120th Congress, convening January 2027, will pass something better — depends entirely on November's midterm results and whether the bipartisan consensus that CLARITY could not achieve becomes achievable with a different set of senators and a different market environment.</p>
 
+<p>For RWA investors right now: the institutional tokenization market is operating under workable administrative frameworks. The risk is not that those frameworks disappear tomorrow — it is that they are more legally fragile (Loper Bright) and less durable (reversible by the next administration) than a statute would be. The appropriate response is not to stop building. It is to understand what you are building on.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-      
-      
+<div style="background:#0D1A12;border:1px solid #1E3020;border-radius:6px;padding:16px 20px;margin:2rem 0 1rem;">
+<div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#3DAA6E;margin-bottom:10px;">Primary Sources</div>
+<ul style="margin:0;padding:0 0 0 1.2rem;color:#A8C4B0;font-size:13px;line-height:2;">
+<li><a href="https://www.congress.gov/bill/119th-congress/senate-bill/4523" target="_blank" rel="noopener" style="color:#3DAA6E;">CLARITY Act Text — 119th Congress</a> — Full legislative text as voted on September 15, 2026</li>
+<li><a href="https://www.supremecourt.gov/opinions/23pdf/22-451_7m58.pdf" target="_blank" rel="noopener" style="color:#3DAA6E;">Loper Bright v. Raimondo — Supreme Court (2024)</a> — Decision overturning Chevron deference</li>
+<li><a href="https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities" target="_blank" rel="noopener" style="color:#3DAA6E;">SEC Innovation Exemption — Federal Register</a> — The administrative alternative to statutory TSV authority</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/5/553" target="_blank" rel="noopener" style="color:#3DAA6E;">Administrative Procedure Act, 5 U.S.C. § 553</a> — The notice-and-comment rulemaking requirement</li>
+</ul>
 </div>
+
+<p>→ <a href="/regulating-without-congress-rwa-roadmap-post-clarity-2026" style="color:#3DAA6E;">The full post-CLARITY regulatory stack — what agencies built instead</a><br>
+→ <a href="/sec-regulation-crypto-assets-october-20-comment-deadline-2026" style="color:#3DAA6E;">Regulation Crypto Assets — October 20 comment deadline</a><br>
+→ <a href="/hester-peirce-sec-departure-october-2026-tokenization-impact" style="color:#3DAA6E;">Hester Peirce departs — and the commission loses its quorum for formal action</a></p></div>
+<aside class="article-sidebar">
+<div class="sidebar-card"><div class="sidebar-card-title">The Key Distinction</div>
+<a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Statute: amends US Code, requires Congress</a>
+<a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Rule: within agency authority, reversible</a>
+<a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">Loper Bright (2024): no more Chevron deference</a>
+<a class="sidebar-related-item" style="display:block;padding:9px 0;border-bottom:1px solid rgba(30,64,40,0.5);">CLARITY vote: 49–50, September 15, 2026</a>
+<a class="sidebar-related-item" style="display:block;padding:9px 0;">120th Congress: January 2027 restart</a>
+</div>
+<div class="sidebar-card"><div class="sidebar-card-title">Related</div>
+<a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/regulating-without-congress-rwa-roadmap-post-clarity-2026"><span class="sidebar-related-cat">Policy</span> Post-CLARITY Regulatory Stack</a>
+<a class="sidebar-related-item" style="display:block;padding:10px 0;border-bottom:1px solid rgba(30,64,40,0.5);" href="/sec-regulation-crypto-assets-october-20-comment-deadline-2026"><span class="sidebar-related-cat">Policy</span> Oct 20 Comment Deadline</a>
+<a class="sidebar-related-item" style="display:block;padding:10px 0;" href="/hester-peirce-sec-departure-october-2026-tokenization-impact"><span class="sidebar-related-cat">Policy</span> Hester Peirce Departure</a>
+</div>
+</aside></div>
+
+<div style="background:var(--surface2,#112418);border:1px solid var(--border2,#265235);border-radius:6px;padding:16px 20px;margin:2rem 0;"><div style="font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold,#3DAA6E);margin-bottom:8px;">Go Deeper</div><a href="/articles" style="color:var(--gold,#3DAA6E);text-decoration:none;font-size:14px;line-height:1.6;">→ Browse all 195+ articles at RWAToday.news</a></div>
+</div><footer class="site-footer">
+
+    <!-- Newsletter Band -->
+    <div class="footer-newsletter">
+      <div class="fn-inner">
+        <div class="fn-text">
+          <div class="fn-heading">The RWA Brief</div>
+          <div class="fn-sub">Daily intelligence on real-world asset tokenization. No noise. No hype. Just the signal. Free.</div>
+        </div>
+        <form class="fn-form" action="https://rwatoday.beehiiv.com/subscribe" method="GET" target="_blank">
+          <input type="email" name="email" placeholder="your@email.com" class="fn-input" required>
+          <button class="fn-btn" type="submit">Subscribe Free</button>
+        </form>
+      </div>
     </div>
 
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
+        <a href="index" style="text-decoration:none;"><div class="site-logo" style="margin-bottom:12px;">
           <div class="site-logo-mark"><span>R</span></div>
           <div class="site-logo-text" style="font-size:18px;"><span style="color:#3DAA6E;font-family:'Bebas Neue',sans-serif;">RWA</span><span style="color:#fff;font-family:'Georgia',serif;font-weight:400;letter-spacing:1px;">Today</span></div>
         </div></a>
@@ -885,12 +736,12 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
         <h4>Company</h4>
         <ul>
           <li><a href="articles">All Articles</a></li>
-          <li><a href="about" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="/about#advertise" onclick="showPanel('page-contact');return false;">Advertise</a></li>
-          <li><a href="about" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
-          <li><a href="/about#advertise" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
-          <li><a href="rwa-glossary-terms-explained" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
+          <li><a href="#" onclick="showPanel('page-about');return false;">About RWAToday</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Advertise</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Submit PR</a></li>
+          <li><a href="#" onclick="showPanel('page-contact');return false;">Media Kit</a></li>
+          <li><a href="#" onclick="showPanel('page-learn');return false;">Learning Center</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -904,16 +755,14 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <div class="footer-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="editorial-policy" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
-          <li><a href="privacy-policy" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
-          <li><a href="terms" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
+          <li><a href="#" onclick="showPanel('page-editorial');return false;">Editorial Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-privacy');return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showPanel('page-terms');return false;">Terms of Use</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 RWAToday.news · All Rights Reserved</span>
-      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="terms" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
+      <span>Not financial advice. Always DYOR — Do Your Own Research. <a href="#" onclick="showPanel('page-terms');return false;" style="color:var(--muted);">Full disclaimer →</a></span>
     </div>
-  </footer>
-</body>
-</html>
+  </footer><div class="mobile-bottom-nav"><a class="mbn-back" href="/">← Home</a><a class="mbn-logo" href="/"><span style="color:#3DAA6E;">RWA</span>Today</a><a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a></div></body></html>

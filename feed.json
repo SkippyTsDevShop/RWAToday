@@ -4,9 +4,28 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 196
+    "total_articles": 200
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026",
+      "url": "https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026",
+      "title": "CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained.",
+      "content_text": "CLARITY failed 49-50. The SEC is writing rules instead. These are not the same thing. Statutes require Congress to reverse. Rules can be undone in one election cycle. Loper Bright (2024) stripped agency interpretations of court deference. The honest pros and cons for RWA investors.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Policy",
+        "Education",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
     {
       "id": "https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026",
       "url": "https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026",

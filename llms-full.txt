@@ -1,6 +1,31 @@
 # RWAToday.news — Full Article Index
-# Generated: 2026-09-28
-# Total: 192
+# Generated: 2026-10-02
+# Total: 200
+
+### CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained.
+URL: https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026
+Date: 2026-10-02
+Summary: CLARITY failed 49-50. The SEC is writing rules instead. These are not the same thing. Statutes require Congress to reverse. Rules can be undone in one election cycle. Loper Bright (2024) stripped agency interpretations of court deference. The honest 
+
+### StateChain Summit Opens Tomorrow in Lafayette. Why State Governments Are the Next RWA Frontier.
+URL: https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026
+Date: 2026-09-28
+Summary: StateChain Summit opens September 30 in Lafayette, Louisiana. 40+ states. Critical Digital Infrastructure as the fourth state revenue path. Why state land, pension funds, and municipal bonds are the next tokenization frontier. Chainlink Labs sponsors
+
+### Tokenization Solved Issuance. Chainlink CCIP 2.0, Live Today, Solves Distribution.
+URL: https://rwatoday.news/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026
+Date: 2026-09-28
+Summary: CCIP 2.0 launches September 28 with $84B in secured value and institutional partners including ANZ, Fidelity, Deutsche Börse, and Swift. Cross-Chain Verifiers, ACE compliance enforcement, configurable finality. The missing distribution layer for toke
+
+### The 30-Day Issuer Opt-Out Clock Inside the SEC's Innovation Exemption Is Now Running.
+URL: https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026
+Date: 2026-09-28
+Summary: Section IV(B)(3) of SEC Order 34-106402 gives issuers 30 days to veto third-party tokenization of their stock. Most coverage missed it. How the clock works, which issuers are most likely to object, and why issuer-sponsored tokenization is the cleaner
+
+### TOKEN2049 Singapore Is 9 Days Away. Six Things to Watch — Starting October 6.
+URL: https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch
+Date: 2026-09-28
+Summary: The most important RWA week of 2026 starts October 6 with the Global Onchain Summit, then TOKEN2049 October 7-8. MAS Project Guardian Phase 3, DTCC live updates, post-CLARITY capital geography, CCIP 2.0 deployments, and South Korea/Japan institutiona
 
 ### Hester Peirce Leaves the SEC on October 2. What a Two-Member Commission Means for Tokenization.
 URL: https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact
