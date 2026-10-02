@@ -4,9 +4,163 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 207
+    "total_articles": 215
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/rwa-dyor-checklist-evaluating-tokenized-assets",
+      "url": "https://rwatoday.news/rwa-dyor-checklist-evaluating-tokenized-assets",
+      "title": "The RWA Due Diligence Checklist: Six Dimensions, Thirty-Six Questions",
+      "content_text": "Six dimensions, 36 questions. Legal structure, asset custody, smart contract security, redemption mechanics, yield source, team. Work through them in order — if a project fails any minimum bar, stop.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Education",
+        "DYOR",
+        "Research",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/rwa-dyor-reading-the-data",
+      "url": "https://rwatoday.news/rwa-dyor-reading-the-data",
+      "title": "DYOR Part 2: Reading the Data — Where to Find Verifiable Evidence for Every RWA Due Diligence Question",
+      "content_text": "EDGAR for legal structure, Etherscan for contracts and redemptions, FRED for yield, BrokerCheck for team. Specific verifiable sources for every due diligence dimension.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Education",
+        "DYOR",
+        "Research",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/adventurewurld-kill-the-boss-gta6-gaming-own-your-rewards-2026",
+      "url": "https://rwatoday.news/adventurewurld-kill-the-boss-gta6-gaming-own-your-rewards-2026",
+      "title": "AdventureWurld Kill The Boss: GTA6, Gaming, and Own Your Rewards",
+      "content_text": "AdventureWurld positions Kill The Boss against GTA6's November launch. Own your rewards, own your in-game assets. The gaming economy case for blockchain.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Gaming",
+        "AdventureWurld",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/brief-rwa-holders-3-5-million-september-2026",
+      "url": "https://rwatoday.news/brief-rwa-holders-3-5-million-september-2026",
+      "title": "Brief: RWA Token Holders Reach 3.5 Million — September 2026",
+      "content_text": "RWA token holder count reached approximately 3.5 million wallets in September 2026, up from under 1 million at the start of the year.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Brief",
+        "Markets",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/brief-what-is-tokenization",
+      "url": "https://rwatoday.news/brief-what-is-tokenization",
+      "title": "Brief: What Is Tokenization? The 60-Second Answer",
+      "content_text": "Tokenization is representing ownership of a real-world asset as a digital token on a blockchain. The short answer for anyone who just asked.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Brief",
+        "Education",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/coral-futures-blubird-tokenized-reef-sections-natural-capital-2026",
+      "url": "https://rwatoday.news/coral-futures-blubird-tokenized-reef-sections-natural-capital-2026",
+      "title": "Coral Futures: Blubird Is Tokenizing Reef Sections as Natural Capital",
+      "content_text": "Blubird is tokenizing coral reef sections as natural capital — a new RWA category that links ecological preservation to on-chain investment. What it is, how it works, and what the natural capital asset class means for RWA.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Natural Capital",
+        "Alternative Assets",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/impact-is-a-real-world-asset-blockchain-charitable-outcomes-2026",
+      "url": "https://rwatoday.news/impact-is-a-real-world-asset-blockchain-charitable-outcomes-2026",
+      "title": "Impact Is a Real-World Asset: How Blockchain Makes Charitable Outcomes Investable",
+      "content_text": "Charitable impact — verified, measured, on-chain — is a real-world asset. Give Blockchain is building the infrastructure to make it investable.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Impact",
+        "Give Blockchain",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/jon-tetreault-crypto-security-mastery-connect-united-education-blockbot",
+      "url": "https://rwatoday.news/jon-tetreault-crypto-security-mastery-connect-united-education-blockbot",
+      "title": "Jon Tetreault on Crypto Security Mastery and Connect United Education",
+      "content_text": "Jon Tetreault on building the Crypto Security Mastery course through Connect United and BlockBot — education that meets the blockchain industry where it is.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Education",
+        "Connect United",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
     {
       "id": "https://rwatoday.news/dtcc-october-launch-canton-network-july-trades-what-we-know-2026",
       "url": "https://rwatoday.news/dtcc-october-launch-canton-network-july-trades-what-we-know-2026",
@@ -427,25 +581,6 @@
       ]
     },
     {
-      "id": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",
-      "url": "https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch",
-      "title": "TOKEN2049 Singapore Is 9 Days Away. Here Is What to Watch.",
-      "content_text": "MAS Project Guardian Phase 3 expected. DTCC commercial launch happening simultaneously. Post-CLARITY geography of institutional capital. The SEC TSV framework gets its first international evaluation. Six things that define TOKEN2049 2026.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-10-02T09:00:00-05:00",
-      "tags": [
-        "Events",
-        "Markets",
-        "October 2, 2026"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
       "id": "https://rwatoday.news/dtcc-october-2026-commercial-launch-what-happens-now",
       "url": "https://rwatoday.news/dtcc-october-2026-commercial-launch-what-happens-now",
       "title": "The DTCC October Launch Is Here. Here Is What Actually Changes for 4,000 Institutions.",
@@ -740,25 +875,6 @@
       "tags": [
         "Policy",
         "Regulation",
-        "September 22, 2026"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
-      "id": "https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026",
-      "url": "https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026",
-      "title": "The Issuer Veto: Under the SEC's New TSV Framework, Companies Can Block Third-Party Tokenization of Their Own Stock",
-      "content_text": "The SEC's Innovation Exemption gives issuers a 30-day window to block third-party tokenization on compliant TSVs. Written objection is dispositive — no appeal. What public companies and RWA builders need to do now.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-09-22T09:00:00-05:00",
-      "tags": [
-        "Policy",
-        "Analysis",
         "September 22, 2026"
       ],
       "authors": [
@@ -1345,25 +1461,6 @@
       ]
     },
     {
-      "id": "https://rwatoday.news/token2049-singapore-october-2026-rwa-preview",
-      "url": "https://rwatoday.news/token2049-singapore-october-2026-rwa-preview",
-      "title": "TOKEN2049 Singapore Is October 7–8. Here Is What RWA Watchers Should Be Looking For.",
-      "content_text": "MAS Project Guardian, Chainlink CCIP, GCC sovereign wealth, Ondo and Securitize Asia expansions. The most consequential Q4 conference for institutional RWA — and what typically gets announced in the side-event week.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-09-09T09:00:00-05:00",
-      "tags": [
-        "Events",
-        "Markets",
-        "Asia-Pacific"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
       "id": "https://rwatoday.news/stock-certificate-americas-first-token-dtcc-history",
       "url": "https://rwatoday.news/stock-certificate-americas-first-token-dtcc-history",
       "title": "The Stock Certificate Was America's First Token. The 1968 Paperwork Crisis Explains Why the DTCC Exists — and What It's Doing in October 2026.",
@@ -1826,24 +1923,6 @@
       ]
     },
     {
-      "id": "https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide",
-      "url": "https://rwatoday.news/rwa-token-standards-erc20-erc1400-erc3525-erc7943-guide",
-      "title": "The Ultimate Guide to RWA Token Standards: ERC-20, ERC-1400, ERC-3525, and ERC-7943 Explained [2026]",
-      "content_text": "Every tokenized asset is built on a token standard. Get it wrong and your token can't list or integrate with DeFi. This guide covers ERC-20, ERC-1400, ERC-3525, and the 2026 convergence standard ERC-7943.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-08-21T09:00:00-05:00",
-      "tags": [
-        "Education",
-        "Infrastructure"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
       "id": "https://rwatoday.news/rwa-perpetuals-complete-guide-524-billion-2026",
       "url": "https://rwatoday.news/rwa-perpetuals-complete-guide-524-billion-2026",
       "title": "RWA Perpetuals: The Complete Guide to the $524 Billion Market Most Investors Have Never Heard Of [2026]",
@@ -1909,25 +1988,6 @@
         "Analysis",
         "Social Impact",
         "Blockchain"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
-      "id": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
-      "url": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
-      "title": "The Senate Left for Recess Without Voting on the CLARITY Act. September 15 Is What Remains.",
-      "content_text": "Cloture filed August 8. Senate adjourned August 10 without a floor vote. September 15 procedural vote next. Polymarket at 17%. About 14 working days before midterm campaign season ends the window.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-08-17T09:00:00-05:00",
-      "tags": [
-        "Policy",
-        "Regulation",
-        "Update"
       ],
       "authors": [
         {
@@ -2073,24 +2133,6 @@
       "tags": [
         "Markets",
         "Correction"
-      ],
-      "authors": [
-        {
-          "name": "RWAToday.news",
-          "url": "https://rwatoday.news"
-        }
-      ]
-    },
-    {
-      "id": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
-      "url": "https://rwatoday.news/clarity-act-senate-vote-final-10-days-august-2026",
-      "title": "Ten Days Left. The CLARITY Act Still Has No Senate Floor Vote Scheduled.",
-      "content_text": "August 10 is recess. No cloture motion filed. Polymarket 37%. NY AG formally opposed. Trump agreed to ethics. What passage adds vs. what has already happened without it.",
-      "image": "https://rwatoday.news/og-image.png",
-      "date_published": "2026-07-30T09:00:00-05:00",
-      "tags": [
-        "Policy",
-        "Urgent"
       ],
       "authors": [
         {
@@ -2746,8 +2788,8 @@
       ]
     },
     {
-      "id": "https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink-chainlink",
-      "url": "https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink-chainlink",
+      "id": "https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink",
+      "url": "https://rwatoday.news/top-voices-rwa-sergey-nazarov-chainlink",
       "title": "Sergey Nazarov Is Building the Infrastructure That Every RWA Protocol Depends On",
       "content_text": "Chainlink co-founder is not issuing tokenized assets. He is building the oracle network, cross-chain infrastructure, and on-chain verification layer without which institutional RWA cannot function.",
       "image": "https://rwatoday.news/og-image.png",
@@ -3192,8 +3234,8 @@
       ]
     },
     {
-      "id": "https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize-securitize",
-      "url": "https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize-securitize",
+      "id": "https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize",
+      "url": "https://rwatoday.news/top-voices-rwa-carlos-domingo-securitize",
       "title": "Carlos Domingo Built the Compliance Layer the Entire RWA Sector Runs On",
       "content_text": "Securitize is the transfer agent for BlackRock's BUIDL, the compliance infrastructure behind OUSG, and a member of the DTCC working group.",
       "image": "https://rwatoday.news/og-image.png",

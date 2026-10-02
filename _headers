@@ -3,3 +3,10 @@
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
+
+/feed.json
+  Access-Control-Allow-Origin: *
+/feed.xml
+  Access-Control-Allow-Origin: *
+/widget.js
+  Access-Control-Allow-Origin: *
