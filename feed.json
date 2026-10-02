@@ -4,9 +4,47 @@
   "home_page_url": "https://rwatoday.news",
   "feed_url": "https://rwatoday.news/feed.json",
   "_rwatoday": {
-    "total_articles": 205
+    "total_articles": 207
   },
   "items": [
+    {
+      "id": "https://rwatoday.news/dtcc-october-launch-canton-network-july-trades-what-we-know-2026",
+      "url": "https://rwatoday.news/dtcc-october-launch-canton-network-july-trades-what-we-know-2026",
+      "title": "DTCC October Launch: No Date Yet, But Here Is Everything We Know.",
+      "content_text": "October 2 — still 'this month,' no specific date. Canton Network is the blockchain. July 15 live trades confirmed the system with BlackRock, Goldman, JPMorgan, Nasdaq, 30+ firms. Russell 1000, major ETFs, benchmark Treasuries in scope. Collateral AppChain follows Q4.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Infrastructure",
+        "Markets",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
+    {
+      "id": "https://rwatoday.news/rwa-market-size-46-billion-vs-38-billion-data-gap-explained-2026",
+      "url": "https://rwatoday.news/rwa-market-size-46-billion-vs-38-billion-data-gap-explained-2026",
+      "title": "The RWA Market Is Worth $46B. Or $38B. Both Are Correct. Here Is Why.",
+      "content_text": "Token Terminal says $46.2B. RWA.xyz says $38.6B. Same market, same date, $7.6B apart. Neither is wrong — it's methodology. Tokenized stocks +$592M in 30 days is the cleanest signal regardless of which tracker you cite.",
+      "image": "https://rwatoday.news/og-image.png",
+      "date_published": "2026-10-02T09:00:00-05:00",
+      "tags": [
+        "Markets",
+        "Data",
+        "October 2, 2026"
+      ],
+      "authors": [
+        {
+          "name": "RWAToday.news",
+          "url": "https://rwatoday.news"
+        }
+      ]
+    },
     {
       "id": "https://rwatoday.news/rwa-this-week-015",
       "url": "https://rwatoday.news/rwa-this-week-015",
