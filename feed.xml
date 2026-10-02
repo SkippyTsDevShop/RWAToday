@@ -4,8 +4,48 @@
     <title>RWAToday.news</title>
     <link>https://rwatoday.news</link>
     <description>Independent RWA tokenization news.</description>
-    <lastBuildDate>Fri, 02 Oct 2026 16:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:26:04 +0000</lastBuildDate>
     <atom:link href="https://rwatoday.news/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RWA This Week #015: The Week Everything Moved at Once</title>
+      <link>https://rwatoday.news/rwa-this-week-015</link>
+      <guid isPermaLink="true">https://rwatoday.news/rwa-this-week-015</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
+      <description>GBTD live, TCH/Quant US win, CCIP 2.0, Peirce exits SEC, Robinhood two problems, ECB Pontes, StateChain Summit. TOKEN2049 in 5 days. XRPL Batch in 7. DTCC this month. The most significant week in tokenized finance history.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>ECB's Schnabel Laid Out Three Ways to Put Central Bank Money On-Chain. One Is Already Live.</title>
+      <link>https://rwatoday.news/ecb-schnabel-three-models-central-bank-money-onchain-pontes-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/ecb-schnabel-three-models-central-bank-money-onchain-pontes-2026</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
+      <description>Three models: native CB reserves on DLT, bridge solution (Pontes — live September 21), private tokens backed by CB reserves. Schnabel at Jackson Hole: stablecoins cannot replace central bank money. ECB settled €1.6B in 2024 trials. 61-institution contact group active.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>One Company, One Day, Two Continents: Quant Won UK Retail and US Institutional Tokenized Deposits.</title>
+      <link>https://rwatoday.news/quant-clearing-house-gbtd-dual-mandate-tokenized-deposits-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/quant-clearing-house-gbtd-dual-mandate-tokenized-deposits-2026</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
+      <description>September 24: GBTD live (7 UK banks, real customer transactions) and The Clearing House selects Quant for US institutional deposit clearing — same day. What each contract is, what QNT does and does not get from it, why the architecture converging matters.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>Robinhood Has Two Problems With the SEC's Tokenized Stock Exemption.</title>
+      <link>https://rwatoday.news/robinhood-tokenized-stocks-sec-caps-too-small-tokens-dont-qualify-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/robinhood-tokenized-stocks-sec-caps-too-small-tokens-dont-qualify-2026</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
+      <description>Problem 1: Robinhood's offshore tokens are debt securities — the SEC exemption requires full equity rights, voting, dividends. Problem 2: Even if they qualify, 0.25% ADV caps are smaller than Robinhood's existing offshore volumes. Two distinct problems, two distinct fixes.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
+    <item>
+      <title>Seven UK Banks Just Moved Real Money on a Blockchain. Here Is What They Actually Did.</title>
+      <link>https://rwatoday.news/uk-gbtd-tokenized-sterling-seven-banks-live-transactions-2026</link>
+      <guid isPermaLink="true">https://rwatoday.news/uk-gbtd-tokenized-sterling-seven-banks-live-transactions-2026</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
+      <description>Barclays, HSBC UK, Lloyds, Monzo, Nationwide, NatWest, Santander completed five live customer transactions using tokenized sterling deposits on September 24. Two remortgage completions. One P2P marketplace. Real money. Not a pilot. Economic Secretary to Treasury quoted.</description>
+      <dc:creator>RWAToday.news</dc:creator>
+    </item>
     <item>
       <title>CLARITY Failed. Is That a Good Thing? Legislation vs. Rulemaking, Explained.</title>
       <link>https://rwatoday.news/clarity-act-failed-rulemaking-vs-legislation-rwa-explainer-2026</link>
@@ -18,7 +58,7 @@
       <title>StateChain Summit Opens Tomorrow in Lafayette. Why State Governments Are the Next RWA Frontier.</title>
       <link>https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/statechain-summit-lafayette-louisiana-state-government-blockchain-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>StateChain Summit opens September 30 in Lafayette, Louisiana. 40+ states. Critical Digital Infrastructure as the fourth state revenue path. Why state land, pension funds, and municipal bonds are the next tokenization frontier. Chainlink Labs sponsors — same day as CCIP 2.0 launch.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -26,7 +66,7 @@
       <title>Tokenization Solved Issuance. Chainlink CCIP 2.0, Live Today, Solves Distribution.</title>
       <link>https://rwatoday.news/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/chainlink-ccip-2-0-tokenized-fund-distribution-layer-rwa-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>CCIP 2.0 launches September 28 with $84B in secured value and institutional partners including ANZ, Fidelity, Deutsche Börse, and Swift. Cross-Chain Verifiers, ACE compliance enforcement, configurable finality. The missing distribution layer for tokenized funds is live.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -34,7 +74,7 @@
       <title>The 30-Day Issuer Opt-Out Clock Inside the SEC's Innovation Exemption Is Now Running.</title>
       <link>https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/sec-tsv-issuer-veto-tokenized-stock-third-party-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Section IV(B)(3) of SEC Order 34-106402 gives issuers 30 days to veto third-party tokenization of their stock. Most coverage missed it. How the clock works, which issuers are most likely to object, and why issuer-sponsored tokenization is the cleaner path.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -42,7 +82,7 @@
       <title>TOKEN2049 Singapore Is 9 Days Away. Six Things to Watch — Starting October 6.</title>
       <link>https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch</link>
       <guid isPermaLink="true">https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>The most important RWA week of 2026 starts October 6 with the Global Onchain Summit, then TOKEN2049 October 7-8. MAS Project Guardian Phase 3, DTCC live updates, post-CLARITY capital geography, CCIP 2.0 deployments, and South Korea/Japan institutional presence.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -50,7 +90,7 @@
       <title>Hester Peirce Leaves the SEC on October 2. What a Two-Member Commission Means for Tokenization.</title>
       <link>https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact</link>
       <guid isPermaLink="true">https://rwatoday.news/hester-peirce-sec-departure-october-2026-tokenization-impact</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Peirce — the SEC primary digital asset advocate — leaves Oct 2. Two-member commission, no quorum for formal action, three weeks before the Regulation Crypto Assets comment deadline. What proceeds, what stalls, why midterm elections are the key variable.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -58,7 +98,7 @@
       <title>ARK and Securitize Are Tokenizing a Fund With OpenAI and Anthropic Stakes. Here Is What Investors Actually Get.</title>
       <link>https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/ark-securitize-arkvx-tokenized-venture-fund-openai-anthropic-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Cathie Wood ARK + Securitize are tokenizing ARKVX — a venture fund holding stakes in OpenAI, Anthropic, Stripe, and Databricks. Investors get tokenized fund interests with daily pricing and planned secondary trading — not the private shares themselves.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -66,7 +106,7 @@
       <title>The DTCC Launch Is This Month. Here Is the Readiness Checklist for Custodians, Brokers, and RWA Platforms.</title>
       <link>https://rwatoday.news/dtcc-tokenization-readiness-checklist-october-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/dtcc-tokenization-readiness-checklist-october-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Nine operational readiness items for the DTCC commercial launch: custodian DLT integration, disclosure updates, collateral workflows; broker settlement mapping, prime brokerage, client comms; RWA platform eligible products and two-layer architecture.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -74,7 +114,7 @@
       <title>Regulating Without Congress: How Agencies Became the RWA Roadmap After CLARITY Failed.</title>
       <link>https://rwatoday.news/regulating-without-congress-rwa-roadmap-post-clarity-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/regulating-without-congress-rwa-roadmap-post-clarity-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>CLARITY failed Sep 15. Six weeks later: SEC Innovation Exemption, SEC token buyback guidance, CFTC same rights test, DTCC No-Action Letter, Chair Atkins on mass tokenization. The regulatory stack as it actually stands today — without any new legislation.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -82,7 +122,7 @@
       <title>The CFTC's "Same Rights" Test: Which Tokenized Assets Can Now Hold Customer Segregated Funds?</title>
       <link>https://rwatoday.news/cftc-same-rights-test-tokenized-assets-customer-funds-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/cftc-same-rights-test-tokenized-assets-customer-funds-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>CFTC says FCMs and DCOs can invest customer segregated funds in tokenized assets if they convey the same rights as the traditional equivalent. Two-part test explained, which products likely qualify, and the public blockchain recordkeeping solution.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -90,7 +130,7 @@
       <title>The SEC's Tokenized Stock Framework Is Live. Who Launches First? Coinbase, Kraken, or Robinhood?</title>
       <link>https://rwatoday.news/who-launches-tokenized-us-stocks-first-tsv-race-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/who-launches-tokenized-us-stocks-first-tsv-race-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>TSV Innovation Exemption is live. Earliest first trading ~October 28. Coinbase infrastructure ready, Payward/Kraken targeting Q2 2027, Robinhood offshore vs compliant split. The issuer veto as speed bump. Why first-mover advantage is complicated at 0.25% ADV caps.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -98,7 +138,7 @@
       <title>The Fed's GENIUS Act Proposals: Treasuries as the Backbone of US Stablecoins, and the Fight Over "Rewards."</title>
       <link>https://rwatoday.news/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/fed-genius-act-stablecoin-rules-treasury-reserve-rwa-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>100% Treasury/repo reserves, 3% capital buffer, 60-day comment window. The defining fight: whether rewards programs count as the prohibited interest payments. Why stablecoin reserve composition matters for RWA settlement.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -106,7 +146,7 @@
       <title>Can a Tokenized Asset Be Frozen? What the Bitget Hack Teaches RWA Issuers.</title>
       <link>https://rwatoday.news/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/tokenized-asset-freeze-clawback-bitget-hack-xrp-lesson-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Bitget hacked for $83M. Circle froze USDC. Tether froze USDT. ~$75M XRP moved freely — Ripple had no mechanism to freeze it. Why freeze and clawback are non-negotiable for regulated tokenized securities, which architectures support it.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -114,7 +154,7 @@
       <title>XRPL's Batch Upgrade Targets October 9. Here Is Why Atomic Settlement Changes the RWA Equation.</title>
       <link>https://rwatoday.news/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa</link>
       <guid isPermaLink="true">https://rwatoday.news/xrpl-batch-upgrade-october-2026-atomic-settlement-rwa</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>XRPL's Batch amendment — bundling multiple transactions into one all-or-nothing execution — targets October 9. Atomic delivery versus payment eliminates the settlement risk window across contract boundaries that institutional RWA transactions currently carry.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -122,7 +162,7 @@
       <title>ESMA Makes Tokenization a 2027 Supervisory Priority. Europe Shifts From Writing Rules to Enforcing Them.</title>
       <link>https://rwatoday.news/esma-tokenization-2027-supervisory-priority-retail-eu-rwa</link>
       <guid isPermaLink="true">https://rwatoday.news/esma-tokenization-2027-supervisory-priority-retail-eu-rwa</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>ESMA designated tokenization as a 2027 supervisory priority — shifting from writing MiCA rules to enforcing how they apply to retail investors. Liquidity disclosure is the focus. ECB Pontes accepts tokenized collateral. US vs EU comparison.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -130,7 +170,7 @@
       <title>TOKEN2049 Singapore Is 9 Days Away. Here Is What to Watch.</title>
       <link>https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch</link>
       <guid isPermaLink="true">https://rwatoday.news/token2049-singapore-october-2026-rwa-what-to-watch</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>MAS Project Guardian Phase 3 expected. DTCC commercial launch happening simultaneously. Post-CLARITY geography of institutional capital. The SEC TSV framework gets its first international evaluation. Six things that define TOKEN2049 2026.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -138,7 +178,7 @@
       <title>The DTCC October Launch Is Here. Here Is What Actually Changes for 4,000 Institutions.</title>
       <link>https://rwatoday.news/dtcc-october-2026-commercial-launch-what-happens-now</link>
       <guid isPermaLink="true">https://rwatoday.news/dtcc-october-2026-commercial-launch-what-happens-now</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>The DTCC expands blockchain settlement to all 4,000+ member institutions this month. Russell 1000, major ETFs, benchmark Treasuries. Settlement in minutes instead of T+2. What launches, what follows, and why CLARITY had nothing to do with it.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -146,7 +186,7 @@
       <title>October 20 Is the SEC Comment Deadline That Will Shape RWA Rules for Years.</title>
       <link>https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/sec-regulation-crypto-assets-october-20-comment-deadline-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>October 20 is the Regulation Crypto Assets comment deadline — the post-CLARITY administrative alternative. What it proposes, the 97% problem in the comment record, what rulemaking can't fix that statute would have, and how to engage.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -154,7 +194,7 @@
       <title>A $4 Billion Market Nobody Talks About: Life Settlements Are a Near-Perfect RWA Candidate.</title>
       <link>https://rwatoday.news/life-settlement-insurance-policy-rwa-tokenization-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/life-settlement-insurance-policy-rwa-tokenization-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Life settlements pay 8-14% with near-zero equity market correlation. The market is opaque, illiquid, and inaccessible below $5M minimums. HIPAA, state regulation, and secondary market gaps are exactly what blockchain tokenization is built to fix.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -162,7 +202,7 @@
       <title>Spencer Dinwiddie Tried to Tokenize His NBA Contract in 2022. Is the Market Ready Now?</title>
       <link>https://rwatoday.news/sports-contracts-athlete-income-tokenization-rwa-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/sports-contracts-athlete-income-tokenization-rwa-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Dinwiddie's $34M NBA contract tokenization failed in 2022 — NBA objected, SEC raised questions. Four years later: athlete income agreements, PE stakes in sports teams, media rights tokenization, fan tokens. Here is where the market actually stands.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -170,7 +210,7 @@
       <title>The Voluntary Carbon Market Collapsed in 2023. Blockchain Is Building Version 2.0.</title>
       <link>https://rwatoday.news/carbon-credits-voluntary-market-collapse-blockchain-2-0-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/carbon-credits-voluntary-market-collapse-blockchain-2-0-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Verra's credits were revealed as largely worthless — additionality overstated, $2B market cratered. Blockchain continuous monitoring, on-chain retirement records, and ICVCM standards reform are building carbon credits 2.0. High-integrity, verifiable, institutionally defensible.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -178,7 +218,7 @@
       <title>Every Toll You Pay Funds a Bond. The $10 Trillion Infrastructure Bond Market Is Being Tokenized.</title>
       <link>https://rwatoday.news/infrastructure-bonds-tokenization-toll-roads-airports-rwa-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/infrastructure-bonds-tokenization-toll-roads-airports-rwa-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Predictable inflation-linked cash flows. Essential service monopolies. 10-year lockups and $10M minimums that lock out all but the largest institutions. The EIB has been issuing digital bonds since 2021. Tokenization is fractionalizing the $10T infrastructure market.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
@@ -186,7 +226,7 @@
       <title>A Movie Is a Financial Instrument. Hollywood Has Known This for Decades. Blockchain Is Making It Investable.</title>
       <link>https://rwatoday.news/movie-rights-film-finance-tokenization-blockchain-rwa-2026</link>
       <guid isPermaLink="true">https://rwatoday.news/movie-rights-film-finance-tokenization-blockchain-rwa-2026</guid>
-      <pubDate>Mon, 28 Sep 2026 09:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 -0500</pubDate>
       <description>Hollywood securitized film revenues through slate deals and library bonds long before blockchain. Mogul Productions, Securitize conversations with talent agencies, independent film equity tokenization — here is the revenue stack, the IP challenge, and why indie film is the entry point.</description>
       <dc:creator>RWAToday.news</dc:creator>
     </item>
