@@ -144,10 +144,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
 
 <div class="article-list" id="article-list">
 
-  <!-- May 2026 -->
-    <!-- May 2026 -->
-  <div class="article-group">
-    <div class="group-label">May 2026</div>
+
                                                                         <a class="article-row" href="rwa-dyor-checklist-evaluating-tokenized-assets.html" data-cat="rwa" style="text-decoration:none;">
       <div class="ar-num">215</div>
       <div class="ar-content"><div class="ar-cat">Education · DYOR · Research · October 2, 2026</div>
@@ -1574,7 +1571,7 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
       <input type="email" name="email" placeholder="your@email.com" class="nb-input" required>
       <button type="submit" class="nb-btn">Subscribe Free</button>
     </form>
-  </div>
+
 </div>
 
 <!-- FOOTER -->
@@ -1601,6 +1598,47 @@ body { background:var(--black); color:var(--text); font-family:'Archivo',sans-se
   <a class="mbn-logo" href="index"><span style="color:#3DAA6E;">RWA</span>Today</a>
   <a class="mbn-subscribe" href="https://rwatoday.beehiiv.com/subscribe" target="_blank">Subscribe</a>
 </div>
+
+
+<script>
+(function() {
+  var list = document.getElementById('article-list');
+  if (!list) return;
+  var rows = Array.from(list.querySelectorAll('a.article-row'));
+  var currentMonth = null;
+
+  function parseMonthYear(dateStr) {
+    if (!dateStr) return null;
+    var s = dateStr.trim();
+    // ISO format: 2026-10-02
+    var iso = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (iso) {
+      var d = new Date(iso[1], parseInt(iso[2]) - 1, iso[3]);
+      return d.toLocaleString('en-US', { month: 'long', year: 'numeric' });
+    }
+    // "May 17, 2026" format
+    var named = s.match(/^([A-Za-z]+ \d{1,2}, \d{4})$/);
+    if (named) {
+      var d = new Date(s);
+      if (!isNaN(d)) return d.toLocaleString('en-US', { month: 'long', year: 'numeric' });
+    }
+    return null;
+  }
+
+  rows.forEach(function(row) {
+    var dateEl = row.querySelector('.ar-date');
+    var month = dateEl ? parseMonthYear(dateEl.textContent) : null;
+    if (month && month !== currentMonth) {
+      currentMonth = month;
+      var label = document.createElement('div');
+      label.className = 'article-group-label';
+      label.style.cssText = 'font-family:"Archivo Narrow",sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#3DAA6E;padding:18px 0 8px;border-bottom:1px solid #1E3020;margin-bottom:4px;';
+      label.textContent = month;
+      list.insertBefore(label, row);
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
